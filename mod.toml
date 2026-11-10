@@ -1,0 +1,11 @@
+id = "civviecops"
+name = "CivvieCops"
+version = "0.1.0"
+# the JERICHO interface (SDK) this mod is built against
+interface = 3
+author = "Njurse"
+description = "Hand-made civilian variants of the different cop cars of Driver 2, with city banks for Chicago, Havana, Rio and Vegas plus a combined CIVICOPS bank."
+# data-only vehicle pack: no DLL, nothing compiled (no runtime = "dll")
+dependencies = ["carhacks"]
+# Players turn it on under Mods; leave this false.
+default-enabled = false
