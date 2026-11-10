@@ -1,0 +1,60 @@
+{
+  "model": 0,
+  "clean": "VEGAS_model0_clean.obj",
+  "damaged": "VEGAS_model0_damaged.obj",
+  "low": "VEGAS_model0_low.obj",
+  "wheels": {
+    "clean": {"png": "../../shared/textures/wheelclean.png", "set": 4, "island": [128, 64, 192, 128]},
+    "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 4, "island": [192, 64, 256, 128]},
+    "fast": {"png": "../../shared/textures/wheelfast.png", "set": 4, "island": [192, 64, 256, 128]}
+  },
+  "textures": {"4": {"png": "../../shared/textures/PAGE_4.png"}, "59": {"png": "textures/PAGE_59.png"}},
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 12000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "max_rate": 16000,
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren.wav", "rate": 8000, "normalise": false, "loop": true}
+  },
+  "handling": {
+    "headLight": [94, 24, -375],
+    "frontInd": [106, 22, -375],
+    "backInd": [107, 28, 372],
+    "brakeLight": [72, 28, 373],
+    "revLight": [49, 29, 376],
+    "policeLight": [50, -75, 6],
+    "exhaust": [68, 67, 376],
+    "smoke": [-1, 0, -355],
+    "fire": [-1, 0, -363],
+    "wheelDisp": [[139, -30, 234], [135, -30, -209], [-140, -30, 234], [-136, -30, -209]],
+    "extraInfo": -15080,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 49,
+    "cPoints": [
+      [-132, 8, -390],
+      [131, 8, -390],
+      [-131, 9, 392],
+      [130, 9, 392],
+      [-129, 82, -373],
+      [128, 82, -373],
+      [-98, 149, -141],
+      [97, 149, -141],
+      [-98, 151, 63],
+      [97, 151, 63],
+      [-134, 81, 378],
+      [133, 81, 378]
+    ],
+    "colBox": [135, 83, 396],
+    "cog": [0, -87, 0],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "5e00180089fe00006a00160089fe00006b001c007401000048001c007501000031001d00780100003200b5ff060000004400430078010000ffff00009dfe0000ffff000095fe00008b00e2ffea0000008700e2ff2fff000074ffe2ffea00000078ffe2ff2fff000018c5001000000010001031007cff08007afe0000830008007afe00007dff09008801000082000900880100007fff52008bfe0000800052008bfe00009eff950073ff00006100950073ff00009eff97003f000000610097003f0000007aff51007a010000850051007a010000870053008c0100000000a9ff00000000e000e00060040010"
+}

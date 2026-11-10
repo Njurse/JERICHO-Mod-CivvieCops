@@ -1,0 +1,58 @@
+{
+  "model": 9,
+  "clean": "RIO_model9_clean.obj",
+  "damaged": "RIO_model9_damaged.obj",
+  "low": "RIO_model9_low.obj",
+  "textures": {
+    "1": {"png": "../../shared/textures/PAGE_1.png"},
+    "77": {"png": "textures/PAGE_77.png"},
+    "78": {"png": "textures/PAGE_78.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [99, 25, -348],
+    "frontInd": [97, 24, -344],
+    "backInd": [78, 65, 354],
+    "brakeLight": [80, 69, 356],
+    "revLight": [77, 70, 359],
+    "policeLight": [34, -5, -51],
+    "exhaust": [68, 99, 362],
+    "smoke": [0, -36, -321],
+    "fire": [0, -36, -315],
+    "wheelDisp": [[132, -30, 237], [132, -30, -205], [-133, -30, 237], [-133, -30, -205]],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 51,
+    "cPoints": [
+      [-130, 11, -348],
+      [129, 11, -348],
+      [-132, 12, 356],
+      [131, 12, 356],
+      [-132, 132, -345],
+      [131, 132, -345],
+      [-89, 233, -20],
+      [88, 233, -20],
+      [-86, 234, 74],
+      [85, 234, 74],
+      [-133, 162, 353],
+      [132, 162, 353]
+    ],
+    "colBox": [138, 116, 359],
+    "cog": [0, -122, 2],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "63001900a4fe000061001800a8fe00004e0041006201000050004500640100004d004600670100002200fbffcdff0000440063006a0100000000dcffbffe00000000dcffc5fe00008400e2ffed0000008400e2ff33ff00007bffe2ffed0000007bffe2ff33ff00001804001000000010001033007eff0b00a4fe000081000b00a4fe00007cff0c006401000083000c00640100007cff8400a7fe000083008400a7fe0000a7ffe900ecff00005800e900ecff0000aaffea004a0000005500ea004a0000007bffa200610100008400a200610100008a00740067010000000086ff02000000e000e00060040010"
+}

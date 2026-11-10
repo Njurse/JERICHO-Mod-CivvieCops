@@ -1,0 +1,56 @@
+# exportd2 materials
+newmtl flat
+Kd 0.5 0.5 0.5
+
+newmtl set17_id0
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id11
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id14
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id15
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id16
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id19
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id20
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id23
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id3
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id4
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id7
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set17_id8
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_17.png
+
+newmtl set4_id7
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_4.png
+

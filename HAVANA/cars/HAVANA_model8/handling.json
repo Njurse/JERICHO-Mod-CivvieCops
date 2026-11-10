@@ -1,0 +1,58 @@
+{
+  "model": 8,
+  "clean": "HAVANA_model8_clean.obj",
+  "damaged": "HAVANA_model8_damaged.obj",
+  "low": "HAVANA_model8_low.obj",
+  "textures": {
+    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "38": {"png": "../../shared/textures/PAGE_38.png"},
+    "39": {"png": "../../shared/textures/PAGE_39.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [130, 42, -415],
+    "frontInd": [143, 68, -415],
+    "backInd": [112, 93, 426],
+    "brakeLight": [135, 92, 436],
+    "revLight": [81, 98, 411],
+    "policeLight": [34, 47, -19],
+    "exhaust": [68, 106, 405],
+    "smoke": [0, -18, -397],
+    "fire": [0, -17, -404],
+    "wheelDisp": [[150, -30, 322], [158, -30, -273], [-151, -30, 322], [-159, -30, -273]],
+    "extraInfo": 1048,
+    "powerRatio": 3333,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 69,
+    "cPoints": [
+      [-173, 47, -437],
+      [172, 47, -437],
+      [-169, 38, 441],
+      [168, 38, 441],
+      [-176, 191, -442],
+      [175, 191, -442],
+      [-123, 294, 79],
+      [122, 294, 79],
+      [-111, 279, 238],
+      [110, 279, 238],
+      [-151, 184, 413],
+      [150, 184, 413]
+    ],
+    "colBox": [178, 131, 444],
+    "cog": [0, -164, -1],
+    "twistRateX": 100,
+    "twistRateY": 100,
+    "twistRateZ": 500,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "82002a0061fe00008f00440061fe000070005d00aa01000087005c00b4010000510062009b01000022002f00edff000044006a00950100000000eeff73fe00000000efff6cfe00009600e2ff420100009e00e2ffeffe000069ffe2ff4201000061ffe2ffeffe00001804050d000000100010450053ff2f004bfe0000ac002f004bfe000057ff2600b9010000a8002600b901000050ffbf0046fe0000af00bf0046fe000085ff26014f0000007a0026014f00000091ff1701ee0000006e001701ee00000069ffb8009d0100009600b8009d010000b2008300bc01000000005cffffff000064006400f4010010"
+}

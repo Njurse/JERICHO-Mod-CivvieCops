@@ -1,0 +1,77 @@
+{
+  "model": 3,
+  "clean": "CHICAGO_model3_clean.obj",
+  "damaged": "CHICAGO_model3_damaged.obj",
+  "low": "CHICAGO_model3_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
+    },
+    "50": {
+      "png": "textures/PAGE_50.png",
+      "paints": {
+        "paint0": "685870",
+        "paint1": "988870",
+        "paint2": "989898",
+        "paint3": "c87070",
+        "paint4": "f8f0c8"
+      },
+      "protect": ["404040", "585858", "a0a0a0", "505858", "404038", "e0e0e0", "c8c0c0", "706868"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [108, 22, -365],
+    "frontInd": [117, 32, -362],
+    "backInd": [121, 0, 350],
+    "brakeLight": [121, 26, 363],
+    "revLight": [24, 18, 366],
+    "policeLight": [34, 0, 12],
+    "exhaust": [68, 66, 349],
+    "smoke": [0, 3, -337],
+    "fire": [0, 5, -339],
+    "wheelDisp": [[136, -30, 221], [133, -30, -189], [-137, -30, 221], [-134, -30, -189]],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 53,
+    "cPoints": [
+      [-133, 9, -387],
+      [132, 9, -387],
+      [-135, 7, 397],
+      [134, 7, 397],
+      [-133, 105, -374],
+      [132, 105, -374],
+      [-102, 167, -118],
+      [101, 167, -118],
+      [-102, 170, 60],
+      [101, 170, 60],
+      [-126, 96, 394],
+      [125, 96, 394]
+    ],
+    "colBox": [139, 86, 396],
+    "cog": [0, -88, 2],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "6c00160093fe00007500200096fe0000790000005e01000079001a006b010000180012006e010000220000000c000000440042005d01000000000300affe000000000500adfe00008800e2ffdd0000008500e2ff43ff000077ffe2ffdd0000007affe2ff43ff00001804001000000010001035007bff09007dfe0000840009007dfe000079ff07008d010000860007008d0100007bff69008afe0000840069008afe00009affa7008aff00006500a7008aff00009affaa003c0000006500aa003c00000082ff60008a0100007d0060008a0100008b0056008c0100000000a8ff02000000e000e00060040010"
+}

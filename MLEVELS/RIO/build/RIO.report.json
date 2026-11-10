@@ -1,0 +1,239 @@
+{
+ "city": "RIO",
+ "lev": "RIO.LEV",
+ "lcf": "RIO.LCF",
+ "size": 991232,
+ "order": [
+  {
+   "slot": 0,
+   "car": "RIO_model0"
+  },
+  {
+   "slot": 1,
+   "car": "RIO_model1"
+  },
+  {
+   "slot": 2,
+   "car": "RIO_model2"
+  },
+  {
+   "slot": 3,
+   "car": "RIO_model3"
+  },
+  {
+   "slot": 4,
+   "car": "RIO_model4"
+  },
+  {
+   "slot": 8,
+   "car": "RIO_model8"
+  },
+  {
+   "slot": 9,
+   "car": "RIO_model9"
+  },
+  {
+   "slot": 10,
+   "car": "RIO_model10"
+  },
+  {
+   "slot": 11,
+   "car": "RIO_model11"
+  },
+  {
+   "slot": 12,
+   "car": "RIO_model12"
+  }
+ ],
+ "included_sets": [
+  1,
+  57,
+  58,
+  59,
+  60,
+  66,
+  67,
+  68,
+  69,
+  70,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78
+ ],
+ "pages": [
+  {
+   "set": 1,
+   "size": 33348
+  },
+  {
+   "set": 57,
+   "size": 33636
+  },
+  {
+   "set": 58,
+   "size": 34020
+  },
+  {
+   "set": 59,
+   "size": 33892
+  },
+  {
+   "set": 60,
+   "size": 34052
+  },
+  {
+   "set": 66,
+   "size": 33572
+  },
+  {
+   "set": 67,
+   "size": 33284
+  },
+  {
+   "set": 68,
+   "size": 33956
+  },
+  {
+   "set": 69,
+   "size": 33732
+  },
+  {
+   "set": 70,
+   "size": 33348
+  },
+  {
+   "set": 73,
+   "size": 33636
+  },
+  {
+   "set": 74,
+   "size": 33316
+  },
+  {
+   "set": 75,
+   "size": 33636
+  },
+  {
+   "set": 76,
+   "size": 33348
+  },
+  {
+   "set": 77,
+   "size": 33348
+  },
+  {
+   "set": 78,
+   "size": 33252
+  }
+ ],
+ "wheels": [
+  {
+   "variant": "clean",
+   "set": 1,
+   "island": [
+    64,
+    192,
+    128,
+    256
+   ]
+  },
+  {
+   "variant": "damaged",
+   "set": 1,
+   "island": [
+    0,
+    138,
+    64,
+    202
+   ]
+  },
+  {
+   "variant": "fast",
+   "set": 1,
+   "island": [
+    0,
+    138,
+    64,
+    202
+   ]
+  }
+ ],
+ "sounds": {
+  "models": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "sirens": [
+   0
+  ]
+ },
+ "police_voices": {},
+ "palette_records": 723,
+ "page_base": 434176,
+ "warnings": [
+  "sound model 0: 35680 bytes - engine 13648 B 1.71s rms 36% crest 2.6 field 16000 loop seam 980; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 12336 B 3.08s rms 43% crest 2.2 field 8000 loop seam 10829",
+  "sound model 1 engine: rms is 51% of full scale against retail's 29-39% - this sample will play loud, and with crest 1.9 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
+  "sound model 1 engine: crest factor 1.9 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 1: 19696 bytes - engine 6672 B 0.83s rms 50% crest 1.9 field 16000 loop seam 1183; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 3328 B 0.83s rms 24% crest 3.6 field 8000",
+  "sound model 2: 26672 bytes - engine 13648 B 1.71s rms 36% crest 2.6 field 16000 loop seam 980; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 3328 B 0.83s rms 24% crest 3.6 field 8000",
+  "sound model 3 engine: rms is 51% of full scale against retail's 29-39% - this sample will play loud, and with crest 1.9 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
+  "sound model 3 engine: crest factor 1.9 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 3: 30352 bytes - engine 10624 B 1.33s rms 51% crest 1.9 field 16000 loop seam 1266; idle 13392 B 1.67s rms 32% crest 3.0 field 16000 loop seam 2480; third 6336 B 1.58s rms 27% crest 3.2 field 8000",
+  "sound model 4: 19952 bytes - engine 10608 B 1.33s rms 37% crest 2.6 field 16000 loop seam 1136; idle 6048 B 0.76s rms 28% crest 3.5 field 16000 loop seam 2453; third 3296 B 0.82s rms 29% crest 2.3 field 8000",
+  "sound model 8: 29008 bytes - engine 13632 B 1.70s rms 32% crest 2.9 field 16000 loop seam 221; idle 13920 B 1.74s rms 33% crest 2.9 field 16000 loop seam 188; third 1456 B 0.36s rms 33% crest 2.9 field 8000",
+  "sound model 9: 19600 bytes - engine 6192 B 0.77s rms 38% crest 2.5 field 16000 loop seam 905; idle 9760 B 1.22s rms 29% crest 3.3 field 16000 loop seam 6; third 3648 B 0.91s rms 26% crest 3.8 field 8000",
+  "sound model 10: 19600 bytes - engine 6192 B 0.77s rms 38% crest 2.5 field 16000 loop seam 905; idle 9760 B 1.22s rms 29% crest 3.3 field 16000 loop seam 6; third 3648 B 0.91s rms 26% crest 3.8 field 8000",
+  "sound model 11 engine: crest factor 2.1 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 11: 24144 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 3968 B 0.99s rms 28% crest 2.8 field 8000",
+  "sound model 12: 30528 bytes - engine 13328 B 1.67s rms 42% crest 2.3 field 16000 loop seam 1403; idle 10896 B 1.36s rms 33% crest 2.8 field 16000 loop seam 4653; third 6304 B 1.58s rms 26% crest 3.5 field 8000"
+ ],
+ "checks": {
+  "ok": true,
+  "problems": []
+ },
+ "bake_warnings": [
+  "page set 1: composited the clean wheel from wheelclean.png into island (64, 192, 128, 256)",
+  "page set 1: composited the damaged wheel from wheeldam.png into island (0, 138, 64, 202)",
+  "page set 1: 2 texture id(s) [8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 57: 13 texture id(s) [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 58: 13 texture id(s) [0, 3, 6, 9, 12, 13, 16, 17, 20, 22, 28, 29, 30] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 59: 13 texture id(s) [0, 1, 2, 5, 8, 10, 12, 14, 17, 20, 21, 25, 26] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 60: 14 texture id(s) [6, 9, 10, 13, 14, 17, 18, 21, 22, 25, 26, 29, 30, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 66: 12 texture id(s) [0, 1, 2, 3, 6, 7, 10, 12, 13, 14, 15, 16] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 67: 8 texture id(s) [0, 1, 2, 3, 4, 5, 6, 7] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 68: 17 texture id(s) [0, 3, 4, 7, 8, 11, 12, 15, 16, 17, 20, 21, 24, 25, 26, 27, 28] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 69: 15 texture id(s) [0, 1, 4, 5, 6, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 70: 10 texture id(s) [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 73: 15 texture id(s) [0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 16, 17, 18] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 74: 9 texture id(s) [0, 1, 2, 3, 4, 5, 6, 7, 8] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 75: 11 texture id(s) [0, 1, 4, 5, 8, 9, 12, 13, 16, 17, 18] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 76: 8 texture id(s) [0, 1, 2, 3, 4, 7, 8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 77: 9 texture id(s) [1, 2, 3, 4, 5, 6, 7, 8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 78: 7 texture id(s) [0, 1, 2, 3, 4, 5, 6] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "palette: 8 set(s) past civ_clut's 8 rows draw the first page's colours \u2014 see clut-dump.txt",
+  "palette: rebuilt 723 row(s) from the pages",
+  "wheel clean: its sprite's backdrop is index 15 (#989080) on page 1 and no CLUT row clears it, so the square's corners draw - re-bake that page with carbank_page.py --transparent 989080",
+  "wheel damaged: its sprite's backdrop is index 15 (#989080) on page 1 and no CLUT row clears it, so the square's corners draw - re-bake that page with carbank_page.py --transparent 989080",
+  "RIO_model0: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model1: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model2: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model3: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model4: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model8: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model9: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model10: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model11: no \"handling\" block - its LCF record is zeroed",
+  "RIO_model12: no \"handling\" block - its LCF record is zeroed"
+ ]
+}

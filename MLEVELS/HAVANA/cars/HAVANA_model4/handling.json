@@ -1,0 +1,27 @@
+{
+  "model": 4,
+  "clean": "HAVANA_model4_clean.obj",
+  "damaged": "HAVANA_model4_damaged.obj",
+  "low": "HAVANA_model4_low.obj",
+  "textures": {
+    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "51": {
+      "png": "textures/PAGE_51.png",
+      "paints": {
+        "paint0": "606060",
+        "paint1": "583838",
+        "paint2": "e8d8c8",
+        "paint3": "080808",
+        "paint4": "909090"
+      },
+      "protect": ["505050", "484848", "404040", "282828", "585858", "804040", "383838", "686868"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  }
+}

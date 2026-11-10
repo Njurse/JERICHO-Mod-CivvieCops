@@ -1,0 +1,68 @@
+{
+  "model": 12,
+  "clean": "CHICAGO_model12_clean.obj",
+  "damaged": "CHICAGO_model12_damaged.obj",
+  "low": "CHICAGO_model12_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
+    },
+    "61": {"png": "textures/PAGE_61.png"},
+    "64": {"png": "textures/PAGE_64.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [93, 29, -363],
+    "frontInd": [110, 29, -364],
+    "backInd": [98, 24, 372],
+    "brakeLight": [77, 28, 364],
+    "revLight": [76, 29, 368],
+    "policeLight": [34, -3, 47],
+    "exhaust": [68, 61, 353],
+    "smoke": [0, 5, -336],
+    "fire": [0, 5, -344],
+    "wheelDisp": [[128, -30, 230], [128, -30, -176], [-129, -30, 230], [-129, -30, -176]],
+    "extraInfo": -15080,
+    "powerRatio": 4500,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4400,
+    "wheelSize": 49,
+    "cPoints": [
+      [-126, 1, -390],
+      [125, 1, -390],
+      [-120, 1, 350],
+      [119, 1, 350],
+      [-126, 88, -390],
+      [125, 88, -390],
+      [-92, 148, -185],
+      [91, 148, -185],
+      [-89, 151, 14],
+      [88, 151, 14],
+      [-129, 70, 348],
+      [128, 70, 348]
+    ],
+    "colBox": [129, 82, 374],
+    "cog": [0, -74, -20],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "5d001d0095fe00006e001d0094fe000062001800740100004d001c006c0100004c001d00700100002200fdff2f00000044003d006101000000000500b0fe000000000500a8fe00008000e2ffe60000008000e2ff50ff00007fffe2ffe60000007fffe2ff50ff000018c59411000000103011310082ff01007afe00007d0001007afe000088ff01005e010000770001005e01000082ff58007afe00007d0058007afe0000a4ff940047ff00005b00940047ff0000a7ff97000e000000580097000e0000007fff46005c010000800046005c01000081005200760100000000b6ffecff0000e000e00060040010"
+}

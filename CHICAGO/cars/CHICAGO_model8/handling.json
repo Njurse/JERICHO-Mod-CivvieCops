@@ -1,0 +1,68 @@
+{
+  "model": 8,
+  "clean": "CHICAGO_model8_clean.obj",
+  "damaged": "CHICAGO_model8_damaged.obj",
+  "low": "CHICAGO_model8_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
+    },
+    "54": {"png": "textures/PAGE_54.png"},
+    "55": {"png": "textures/PAGE_55.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [95, 71, -635],
+    "frontInd": [114, 43, -635],
+    "backInd": [153, 59, 632],
+    "brakeLight": [151, -7, 627],
+    "revLight": [156, 79, 642],
+    "policeLight": [106, -163, -583],
+    "exhaust": [68, 163, 656],
+    "smoke": [0, 14, -637],
+    "fire": [0, 32, -637],
+    "wheelDisp": [[186, -30, 415], [184, -30, -384], [-187, -30, 415], [-185, -30, -384]],
+    "extraInfo": -10984,
+    "powerRatio": 3000,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 3500,
+    "wheelSize": 90,
+    "cPoints": [
+      [-197, 56, -674],
+      [196, 56, -674],
+      [-189, 53, 661],
+      [188, 53, 661],
+      [-170, 342, -619],
+      [169, 342, -619],
+      [-173, 351, -59],
+      [172, 351, -59],
+      [-166, 374, 281],
+      [165, 374, 281],
+      [-157, 398, 603],
+      [156, 398, 603]
+    ],
+    "colBox": [199, 179, 675],
+    "cog": [0, -226, -3],
+    "twistRateX": 50,
+    "twistRateY": 50,
+    "twistRateZ": 250,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "5f00470085fd000072002b0085fd000099003b00780200009700f9ff730200009c004f00820200006a005dffb9fd00004400a3009002000000000e0083fd00000000200083fd0000ba00e2ff9f010000b800e2ff80fe000045ffe2ff9f01000047ffe2ff80fe000018d5b80b00000010ac0d5a003bff38005efd0000c40038005efd000043ff350095020000bc0035009502000056ff560195fd0000a900560195fd000053ff5f01c5ff0000ac005f01c5ff00005aff760119010000a50076011901000063ff8e015b0200009c008e015b020000c700b300a302000000001efffdff000032003200fa000010"
+}

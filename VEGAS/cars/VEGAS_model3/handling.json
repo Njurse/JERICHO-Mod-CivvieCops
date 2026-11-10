@@ -1,0 +1,67 @@
+{
+  "model": 3,
+  "clean": "VEGAS_model3_clean.obj",
+  "damaged": "VEGAS_model3_damaged.obj",
+  "low": "VEGAS_model3_low.obj",
+  "textures": {
+    "4": {"png": "../../shared/textures/PAGE_4.png"},
+    "17": {
+      "png": "textures/PAGE_17.png",
+      "paints": {
+        "paint0": "98b0c0",
+        "paint1": "98a880",
+        "paint2": "c8c8c8",
+        "paint3": "786050",
+        "paint4": "787898"
+      },
+      "protect": ["b8b8b8", "202020", "c0c0c0", "000000", "606060", "a0a0a0", "d8d8d8", "909090"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [81, 19, -349],
+    "frontInd": [113, 20, -348],
+    "backInd": [93, 22, 358],
+    "brakeLight": [114, 25, 357],
+    "revLight": [72, 22, 357],
+    "policeLight": [34, 0, 0],
+    "exhaust": [68, 67, 352],
+    "smoke": [0, -9, -335],
+    "fire": [0, -6, -349],
+    "wheelDisp": [[128, -30, 215], [128, -30, -195], [-129, -30, 215], [-129, -30, -195]],
+    "extraInfo": -31720,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 49,
+    "cPoints": [
+      [-121, 10, -372],
+      [120, 10, -372],
+      [-119, 16, 375],
+      [118, 16, 375],
+      [-120, 110, -372],
+      [119, 110, -372],
+      [-81, 166, -124],
+      [80, 166, -124],
+      [-80, 164, 58],
+      [79, 164, 58],
+      [-123, 100, 366],
+      [122, 100, 366]
+    ],
+    "colBox": [123, 82, 377],
+    "cog": [0, -90, 0],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "51001300a3fe000071001400a4fe00005d0016006601000072001900650100004800160065010000220000000000000044004300600100000000f7ffb1fe00000000faffa3fe00008000e2ffd70000008000e2ff3dff00007fffe2ffd70000007fffe2ff3dff000018840010000000100010310087ff0a008cfe000078000a008cfe000089ff100077010000760010007701000088ff6e008cfe000077006e008cfe0000afffa60084ff00005000a60084ff0000b0ffa4003a0000004f00a4003a00000085ff64006e0100007a0064006e0100007b005200790100000000a6ff00000000e000e00060040010"
+}

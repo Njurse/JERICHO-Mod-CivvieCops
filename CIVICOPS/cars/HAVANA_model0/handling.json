@@ -1,0 +1,64 @@
+{
+  "model": 0,
+  "clean": "HAVANA_model0_clean.obj",
+  "damaged": "HAVANA_model0_damaged.obj",
+  "low": "HAVANA_model0_low.obj",
+  "wheels": {
+    "clean": {"png": "textures/wheelclean.png", "set": 21, "island": [192, 64, 256, 128]},
+    "damaged": {"png": "textures/wheeldam.png", "set": 21, "island": [192, 0, 256, 64]},
+    "fast": {"png": "textures/wheelfast.png", "set": 21, "island": [192, 64, 256, 128]}
+  },
+  "textures": {
+    "21": {"png": "textures/PAGE_21.png"},
+    "36": {"png": "textures/PAGE_36.png"},
+    "20": {"png": "textures/PAGE_20.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "max_rate": 16000,
+    "sample_bytes": 16384,
+    "cop": false,
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false}
+  },
+  "handling": {
+    "headLight": [108, 17, -363],
+    "frontInd": [102, 41, -351],
+    "backInd": [119, 2, 350],
+    "brakeLight": [118, 22, 363],
+    "revLight": [110, 21, 359],
+    "policeLight": [0, -87, -3],
+    "exhaust": [68, 62, 352],
+    "smoke": [2, -21, -333],
+    "fire": [2, -16, -333],
+    "wheelDisp": [[133, -30, 242], [134, -30, -199], [-134, -30, 242], [-135, -30, -199]],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 49,
+    "cPoints": [
+      [-137, 20, -362],
+      [136, 20, -362],
+      [-138, 16, 371],
+      [137, 16, 371],
+      [-135, 118, -375],
+      [134, 118, -375],
+      [-102, 169, -110],
+      [101, 169, -110],
+      [-102, 171, 106],
+      [101, 171, 106],
+      [-138, 112, 375],
+      [137, 112, 375]
+    ],
+    "colBox": [138, 88, 379],
+    "cog": [0, -89, 0],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "6c00110095fe000066002900a1fe0000770002005e010000760016006b0100006e001500670100000000a9fffdff000044003e00600100000200ebffb3fe00000200f0ffb3fe00008500e2fff20000008600e2ff39ff00007affe2fff200000079ffe2ff39ff000018040010000000100010310077ff140096fe00008800140096fe000076ff100073010000890010007301000079ff760089fe00008600760089fe00009affa90092ff00006500a90092ff00009affab006a0000006500ab006a00000076ff70007701000089007000770100008a0058007b0100000000a7ff00000000e000e00060040010"
+}

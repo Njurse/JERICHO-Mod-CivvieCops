@@ -1,0 +1,58 @@
+{
+  "model": 10,
+  "clean": "HAVANA_model10_clean.obj",
+  "damaged": "HAVANA_model10_damaged.obj",
+  "low": "HAVANA_model10_low.obj",
+  "textures": {
+    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "42": {"png": "textures/PAGE_42.png"},
+    "43": {"png": "textures/PAGE_43.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [100, 92, -664],
+    "frontInd": [104, 93, -657],
+    "backInd": [151, 94, 664],
+    "brakeLight": [151, 119, 676],
+    "revLight": [150, 116, 678],
+    "policeLight": [34, -54, 0],
+    "exhaust": [68, 182, 669],
+    "smoke": [0, 88, -669],
+    "fire": [0, 92, -676],
+    "wheelDisp": [[176, -30, 421], [177, -30, -254], [-177, -30, 421], [-178, -30, -254]],
+    "extraInfo": -31720,
+    "powerRatio": 2666,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 3500,
+    "wheelSize": 67,
+    "cPoints": [
+      [-174, 8, -714],
+      [173, 8, -714],
+      [-178, 10, 665],
+      [177, 10, 665],
+      [-161, 266, -685],
+      [160, 266, -685],
+      [-151, 342, -604],
+      [150, 342, -604],
+      [-102, 352, 100],
+      [101, 352, 100],
+      [-152, 356, 604],
+      [151, 356, 604]
+    ],
+    "colBox": [180, 179, 697],
+    "cog": [0, -184, -24],
+    "twistRateX": 50,
+    "twistRateY": 50,
+    "twistRateZ": 250,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "64005c0068fd000068005d006ffd000097005e009802000097007700a402000096007400a60200002200caff000000004400b6009d0200000000580063fd000000005c005cfd0000b000e2ffa5010000b100e2ff02ff00004fffe2ffa50100004effe2ff02ff000018846a0a00000010ac0d430052ff080036fd0000ad00080036fd00004eff0a0099020000b1000a00990200005fff0a0153fd0000a0000a0153fd000069ff5601a4fd000096005601a4fd00009aff600164000000650060016400000068ff64015c020000970064015c020000b400b300b9020000000048ffe8ff000032003200fa000010"
+}

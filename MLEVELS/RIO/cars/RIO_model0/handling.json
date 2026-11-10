@@ -1,0 +1,20 @@
+{
+  "model": 0,
+  "clean": "RIO_model0_clean.obj",
+  "damaged": "RIO_model0_damaged.obj",
+  "low": "RIO_model0_low.obj",
+  "wheels": {
+    "clean": {"png": "../../shared/textures/wheelclean.png", "set": 1, "island": [64, 192, 128, 256]},
+    "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 1, "island": [0, 138, 64, 202]},
+    "fast": {"png": "../../shared/textures/wheelfast.png", "set": 1, "island": [0, 138, 64, 202]}
+  },
+  "textures": {"1": {"png": "../../shared/textures/PAGE_1.png"}, "59": {"png": "textures/PAGE_59.png"}},
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "max_rate": 16000,
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren.wav", "rate": 8000, "normalise": false, "loop": true}
+  }
+}

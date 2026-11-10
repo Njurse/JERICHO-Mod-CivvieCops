@@ -1,0 +1,37 @@
+{
+  "model": 4,
+  "clean": "CHICAGO_model4_clean.obj",
+  "damaged": "CHICAGO_model4_damaged.obj",
+  "low": "CHICAGO_model4_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "100000", "400800", "704838", "c8a080", "886048", "401000"]
+    },
+    "63": {
+      "png": "textures/PAGE_63.png",
+      "paints": {
+        "paint0": "c8c8c8",
+        "paint1": "e0e0e0",
+        "paint2": "707070",
+        "paint3": "685048",
+        "paint4": "e0e0e0"
+      },
+      "protect": ["e8e8e8", "282828", "404848", "181810", "585858", "f8f8f8", "b8b0b0", "685858"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "model": 2,
+  "clean": "RIO_model2_clean.obj",
+  "damaged": "RIO_model2_damaged.obj",
+  "low": "RIO_model2_low.obj",
+  "textures": {
+    "1": {"png": "../../shared/textures/PAGE_1.png"},
+    "68": {
+      "png": "textures/PAGE_68.png",
+      "paints": {
+        "paint0": "b8c8b0",
+        "paint1": "f8d0d0",
+        "paint2": "b0c0c0",
+        "paint3": "b0b0b0",
+        "paint4": "000000"
+      },
+      "protect": ["d0d0d0", "707068", "a8a8a8", "302828", "a8a8a0", "605858", "807878", "201818"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  }
+}

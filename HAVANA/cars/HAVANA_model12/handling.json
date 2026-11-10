@@ -1,0 +1,58 @@
+{
+  "model": 12,
+  "clean": "HAVANA_model12_clean.obj",
+  "damaged": "HAVANA_model12_damaged.obj",
+  "low": "HAVANA_model12_low.obj",
+  "textures": {
+    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "48": {"png": "textures/PAGE_48.png"},
+    "49": {"png": "textures/PAGE_49.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [77, 15, -197],
+    "frontInd": [74, 12, -189],
+    "backInd": [79, 21, 182],
+    "brakeLight": [81, 45, 182],
+    "revLight": [18, 13, 189],
+    "policeLight": [34, -7, 36],
+    "exhaust": [68, 62, 186],
+    "smoke": [0, -9, -171],
+    "fire": [0, -6, -187],
+    "wheelDisp": [[98, -30, 133], [98, -30, -147], [-99, -30, 133], [-99, -30, -147]],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 2800,
+    "wheelSize": 33,
+    "cPoints": [
+      [-93, 6, -186],
+      [92, 6, -186],
+      [-90, 7, 226],
+      [89, 7, 226],
+      [-92, 60, -185],
+      [91, 60, -185],
+      [-82, 146, -124],
+      [81, 146, -124],
+      [-75, 148, 87],
+      [74, 148, 87],
+      [-95, 83, 220],
+      [94, 83, 220]
+    ],
+    "colBox": [94, 66, 210],
+    "cog": [0, -70, 17],
+    "twistRateX": 420,
+    "twistRateY": 420,
+    "twistRateZ": 800,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "4d000f003bff00004a000c0043ff00004f001500b600000051002d00b600000012000d00bd0000002200f9ff2400000044003e00ba0000000000f7ff55ff00000000faff45ff00006200e2ff850000006200e2ff6dff00009dffe2ff850000009dffe2ff6dff00001804001000000010f00a2100a3ff060046ff00005c00060046ff0000a6ff0700e200000059000700e2000000a4ff3c0047ff00005b003c0047ff0000aeff920084ff00005100920084ff0000b5ff9400570000004a00940057000000a1ff5300dc0000005e005300dc0000005e004200d20000000000baff11000000a401a40120030010"
+}

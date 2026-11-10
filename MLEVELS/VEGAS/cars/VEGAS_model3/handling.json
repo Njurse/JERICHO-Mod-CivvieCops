@@ -1,0 +1,27 @@
+{
+  "model": 3,
+  "clean": "VEGAS_model3_clean.obj",
+  "damaged": "VEGAS_model3_damaged.obj",
+  "low": "VEGAS_model3_low.obj",
+  "textures": {
+    "4": {"png": "../../shared/textures/PAGE_4.png"},
+    "17": {
+      "png": "../../shared/textures/PAGE_17.png",
+      "paints": {
+        "paint0": "98b0c0",
+        "paint1": "98a880",
+        "paint2": "c8c8c8",
+        "paint3": "786050",
+        "paint4": "787898"
+      },
+      "protect": ["b8b8b8", "202020", "c0c0c0", "000000", "606060", "a0a0a0", "d8d8d8", "909090"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  }
+}

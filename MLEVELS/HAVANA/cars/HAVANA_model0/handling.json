@@ -1,0 +1,24 @@
+{
+  "model": 0,
+  "clean": "HAVANA_model0_clean.obj",
+  "damaged": "HAVANA_model0_damaged.obj",
+  "low": "HAVANA_model0_low.obj",
+  "wheels": {
+    "clean": {"png": "../../shared/textures/wheelclean.png", "set": 20, "island": [192, 64, 256, 128]},
+    "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 20, "island": [192, 0, 256, 64]},
+    "fast": {"png": "../../shared/textures/wheelfast.png", "set": 20, "island": [192, 64, 256, 128]}
+  },
+  "textures": {
+    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "36": {"png": "textures/PAGE_36.png"},
+    "20": {"png": "../HAVANA_model2/textures/PAGE_20.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "max_rate": 16000,
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren.wav", "rate": 8000, "normalise": false, "loop": true}
+  }
+}

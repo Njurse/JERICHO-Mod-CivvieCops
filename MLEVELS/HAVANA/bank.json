@@ -1,0 +1,36 @@
+{
+  "city": "HAVANA",
+  "lev": "build/HAVANA.LEV",
+  "lcf": "build/HAVANA.LCF",
+  "build_dir": "build",
+  "manifest": "HAVANA.json",
+  "declare": {
+    "schema": 1,
+    "name": "HAVANA",
+    "donor": {"city": "HAVANA", "source": "driver2", "obj_scale": 1.0},
+    "scale": 1,
+    "order": [
+      {"slot": 0, "car": "HAVANA_model0"},
+      {"slot": 1, "car": "HAVANA_model1"},
+      {"slot": 2, "car": "HAVANA_model2"},
+      {"slot": 3, "car": "HAVANA_model3"},
+      {"slot": 4, "car": "HAVANA_model4"},
+      {"slot": 8, "car": "HAVANA_model8"},
+      {"slot": 9, "car": "HAVANA_model9"},
+      {"slot": 10, "car": "HAVANA_model10"},
+      {"slot": 11, "car": "HAVANA_model11"}
+    ],
+    "palette_from_pages": true,
+    "cars": {
+      "HAVANA_model0": "cars/HAVANA_model0/handling.json",
+      "HAVANA_model1": "cars/HAVANA_model1/handling.json",
+      "HAVANA_model2": "cars/HAVANA_model2/handling.json",
+      "HAVANA_model3": "cars/HAVANA_model3/handling.json",
+      "HAVANA_model4": "cars/HAVANA_model4/handling.json",
+      "HAVANA_model8": "cars/HAVANA_model8/handling.json",
+      "HAVANA_model9": "cars/HAVANA_model9/handling.json",
+      "HAVANA_model10": "cars/HAVANA_model10/handling.json",
+      "HAVANA_model11": "cars/HAVANA_model11/handling.json"
+    }
+  }
+}

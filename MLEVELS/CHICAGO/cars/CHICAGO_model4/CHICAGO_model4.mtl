@@ -1,0 +1,60 @@
+# exportd2 materials
+newmtl flat
+Kd 0.5 0.5 0.5
+
+newmtl set1_id0
+Kd 1.000 1.000 1.000
+map_Kd ../../shared/textures/PAGE_1.png
+
+newmtl set63_id0
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id12
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id13
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id16
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id17
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id19
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id20
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id21
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id22
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id26
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id3
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id6
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+
+newmtl set63_id9
+Kd 1.000 1.000 1.000
+map_Kd textures/PAGE_63.png
+

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "tool": "exportd2",
+  "game": "D2",
+  "cell_size": 2048,
+  "cities": [
+    {
+      "city": "CHICAGO",
+      "dir": "CHICAGO",
+      "manifest": "CHICAGO/bank.json",
+      "bank": "CHICAGO/build/CHICAGO.LEV",
+      "lcf": "CHICAGO/build/CHICAGO.LCF",
+      "cars": [
+        {"id": "CHICAGO_model0", "model": 0, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model1", "model": 1, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model2", "model": 2, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model3", "model": 3, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model4", "model": 4, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model8", "model": 8, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model9", "model": 9, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model10", "model": 10, "variants": ["clean", "damaged", "low"]},
+        {"id": "CHICAGO_model12", "model": 12, "variants": ["clean", "damaged", "low"]}
+      ],
+      "warnings": []
+    },
+    {
+      "city": "HAVANA",
+      "dir": "HAVANA",
+      "manifest": "HAVANA/bank.json",
+      "bank": "HAVANA/build/HAVANA.LEV",
+      "lcf": "HAVANA/build/HAVANA.LCF",
+      "cars": [
+        {"id": "HAVANA_model0", "model": 0, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model1", "model": 1, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model2", "model": 2, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model3", "model": 3, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model4", "model": 4, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model8", "model": 8, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model9", "model": 9, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model10", "model": 10, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model11", "model": 11, "variants": ["clean", "damaged", "low"]},
+        {"id": "HAVANA_model12", "model": 12, "variants": ["clean", "damaged", "low"]}
+      ],
+      "warnings": []
+    },
+    {
+      "city": "RIO",
+      "dir": "RIO",
+      "manifest": "RIO/bank.json",
+      "bank": "RIO/build/RIO.LEV",
+      "lcf": "RIO/build/RIO.LCF",
+      "cars": [
+        {"id": "RIO_model0", "model": 0, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model1", "model": 1, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model2", "model": 2, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model3", "model": 3, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model4", "model": 4, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model8", "model": 8, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model9", "model": 9, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model10", "model": 10, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model11", "model": 11, "variants": ["clean", "damaged", "low"]},
+        {"id": "RIO_model12", "model": 12, "variants": ["clean", "damaged", "low"]}
+      ],
+      "warnings": []
+    },
+    {
+      "city": "VEGAS",
+      "dir": "VEGAS",
+      "manifest": "VEGAS/bank.json",
+      "bank": "VEGAS/build/VEGAS.LEV",
+      "lcf": "VEGAS/build/VEGAS.LCF",
+      "cars": [
+        {"id": "VEGAS_model0", "model": 0, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model1", "model": 1, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model2", "model": 2, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model3", "model": 3, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model4", "model": 4, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model8", "model": 8, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model9", "model": 9, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model10", "model": 10, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model11", "model": 11, "variants": ["clean", "damaged", "low"]},
+        {"id": "VEGAS_model12", "model": 12, "variants": ["clean", "damaged", "low"]}
+      ],
+      "warnings": []
+    }
+  ]
+}

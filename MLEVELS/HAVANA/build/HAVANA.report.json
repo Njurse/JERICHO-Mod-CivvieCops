@@ -1,0 +1,210 @@
+{
+ "city": "HAVANA",
+ "lev": "HAVANA.LEV",
+ "lcf": "HAVANA.LCF",
+ "size": 804864,
+ "order": [
+  {
+   "slot": 0,
+   "car": "HAVANA_model0"
+  },
+  {
+   "slot": 1,
+   "car": "HAVANA_model1"
+  },
+  {
+   "slot": 2,
+   "car": "HAVANA_model2"
+  },
+  {
+   "slot": 3,
+   "car": "HAVANA_model3"
+  },
+  {
+   "slot": 4,
+   "car": "HAVANA_model4"
+  },
+  {
+   "slot": 8,
+   "car": "HAVANA_model8"
+  },
+  {
+   "slot": 9,
+   "car": "HAVANA_model9"
+  },
+  {
+   "slot": 10,
+   "car": "HAVANA_model10"
+  },
+  {
+   "slot": 11,
+   "car": "HAVANA_model11"
+  }
+ ],
+ "included_sets": [
+  20,
+  21,
+  35,
+  36,
+  37,
+  38,
+  39,
+  42,
+  43,
+  44,
+  45,
+  51
+ ],
+ "pages": [
+  {
+   "set": 20,
+   "size": 33860
+  },
+  {
+   "set": 21,
+   "size": 33924
+  },
+  {
+   "set": 35,
+   "size": 33828
+  },
+  {
+   "set": 36,
+   "size": 33988
+  },
+  {
+   "set": 37,
+   "size": 33860
+  },
+  {
+   "set": 38,
+   "size": 33636
+  },
+  {
+   "set": 39,
+   "size": 33284
+  },
+  {
+   "set": 42,
+   "size": 33540
+  },
+  {
+   "set": 43,
+   "size": 33284
+  },
+  {
+   "set": 44,
+   "size": 33540
+  },
+  {
+   "set": 45,
+   "size": 33060
+  },
+  {
+   "set": 51,
+   "size": 33892
+  }
+ ],
+ "wheels": [
+  {
+   "variant": "clean",
+   "set": 20,
+   "island": [
+    192,
+    64,
+    256,
+    128
+   ]
+  },
+  {
+   "variant": "damaged",
+   "set": 20,
+   "island": [
+    192,
+    0,
+    256,
+    64
+   ]
+  },
+  {
+   "variant": "fast",
+   "set": 20,
+   "island": [
+    192,
+    64,
+    256,
+    128
+   ]
+  }
+ ],
+ "sounds": {
+  "models": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   8,
+   9,
+   10,
+   11
+  ],
+  "sirens": [
+   0
+  ]
+ },
+ "police_voices": {},
+ "palette_records": 646,
+ "page_base": 387072,
+ "warnings": [
+  "sound model 0 engine: crest factor 2.1 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 0: 35024 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 14848 B 3.71s rms 29% crest 3.3 field 8000 loop seam 2647",
+  "sound model 1 engine: rms is 48% of full scale against retail's 29-39% - this sample will play loud, and with crest 2.0 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
+  "sound model 1 engine: crest factor 2.0 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 1: 30160 bytes - engine 12912 B 1.61s rms 48% crest 2.0 field 16000 loop seam 8314; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 3968 B 0.99s rms 28% crest 2.8 field 8000",
+  "sound model 2 engine: crest factor 2.1 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 2: 24144 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 3968 B 0.99s rms 28% crest 2.8 field 8000",
+  "sound model 3: 26672 bytes - engine 13648 B 1.71s rms 36% crest 2.6 field 16000 loop seam 980; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 3328 B 0.83s rms 24% crest 3.6 field 8000",
+  "sound model 4 engine: rms is 58% of full scale against retail's 29-39% - this sample will play loud, and with crest 1.6 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
+  "sound model 4 engine: crest factor 1.6 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 4: 24816 bytes - engine 11792 B 1.47s rms 58% crest 1.6 field 16000 loop seam 2299; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 3328 B 0.83s rms 24% crest 3.6 field 8000",
+  "sound model 8: 19600 bytes - engine 6192 B 0.77s rms 38% crest 2.5 field 16000 loop seam 905; idle 9760 B 1.22s rms 29% crest 3.3 field 16000 loop seam 6; third 3648 B 0.91s rms 26% crest 3.8 field 8000",
+  "sound model 9: 19600 bytes - engine 6192 B 0.77s rms 38% crest 2.5 field 16000 loop seam 905; idle 9760 B 1.22s rms 29% crest 3.3 field 16000 loop seam 6; third 3648 B 0.91s rms 26% crest 3.8 field 8000",
+  "sound model 10: 29008 bytes - engine 13632 B 1.70s rms 32% crest 2.9 field 16000 loop seam 221; idle 13920 B 1.74s rms 33% crest 2.9 field 16000 loop seam 188; third 1456 B 0.36s rms 33% crest 2.9 field 8000",
+  "sound model 11: 19088 bytes - engine 7792 B 0.97s rms 40% crest 2.4 field 16000 loop seam 562; idle 7968 B 1.00s rms 33% crest 2.9 field 16000 loop seam 3775; third 3328 B 0.83s rms 24% crest 3.6 field 8000"
+ ],
+ "checks": {
+  "ok": true,
+  "problems": []
+ },
+ "bake_warnings": [
+  "HAVANA_model0 and HAVANA_model2 declare page set 20 differently; HAVANA_model0 wins",
+  "page set 20: composited the clean wheel from wheelclean.png into island (192, 64, 256, 128)",
+  "page set 20: composited the damaged wheel from wheeldam.png into island (192, 0, 256, 64)",
+  "page set 20: 13 texture id(s) [10, 11, 12, 13, 14, 15, 16, 17, 19, 22, 23, 24, 25] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 21: 4 texture id(s) [24, 25, 26, 27] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 35: 12 texture id(s) [0, 3, 6, 9, 12, 13, 16, 17, 20, 22, 23, 24] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 36: 14 texture id(s) [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 37: 13 texture id(s) [0, 2, 4, 7, 10, 13, 16, 17, 20, 22, 23, 24, 25] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 38: 13 texture id(s) [0, 3, 4, 5, 8, 10, 12, 13, 14, 15, 16, 17, 18] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 39: 8 texture id(s) [0, 1, 2, 3, 4, 5, 6, 7] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 42: 11 texture id(s) [0, 1, 2, 3, 6, 7, 10, 12, 13, 14, 15] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 43: 7 texture id(s) [0, 1, 2, 3, 5, 6, 7] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 44: 9 texture id(s) [0, 1, 4, 5, 8, 10, 13, 14, 15] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 45: re-baked from PAGE_45.png (no transparent colour)",
+  "page set 51: 16 texture id(s) [0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20, 22, 23, 24, 25, 26] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "palette: 4 set(s) past civ_clut's 8 rows draw the first page's colours \u2014 see clut-dump.txt",
+  "palette: rebuilt 646 row(s) from the pages",
+  "wheel clean: its sprite's backdrop is index 15 (#601800) on page 20 and no CLUT row clears it, so the square's corners draw - re-bake that page with carbank_page.py --transparent 601800",
+  "wheel damaged: its sprite's backdrop is index 15 (#601800) on page 20 and no CLUT row clears it, so the square's corners draw - re-bake that page with carbank_page.py --transparent 601800",
+  "HAVANA_model0: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model1: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model2: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model3: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model4: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model8: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model9: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model10: no \"handling\" block - its LCF record is zeroed",
+  "HAVANA_model11: no \"handling\" block - its LCF record is zeroed"
+ ]
+}

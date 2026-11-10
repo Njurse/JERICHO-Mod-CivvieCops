@@ -1,0 +1,68 @@
+{
+  "model": 10,
+  "clean": "CHICAGO_model10_clean.obj",
+  "damaged": "CHICAGO_model10_damaged.obj",
+  "low": "CHICAGO_model10_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
+    },
+    "56": {"png": "textures/PAGE_56.png"},
+    "57": {"png": "textures/PAGE_57.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [130, 85, -618],
+    "frontInd": [133, 114, -619],
+    "backInd": [158, 114, 612],
+    "brakeLight": [137, 61, 613],
+    "revLight": [104, 58, 622],
+    "policeLight": [34, -18, -4],
+    "exhaust": [68, 176, 632],
+    "smoke": [-5, 21, -600],
+    "fire": [-6, 29, -611],
+    "wheelDisp": [[178, -30, 500], [178, -30, -268], [-179, -30, 500], [-179, -30, -268]],
+    "extraInfo": 9496,
+    "powerRatio": 2666,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 3500,
+    "wheelSize": 74,
+    "cPoints": [
+      [-168, 46, -645],
+      [167, 46, -645],
+      [-163, 57, 660],
+      [162, 57, 660],
+      [-166, 385, -590],
+      [165, 385, -590],
+      [-169, 387, 453],
+      [168, 387, 453],
+      [-162, 235, 478],
+      [161, 235, 478],
+      [-167, 208, 625],
+      [166, 208, 625]
+    ],
+    "colBox": [173, 179, 659],
+    "cog": [0, -217, 8],
+    "twistRateX": 50,
+    "twistRateY": 50,
+    "twistRateZ": 250,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "8200550096fd00008500720095fd00009e0072006402000089003d006502000068003a006e0200002200eefffcff00004400b00078020000fbff1500a8fd0000faff1d009dfd0000b200e2fff4010000b200e2fff4fe00004dffe2fff40100004dffe2fff4fe000018256a0a00000010ac0d4a0058ff2e007bfd0000a7002e007bfd00005dff390094020000a2003900940200005aff8101b2fd0000a5008101b2fd000057ff8301c5010000a8008301c50100005effeb00de010000a100eb00de01000059ffd00071020000a600d00071020000ad00b30093020000000027ff0800000032003200fa000010"
+}

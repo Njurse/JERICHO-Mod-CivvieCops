@@ -1,0 +1,60 @@
+{
+  "model": 0,
+  "clean": "RIO_model0_clean.obj",
+  "damaged": "RIO_model0_damaged.obj",
+  "low": "RIO_model0_low.obj",
+  "wheels": {
+    "clean": {"png": "../../shared/textures/wheelclean.png", "set": 1, "island": [64, 192, 128, 256]},
+    "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 1, "island": [0, 138, 64, 202]},
+    "fast": {"png": "../../shared/textures/wheelfast.png", "set": 1, "island": [0, 138, 64, 202]}
+  },
+  "textures": {"1": {"png": "textures/PAGE_1.png"}, "59": {"png": "textures/PAGE_59.png"}},
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "max_rate": 16000,
+    "sample_bytes": 16384,
+    "cop": false,
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false}
+  },
+  "handling": {
+    "headLight": [96, 20, -298],
+    "frontInd": [96, 20, -302],
+    "backInd": [95, 14, 287],
+    "brakeLight": [104, 15, 286],
+    "revLight": [23, 21, 290],
+    "policeLight": [-6, -75, -6],
+    "exhaust": [68, 59, 297],
+    "smoke": [0, -12, -274],
+    "fire": [0, -9, -281],
+    "wheelDisp": [[129, -30, 194], [128, -30, -169], [-130, -30, 194], [-129, -30, -169]],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 41,
+    "cPoints": [
+      [-126, 14, -301],
+      [125, 14, -301],
+      [-126, 15, 298],
+      [125, 15, 298],
+      [-126, 96, -297],
+      [125, 96, -297],
+      [-102, 159, -111],
+      [101, 159, -111],
+      [-102, 161, 77],
+      [101, 161, 77],
+      [-126, 93, 310],
+      [125, 93, 310]
+    ],
+    "colBox": [136, 76, 316],
+    "cog": [0, -85, 0],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "60001400d6fe000060001400d2fe00005f000e001f01000068000f001e0100001700150022010000faffb5fffaff000044003b00290100000000f4ffeefe00000000f7ffe7fe00008100e2ffc20000008000e2ff57ff00007effe2ffc20000007fffe2ff57ff000018040010000000100010290082ff0e00d3fe00007d000e00d3fe000082ff0f002a0100007d000f002a01000082ff6000d7fe00007d006000d7fe00009aff9f0091ff000065009f0091ff00009affa1004d0000006500a1004d00000082ff5d00360100007d005d003601000088004c003c0100000000abff00000000e000e00060040010"
+}

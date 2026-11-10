@@ -1,0 +1,38 @@
+{
+  "model": 4,
+  "clean": "VEGAS_model4_clean.obj",
+  "damaged": "VEGAS_model4_damaged.obj",
+  "low": "VEGAS_model4_low.obj",
+  "textures": {
+    "4": {"png": "../../shared/textures/PAGE_4.png"},
+    "17": {
+      "png": "../../shared/textures/PAGE_17.png",
+      "paints": {
+        "paint0": "98b0c0",
+        "paint1": "98a880",
+        "paint2": "c8c8c8",
+        "paint3": "786050",
+        "paint4": "787898"
+      },
+      "protect": ["b8b8b8", "202020", "c0c0c0", "000000", "606060", "a0a0a0", "d8d8d8", "909090"]
+    },
+    "32": {
+      "png": "textures/PAGE_32.png",
+      "paints": {
+        "paint0": "b8b8b8",
+        "paint1": "e0e0e0",
+        "paint2": "587890",
+        "paint3": "b07878",
+        "paint4": "a0a8a0"
+      },
+      "protect": ["000000", "101010", "080808", "100808", "686868", "201818", "a8a0a8", "504850"]
+    }
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model": 8,
+  "clean": "VEGAS_model8_clean.obj",
+  "damaged": "VEGAS_model8_damaged.obj",
+  "low": "VEGAS_model8_low.obj",
+  "textures": {
+    "4": {"png": "../../shared/textures/PAGE_4.png"},
+    "18": {"png": "textures/PAGE_18.png"},
+    "19": {"png": "textures/PAGE_19.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [108, 13, -649],
+    "frontInd": [78, 13, -647],
+    "backInd": [73, 11, 642],
+    "brakeLight": [109, 13, 641],
+    "revLight": [88, 12, 648],
+    "policeLight": [34, 6, -39],
+    "exhaust": [112, 76, 649],
+    "smoke": [0, -10, -612],
+    "fire": [0, -4, -623],
+    "wheelDisp": [[136, -30, 495], [135, -30, -448], [-137, -30, 495], [-136, -30, -448]],
+    "extraInfo": -31720,
+    "powerRatio": 3900,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 3500,
+    "wheelSize": 56,
+    "cPoints": [
+      [-135, 23, -664],
+      [134, 23, -664],
+      [-136, 21, 661],
+      [135, 21, 661],
+      [-126, 112, -636],
+      [125, 112, -636],
+      [-89, 176, -432],
+      [88, 176, -432],
+      [-85, 178, 326],
+      [84, 178, 326],
+      [-133, 102, 645],
+      [132, 102, 645]
+    ],
+    "colBox": [161, 86, 667],
+    "cog": [0, -95, 0],
+    "twistRateX": 40,
+    "twistRateY": 40,
+    "twistRateZ": 250,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "6c000d0077fd00004e000d0079fd000049000b00820200006d000d008102000058000c008802000022000600d9ff000070004c00890200000000f6ff9cfd00000000fcff91fd00008800e2ffef0100008700e2ff40fe000077ffe2ffef01000078ffe2ff40fe000018843c0f00000010ac0d380079ff170068fd00008600170068fd000078ff150095020000870015009502000082ff700084fd00007d00700084fd0000a7ffb00050fe00005800b00050fe0000abffb200460100005400b200460100007bff6600850200008400660085020000a10056009b0200000000a1ff0000000028002800fa000010"
+}

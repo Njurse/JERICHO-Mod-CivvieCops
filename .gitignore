@@ -1,0 +1,10 @@
+# Vendored BAKE snapshots do not belong in a car folder.
+# Use JERICHO/MODS/bake, or pin a release.
+**/BAKE-*/
+__pycache__/
+*.pyc
+*.pyo
+**/rebake.log
+**/preview.stop
+Thumbs.db
+.DS_Store

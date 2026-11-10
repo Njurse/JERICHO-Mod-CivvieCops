@@ -1,0 +1,68 @@
+{
+  "model": 9,
+  "clean": "CHICAGO_model9_clean.obj",
+  "damaged": "CHICAGO_model9_damaged.obj",
+  "low": "CHICAGO_model9_low.obj",
+  "textures": {
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "paints": {
+        "paint0": "080808",
+        "paint1": "181818",
+        "paint2": "181818",
+        "paint3": "505878",
+        "paint4": "101010"
+      },
+      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
+    },
+    "66": {"png": "textures/PAGE_66.png"},
+    "67": {"png": "textures/PAGE_67.png"}
+  },
+  "sounds": {
+    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
+    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "max_rate": 16000,
+    "sample_bytes": 16384
+  },
+  "handling": {
+    "headLight": [112, 80, -400],
+    "frontInd": [143, 83, -401],
+    "backInd": [144, -24, 399],
+    "brakeLight": [146, 45, 399],
+    "revLight": [143, 9, 401],
+    "policeLight": [34, -55, 8],
+    "exhaust": [111, 164, 414],
+    "smoke": [0, -1, -380],
+    "fire": [0, 2, -383],
+    "wheelDisp": [[170, -30, 305], [171, -30, -249], [-171, -30, 305], [-172, -30, -249]],
+    "extraInfo": 1048,
+    "powerRatio": 3500,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 3800,
+    "wheelSize": 69,
+    "cPoints": [
+      [-171, 31, -426],
+      [170, 31, -426],
+      [-170, 29, 418],
+      [169, 29, 418],
+      [-163, 351, -406],
+      [162, 351, -406],
+      [-160, 352, 261],
+      [159, 352, 261],
+      [-164, 210, 248],
+      [163, 210, 248],
+      [-156, 192, 394],
+      [155, 192, 394]
+    ],
+    "colBox": [176, 165, 426],
+    "cog": [0, -191, -4],
+    "twistRateX": 120,
+    "twistRateY": 120,
+    "twistRateZ": 350,
+    "mass": 4096
+  },
+  "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
+  "raw": "7000500070fe00008f0053006ffe00009000e8ff8f01000092002d008f0100008f000900910100002200c9ff080000006f00a4009e0100000000ffff84fe00000000020081fe0000aa00e2ff31010000ab00e2ff07ff000055ffe2ff3101000054ffe2ff07ff00001804ac0d00000010d80e450055ff1f0056fe0000aa001f0056fe000056ff1d00a2010000a9001d00a20100005dff5f016afe0000a2005f016afe000060ff6001050100009f006001050100005cffd200f8000000a300d200f800000064ffc0008a0100009b00c0008a010000b000a500aa010000000041fffcff0000780078005e010010"
+}
