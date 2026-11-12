@@ -1,6 +1,6 @@
 @echo off
 rem ============================================================================
-rem  wizard.bat  -  hub for every stage of the CHICAGO car bank
+rem  wizard.bat  -  hub for every stage of the CIVICOPS car bank
 rem
 rem  GENERATED from bake\tools\car\template_wizard.bat by make_write_scripts.py.
 rem  Each entry runs one stage; the scripts it calls sit beside this file.
@@ -11,9 +11,11 @@ set "BANK=%BANK:~0,-1%"
 set "CAR=%BANK%\..\..\bake\tools\car"
 set "EXEDIR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\CHICAGO"
+rem CAR fallback: baked path, else walk up from BANK for bake\tools\car\make_write_scripts.py, else JERICHO_BAKE.
+call "%~dp0resolve_paths.bat" game
 :menu
 echo.
-echo  ==== CHICAGO car bank - wizard ====
+echo  ==== CIVICOPS car bank - wizard ====
 echo    1  Export bank to editable files    (carbank_export.py -^> work\)
 echo    2  Import an edited OBJ             (carbank_import.py -^> build\)
 echo    3  Bake + install + register        (rebake.bat)
@@ -25,7 +27,7 @@ echo    8  Open the bank folder
 echo    0  Quit
 choice /c 123456780 /n /m "  select: "
 set "C=%ERRORLEVEL%"
-if "%C%"=="1" python "%CAR%\carbank_export.py" "%BANK%\CHICAGO.LEV" -o "%BANK%\work"
+if "%C%"=="1" python "%CAR%\carbank_export.py" "%BANK%\CIVICOPS.LEV" -o "%BANK%\work"
 if "%C%"=="2" (
     set "OBJ="
     set /p "OBJ=  edited OBJ (e.g. work\cars\1_X\clean.obj): "
@@ -38,9 +40,17 @@ if "%C%"=="3" call "%BANK%\rebake.bat"
 if "%C%"=="4" call "%BANK%\preview.bat"
 if "%C%"=="5" call "%BANK%\playtest.bat"
 if "%C%"=="6" (
-    if "%EXEDIR%"=="" (echo   no game tree found for this bank) else python "%CAR%\register_city.py" CHICAGO "%MIRROR%\CHICAGO.LEV" "%EXEDIR%"
+    if "%GAME_MISSING%"=="1" (echo   no game tree found for this bank - set JERICHO_GAME to src_rebuild\bin\Release_dev) else python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%"
 )
-if "%C%"=="7" python "%CAR%\make_write_scripts.py" "%BANK%\bank.json" --force
+if "%C%"=="7" goto refresh
 if "%C%"=="8" start "" explorer "%BANK%"
 if "%C%"=="9" exit /b 0
 goto menu
+:refresh
+rem Rewriting this file while cmd is still reading it garbles the menu.
+rem Refresh, then start the new copy and leave this one.
+python "%CAR%\make_write_scripts.py" "%BANK%\bank.json" --force
+if errorlevel 1 goto menu
+echo   scripts refreshed - reopening the wizard
+call "%~f0"
+exit /b 0

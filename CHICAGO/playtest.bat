@@ -1,10 +1,10 @@
 @echo off
 rem ============================================================================
-rem  playtest.bat  -  Take a Ride with a car from the CHICAGO bank (no bake)
+rem  playtest.bat  -  Take a Ride with a car from the CIVICOPS bank (no bake)
 rem
 rem  GENERATED from bake\tools\car\template_playtest.bat by make_write_scripts.py.
 rem  Asks which car and which city, points carhacks.ini's
-rem  "import = 5:<bank city>:<car slot>" at it and launches. CHICAGO is a car
+rem  "import = 5:<bank city>:<car slot>" at it and launches. CIVICOPS is a car
 rem  bank, not a level: the ride runs in a real city. Run rebake.bat first
 rem  after any change to the bank.
 rem ============================================================================
@@ -14,9 +14,16 @@ set "BANK=%BANK:~0,-1%"
 set "CAR=%BANK%\..\..\bake\tools\car"
 set "EXEDIR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\CHICAGO"
-if not exist "%EXEDIR%\JERICHO_dev.exe" (echo FAILED: no game at %EXEDIR% & exit /b 1)
-if not exist "%MIRROR%\CHICAGO.LEV" (echo FAILED: no %MIRROR%\CHICAGO.LEV - run rebake.bat first & exit /b 1)
-python "%CAR%\register_city.py" CHICAGO "%MIRROR%\CHICAGO.LEV" "%EXEDIR%"
+call "%~dp0resolve_paths.bat" game
+if "%CAR_MISSING%"=="1" exit /b 1
+if "%GAME_MISSING%"=="1" exit /b 1
+if not exist "%EXEDIR%\JERICHO_dev.exe" (
+    echo FAILED: no JERICHO_dev.exe at %EXEDIR%
+    echo   Set JERICHO_GAME to the Release_dev folder that contains JERICHO_dev.exe.
+    exit /b 1
+)
+if not exist "%MIRROR%\CIVICOPS.LEV" (echo FAILED: no %MIRROR%\CIVICOPS.LEV - run rebake.bat first & exit /b 1)
+python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%"
 set /a N=0
 for /f "usebackq tokens=1,2" %%A in (`python -c "import json;[print(o['slot'],o['car']) for o in json.load(open(r'%BANK%\bank.json'))['declare']['order']]"`) do (
     set /a N+=1
@@ -41,8 +48,8 @@ if "%PICKC%"=="2" set "CITY=havana"
 if "%PICKC%"=="3" set "CITY=lasvegas"
 if "%PICKC%"=="4" set "CITY=rio"
 if "%CITY%"=="" (echo   exit - not launching. & exit /b 0)
-python "%CAR%\register_city.py" CHICAGO "%MIRROR%\CHICAGO.LEV" "%EXEDIR%" --use !PSLOT!
-echo   launching Take a Ride in %CITY% with CHICAGO !PCAR!...
+python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%" --use !PSLOT!
+echo   launching Take a Ride in %CITY% with CIVICOPS !PCAR!...
 pushd "%EXEDIR%"
 start "" "JERICHO_dev.exe" -nointro -level %CITY% -car !PSLOT! -gamemode takeadrive -weather none -time day
 popd

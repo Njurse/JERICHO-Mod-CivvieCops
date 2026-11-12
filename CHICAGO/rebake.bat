@@ -1,16 +1,16 @@
 @echo off
 rem ============================================================================
-rem  rebake.bat [plain^|flipy^|full^|winding^|normals^|flipfull]  -  CHICAGO bank
+rem  rebake.bat [plain^|flipy^|full^|winding^|normals^|flipfull]  -  CIVICOPS bank
 rem
 rem  GENERATED from bake\tools\car\template_rebake.bat by make_write_scripts.py
 rem  (exportd2 writes it on export). Edit the template, then re-run:
 rem    python bake\tools\car\make_write_scripts.py <bank folder>\bank.json --force
 rem
-rem  CHICAGO is a CAR BANK, not a level: Take a Ride runs in a real city
+rem  CIVICOPS is a CAR BANK, not a level: Take a Ride runs in a real city
 rem  (-level chicago/havana/lasvegas/rio) and carhacks.ini's
 rem  "import = 5:<bank city>:<model>" pulls the picked car from this bank.
 rem  Bakes bank.json into build\, installs next to bank.json and into the game
-rem  mirror (src_rebuild\bin\Release_dev\...), registers CHICAGO in
+rem  mirror (src_rebuild\bin\Release_dev\...), registers CIVICOPS in
 rem  JERICHO\CONFIG\cities.ini, then previews / launches one car.
 rem ============================================================================
 setlocal EnableDelayedExpansion
@@ -29,33 +29,50 @@ set "OUT=%BANK%\build"
 set "LOG=%OUT%\rebake.log"
 set "EXEDIR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\CHICAGO"
-if not exist "%CAR%\carbank_bake.py" (echo FAILED: no bake tools at %CAR% & exit /b 1)
+call "%~dp0resolve_paths.bat" game
+if "%CAR_MISSING%"=="1" exit /b 1
+if not exist "%CAR%\carbank_bake.py" (echo FAILED: no bake tools at %CAR% & echo   Set JERICHO_BAKE to the bake\tools\car folder. & exit /b 1)
 if not exist "%OUT%" mkdir "%OUT%"
-if exist "%OUT%\CHICAGO.LEV" del /q "%OUT%\CHICAGO.LEV"
-if exist "%OUT%\CHICAGO.LCF" del /q "%OUT%\CHICAGO.LCF"
+if exist "%OUT%\CIVICOPS.LEV" del /q "%OUT%\CIVICOPS.LEV"
+if exist "%OUT%\CIVICOPS.LCF" del /q "%OUT%\CIVICOPS.LCF"
+if exist "%OUT%\CIVICOPS.RAW" del /q "%OUT%\CIVICOPS.RAW"
 echo.
-echo  ==== CHICAGO rebake [%MODE%] ====
+echo  ==== CIVICOPS rebake [%MODE%] ====
 python "%CAR%\carbank_bake.py" "%BANK%\bank.json" -o "%OUT%" --scale 1 %FLIP% > "%LOG%" 2>&1
 if errorlevel 1 goto failed
-if not exist "%OUT%\CHICAGO.LEV" goto failed
+if not exist "%OUT%\CIVICOPS.LEV" goto failed
 findstr /i "warning" "%LOG%"
 for /f "usebackq delims=" %%L in (`findstr /i /c:"bank ok" "%LOG%"`) do echo   %%L
-copy /Y "%OUT%\CHICAGO.LEV" "%BANK%\" >nul
-copy /Y "%OUT%\CHICAGO.LCF" "%BANK%\" >nul
-if exist "%OUT%\CHICAGO.portraits\" (
-    xcopy /E /I /Y "%OUT%\CHICAGO.portraits" "%BANK%\CHICAGO.portraits\" >nul
+copy /Y "%OUT%\CIVICOPS.LEV" "%BANK%\" >nul
+copy /Y "%OUT%\CIVICOPS.LCF" "%BANK%\" >nul
+if exist "%OUT%\CIVICOPS.RAW" (
+    copy /Y "%OUT%\CIVICOPS.RAW" "%BANK%\" >nul
+) else (
+    if exist "%BANK%\CIVICOPS.RAW" del /q "%BANK%\CIVICOPS.RAW"
+)
+if exist "%OUT%\CIVICOPS.portraits\" (
+    xcopy /E /I /Y "%OUT%\CIVICOPS.portraits" "%BANK%\CIVICOPS.portraits\" >nul
+)
+if "%GAME_MISSING%"=="1" (
+    echo   baked to %OUT% - game tree not found, skipped install and city registration
+    exit /b 0
 )
 if not "%MIRROR%"=="" (
     if not exist "%MIRROR%" mkdir "%MIRROR%"
-    copy /Y "%OUT%\CHICAGO.LEV" "%MIRROR%\" >nul
-    copy /Y "%OUT%\CHICAGO.LCF" "%MIRROR%\" >nul
-    if exist "%OUT%\CHICAGO.portraits\" (
-        xcopy /E /I /Y "%OUT%\CHICAGO.portraits" "%MIRROR%\CHICAGO.portraits\" >nul
+    copy /Y "%OUT%\CIVICOPS.LEV" "%MIRROR%\" >nul
+    copy /Y "%OUT%\CIVICOPS.LCF" "%MIRROR%\" >nul
+    if exist "%OUT%\CIVICOPS.RAW" (
+        copy /Y "%OUT%\CIVICOPS.RAW" "%MIRROR%\" >nul
+    ) else (
+        if exist "%MIRROR%\CIVICOPS.RAW" del /q "%MIRROR%\CIVICOPS.RAW"
+    )
+    if exist "%OUT%\CIVICOPS.portraits\" (
+        xcopy /E /I /Y "%OUT%\CIVICOPS.portraits" "%MIRROR%\CIVICOPS.portraits\" >nul
     )
     echo   installed to %MIRROR%
 )
 if "%EXEDIR%"=="" exit /b 0
-python "%CAR%\register_city.py" CHICAGO "%MIRROR%\CHICAGO.LEV" "%EXEDIR%"
+python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%"
 rem ---- pick the car for the test/preview (bank.json order) ----
 set /a N=0
 for /f "usebackq tokens=1,2" %%A in (`python -c "import json;[print(o['slot'],o['car']) for o in json.load(open(r'%BANK%\bank.json'))['declare']['order']]"`) do (
@@ -75,7 +92,7 @@ set "STOPF=%OUT%\preview.stop"
 if exist "%STOPF%" del /q "%STOPF%"
 if not "%NOPREVIEW%"=="1" if exist "%CAR%\preview_car.py" start "" /b python "%CAR%\preview_car.py" "%BANK%\bank.json" --car !PCAR! --timeout 32 --stop-file "%STOPF%" --flip-y
 echo.
-echo   Take a Ride with !PCAR! - in which city?  (CHICAGO is a car bank, not a level)
+echo   Take a Ride with !PCAR! - in which city?  (CIVICOPS is a car bank, not a level)
 echo     0  Chicago      1  Havana      2  Las Vegas      3  Rio      4  exit
 choice /c 01234 /n /t 30 /d 4 /m "  select 0-4 (exits after 30s): "
 set "PICKC=%ERRORLEVEL%"
@@ -86,10 +103,14 @@ if "%PICKC%"=="2" set "CITY=havana"
 if "%PICKC%"=="3" set "CITY=lasvegas"
 if "%PICKC%"=="4" set "CITY=rio"
 if "%CITY%"=="" (echo   exit - not launching. & exit /b 0)
-if not exist "%EXEDIR%\JERICHO_dev.exe" (echo FAILED: no game at %EXEDIR% & exit /b 1)
+if not exist "%EXEDIR%\JERICHO_dev.exe" (
+    echo   warning: no JERICHO_dev.exe at %EXEDIR% - bake is in %OUT%, not launching
+    echo   Set JERICHO_GAME to the Release_dev folder that contains JERICHO_dev.exe.
+    exit /b 0
+)
 rem point carhacks.ini's import at the picked car: resident slot 5 = this bank
-python "%CAR%\register_city.py" CHICAGO "%MIRROR%\CHICAGO.LEV" "%EXEDIR%" --use !PSLOT!
-echo   launching Take a Ride in %CITY% with CHICAGO !PCAR!...
+python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%" --use !PSLOT!
+echo   launching Take a Ride in %CITY% with CIVICOPS !PCAR!...
 pushd "%EXEDIR%"
 start "" "JERICHO_dev.exe" -nointro -level %CITY% -car !PSLOT! -gamemode takeadrive -weather none -time day
 popd

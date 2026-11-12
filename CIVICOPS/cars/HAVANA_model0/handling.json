@@ -3,10 +3,10 @@
   "clean": "HAVANA_model0_clean.obj",
   "damaged": "HAVANA_model0_damaged.obj",
   "low": "HAVANA_model0_low.obj",
-  "wheels": {
-    "clean": {"png": "textures/wheelclean.png", "set": 21, "island": [192, 64, 256, 128]},
-    "damaged": {"png": "textures/wheeldam.png", "set": 21, "island": [192, 0, 256, 64]},
-    "fast": {"png": "textures/wheelfast.png", "set": 21, "island": [192, 64, 256, 128]}
+  "wheels_unused": {
+    "clean": {"png": "textures/wheelclean.png", "set": 36, "island": [192, 64, 256, 128]},
+    "damaged": {"png": "textures/wheeldam.png", "set": 36, "island": [192, 0, 256, 64]},
+    "fast": {"png": "textures/wheelfast.png", "set": 36, "island": [192, 64, 256, 128]}
   },
   "textures": {
     "21": {"png": "textures/PAGE_21.png"},

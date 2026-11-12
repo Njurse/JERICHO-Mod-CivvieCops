@@ -29,10 +29,13 @@ set "OUT=%BANK%\build"
 set "LOG=%OUT%\rebake.log"
 set "EXEDIR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\CIVICOPS"
-if not exist "%CAR%\carbank_bake.py" (echo FAILED: no bake tools at %CAR% & exit /b 1)
+call "%~dp0resolve_paths.bat" game
+if "%CAR_MISSING%"=="1" exit /b 1
+if not exist "%CAR%\carbank_bake.py" (echo FAILED: no bake tools at %CAR% & echo   Set JERICHO_BAKE to the bake\tools\car folder. & exit /b 1)
 if not exist "%OUT%" mkdir "%OUT%"
 if exist "%OUT%\CIVICOPS.LEV" del /q "%OUT%\CIVICOPS.LEV"
 if exist "%OUT%\CIVICOPS.LCF" del /q "%OUT%\CIVICOPS.LCF"
+if exist "%OUT%\CIVICOPS.RAW" del /q "%OUT%\CIVICOPS.RAW"
 echo.
 echo  ==== CIVICOPS rebake [%MODE%] ====
 python "%CAR%\carbank_bake.py" "%BANK%\bank.json" -o "%OUT%"  %FLIP% > "%LOG%" 2>&1
@@ -42,13 +45,27 @@ findstr /i "warning" "%LOG%"
 for /f "usebackq delims=" %%L in (`findstr /i /c:"bank ok" "%LOG%"`) do echo   %%L
 copy /Y "%OUT%\CIVICOPS.LEV" "%BANK%\" >nul
 copy /Y "%OUT%\CIVICOPS.LCF" "%BANK%\" >nul
+if exist "%OUT%\CIVICOPS.RAW" (
+    copy /Y "%OUT%\CIVICOPS.RAW" "%BANK%\" >nul
+) else (
+    if exist "%BANK%\CIVICOPS.RAW" del /q "%BANK%\CIVICOPS.RAW"
+)
 if exist "%OUT%\CIVICOPS.portraits\" (
     xcopy /E /I /Y "%OUT%\CIVICOPS.portraits" "%BANK%\CIVICOPS.portraits\" >nul
+)
+if "%GAME_MISSING%"=="1" (
+    echo   baked to %OUT% - game tree not found, skipped install and city registration
+    exit /b 0
 )
 if not "%MIRROR%"=="" (
     if not exist "%MIRROR%" mkdir "%MIRROR%"
     copy /Y "%OUT%\CIVICOPS.LEV" "%MIRROR%\" >nul
     copy /Y "%OUT%\CIVICOPS.LCF" "%MIRROR%\" >nul
+    if exist "%OUT%\CIVICOPS.RAW" (
+        copy /Y "%OUT%\CIVICOPS.RAW" "%MIRROR%\" >nul
+    ) else (
+        if exist "%MIRROR%\CIVICOPS.RAW" del /q "%MIRROR%\CIVICOPS.RAW"
+    )
     if exist "%OUT%\CIVICOPS.portraits\" (
         xcopy /E /I /Y "%OUT%\CIVICOPS.portraits" "%MIRROR%\CIVICOPS.portraits\" >nul
     )
@@ -86,7 +103,11 @@ if "%PICKC%"=="2" set "CITY=havana"
 if "%PICKC%"=="3" set "CITY=lasvegas"
 if "%PICKC%"=="4" set "CITY=rio"
 if "%CITY%"=="" (echo   exit - not launching. & exit /b 0)
-if not exist "%EXEDIR%\JERICHO_dev.exe" (echo FAILED: no game at %EXEDIR% & exit /b 1)
+if not exist "%EXEDIR%\JERICHO_dev.exe" (
+    echo   warning: no JERICHO_dev.exe at %EXEDIR% - bake is in %OUT%, not launching
+    echo   Set JERICHO_GAME to the Release_dev folder that contains JERICHO_dev.exe.
+    exit /b 0
+)
 rem point carhacks.ini's import at the picked car: resident slot 5 = this bank
 python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%" --use !PSLOT!
 echo   launching Take a Ride in %CITY% with CIVICOPS !PCAR!...

@@ -4,9 +4,9 @@
   "damaged": "CHICAGO_model0_damaged.obj",
   "low": "CHICAGO_model0_low.obj",
   "wheels": {
-    "clean": {"png": "textures/wheelclean.png", "set": 50, "island": [192, 0, 256, 64]},
-    "damaged": {"png": "textures/wheeldam.png", "set": 50, "island": [192, 64, 256, 128]},
-    "fast": {"png": "textures/wheelfast.png", "set": 50, "island": [192, 64, 256, 128]}
+    "clean": {"png": "textures/wheelclean.bmp", "set": 58, "island": [192, 64, 256, 128]},
+    "damaged": {"png": "textures/wheeldam_fixed.bmp", "set": 58, "island": [192, 0, 256, 64]},
+    "fast": {"png": "textures/wheelfast_fixed.bmp", "set": 58, "island": [192, 64, 256, 128]}
   },
   "textures": {
     "1": {
@@ -20,7 +20,7 @@
       },
       "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"]
     },
-    "58": {"png": "textures/PAGE_58.png"},
+    "58": {"png": "textures/PAGE_58.png","protect": ["000000"]},
     "50": {"png": "textures/PAGE_50.png"}
   },
   "sounds": {

@@ -14,7 +14,14 @@ set "BANK=%BANK:~0,-1%"
 set "CAR=%BANK%\..\..\..\bake\tools\car"
 set "EXEDIR=%BANK%\..\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\MLEVELS\VEGAS"
-if not exist "%EXEDIR%\JERICHO_dev.exe" (echo FAILED: no game at %EXEDIR% & exit /b 1)
+call "%~dp0resolve_paths.bat" game
+if "%CAR_MISSING%"=="1" exit /b 1
+if "%GAME_MISSING%"=="1" exit /b 1
+if not exist "%EXEDIR%\JERICHO_dev.exe" (
+    echo FAILED: no JERICHO_dev.exe at %EXEDIR%
+    echo   Set JERICHO_GAME to the Release_dev folder that contains JERICHO_dev.exe.
+    exit /b 1
+)
 if not exist "%MIRROR%\VEGAS.LEV" (echo FAILED: no %MIRROR%\VEGAS.LEV - run rebake.bat first & exit /b 1)
 python "%CAR%\register_city.py" VEGAS "%MIRROR%\VEGAS.LEV" "%EXEDIR%"
 set /a N=0

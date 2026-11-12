@@ -1,6 +1,6 @@
 @echo off
 rem ============================================================================
-rem  preview.bat  -  endless preview of one CHICAGO car, picked by SLOT (no bake)
+rem  preview.bat  -  endless preview of one CIVICOPS car, picked by SLOT (no bake)
 rem
 rem  GENERATED from bake\tools\car\template_preview.bat by make_write_scripts.py.
 rem  Lists the bank's slots, asks which one to load, then opens preview_car.py
@@ -12,11 +12,15 @@ setlocal EnableDelayedExpansion
 set "BANK=%~dp0"
 set "BANK=%BANK:~0,-1%"
 set "CAR=%BANK%\..\..\bake\tools\car"
-if not exist "%CAR%\preview_car.py" (echo FAILED: no preview_car.py at %CAR% & exit /b 1)
+set "EXEDIR="
+set "MIRROR="
+call "%~dp0resolve_paths.bat"
+if "%CAR_MISSING%"=="1" exit /b 1
+if not exist "%CAR%\preview_car.py" (echo FAILED: no preview_car.py at %CAR% & echo   Set JERICHO_BAKE to the bake\tools\car folder. & exit /b 1)
 :pick
 set /a N=0
 echo.
-echo  ==== CHICAGO preview - which slot? ====
+echo  ==== CIVICOPS preview - which slot? ====
 for /f "usebackq tokens=1,2" %%A in (`python -c "import json;[print(o['slot'],o['car']) for o in json.load(open(r'%BANK%\bank.json'))['declare']['order']]"`) do (
     set /a N+=1
     set "SLOT!N!=%%A"

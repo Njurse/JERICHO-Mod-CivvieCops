@@ -11,6 +11,8 @@ set "BANK=%BANK:~0,-1%"
 set "CAR=%BANK%\..\..\bake\tools\car"
 set "EXEDIR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev"
 set "MIRROR=%BANK%\..\..\..\..\src_rebuild\bin\Release_dev\JERICHO\MODS\civviecops\CIVICOPS"
+rem CAR fallback: baked path, else walk up from BANK for bake\tools\car\make_write_scripts.py, else JERICHO_BAKE.
+call "%~dp0resolve_paths.bat" game
 :menu
 echo.
 echo  ==== CIVICOPS car bank - wizard ====
@@ -38,9 +40,17 @@ if "%C%"=="3" call "%BANK%\rebake.bat"
 if "%C%"=="4" call "%BANK%\preview.bat"
 if "%C%"=="5" call "%BANK%\playtest.bat"
 if "%C%"=="6" (
-    if "%EXEDIR%"=="" (echo   no game tree found for this bank) else python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%"
+    if "%GAME_MISSING%"=="1" (echo   no game tree found for this bank - set JERICHO_GAME to src_rebuild\bin\Release_dev) else python "%CAR%\register_city.py" CIVICOPS "%MIRROR%\CIVICOPS.LEV" "%EXEDIR%"
 )
-if "%C%"=="7" python "%CAR%\make_write_scripts.py" "%BANK%\bank.json" --force
+if "%C%"=="7" goto refresh
 if "%C%"=="8" start "" explorer "%BANK%"
 if "%C%"=="9" exit /b 0
 goto menu
+:refresh
+rem Rewriting this file while cmd is still reading it garbles the menu.
+rem Refresh, then start the new copy and leave this one.
+python "%CAR%\make_write_scripts.py" "%BANK%\bank.json" --force
+if errorlevel 1 goto menu
+echo   scripts refreshed - reopening the wizard
+call "%~f0"
+exit /b 0

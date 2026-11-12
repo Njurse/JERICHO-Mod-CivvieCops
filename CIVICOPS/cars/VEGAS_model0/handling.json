@@ -3,7 +3,7 @@
   "clean": "VEGAS_model0_clean.obj",
   "damaged": "VEGAS_model0_damaged.obj",
   "low": "VEGAS_model0_low.obj",
-  "wheels": {
+  "wheels_unused": {
     "clean": {"png": "../../shared/textures/wheelclean.png", "set": 4, "island": [128, 64, 192, 128]},
     "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 4, "island": [192, 64, 256, 128]},
     "fast": {"png": "../../shared/textures/wheelfast.png", "set": 4, "island": [192, 64, 256, 128]}
