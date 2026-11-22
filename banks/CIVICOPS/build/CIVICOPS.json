@@ -1198,34 +1198,14 @@
       256
      ],
      "src": null
-    },
-    {
-     "id": 29,
-     "rect": [
-      129,
-      162,
-      192,
-      254
-     ],
-     "src": null
-    },
-    {
-     "id": 30,
-     "rect": [
-      202,
-      162,
-      252,
-      256
-     ],
-     "src": null
     }
    ],
-   "size": 34020,
-   "ncluts": 31,
+   "size": 33956,
+   "ncluts": 29,
    "bin": "pages/PAGE_1.bin",
    "source": {
     "image": "PAGE_1.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -2624,24 +2604,14 @@
       256
      ],
      "src": null
-    },
-    {
-     "id": 11,
-     "rect": [
-      250,
-      84,
-      255,
-      103
-     ],
-     "src": null
     }
    ],
-   "size": 33412,
-   "ncluts": 12,
+   "size": 33380,
+   "ncluts": 11,
    "bin": "pages/PAGE_4.bin",
    "source": {
     "image": "PAGE_4.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -3056,7 +3026,7 @@
    "bin": "pages/PAGE_20.bin",
    "source": {
     "image": "PAGE_20.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -3699,7 +3669,7 @@
    "bin": "pages/PAGE_21.bin",
    "source": {
     "image": "PAGE_21.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -8653,7 +8623,7 @@
    "bin": "pages/PAGE_36.bin",
    "source": {
     "image": "PAGE_36.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -11426,7 +11396,7 @@
    "bin": "pages/PAGE_50.bin",
    "source": {
     "image": "PAGE_50.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -19432,7 +19402,7 @@
    "bin": "pages/PAGE_58.bin",
    "source": {
     "image": "PAGE_58.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -27122,7 +27092,7 @@
    "bin": "pages/PAGE_59.bin",
    "source": {
     "image": "PAGE_59.png",
-    "transparent": null,
+    "transparent": "FF00FF",
     "tolerance": 0,
     "chroma": null,
     "split": "auto",
@@ -30271,131 +30241,6 @@
    }
   },
   {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 28,
-    "clut_row": 28
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     129,
-     162,
-     192,
-     254
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     129,
-     162,
-     192,
-     254
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     202,
-     162,
-     252,
-     256
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   },
-   "new": {
-    "rect": [
-     202,
-     162,
-     252,
-     256
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 4,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 4,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     250,
-     84,
-     255,
-     103
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     250,
-     84,
-     255,
-     103
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   }
-  },
-  {
    "kind": "body",
    "set": 36,
    "reason": "texture id remapped",
@@ -30418,63 +30263,6 @@
     ],
     "tex_id": 17,
     "clut_row": 17
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     1,
-     64,
-     65
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     0,
-     1,
-     64,
-     65
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     4,
-     256,
-     128
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     129,
-     256,
-     256
-    ],
-    "tex_id": 31,
-    "clut_row": 31
    }
   }
  ],

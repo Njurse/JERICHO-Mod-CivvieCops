@@ -35,11 +35,11 @@
  "pages": [
   {
    "set": 1,
-   "size": 34020
+   "size": 33956
   },
   {
    "set": 4,
-   "size": 33412
+   "size": 33380
   },
   {
    "set": 20,
@@ -115,7 +115,7 @@
   ],
   "sirens": []
  },
- "palette_records": 311,
+ "palette_records": 300,
  "page_base": 184320,
  "warnings": [
   "sound model 1 engine: rms is 51% of full scale against retail's 29-39% - this sample will play loud, and with crest 1.9 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
@@ -491,131 +491,6 @@
    }
   },
   {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 28,
-    "clut_row": 28
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     129,
-     162,
-     192,
-     254
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     129,
-     162,
-     192,
-     254
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     202,
-     162,
-     252,
-     256
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   },
-   "new": {
-    "rect": [
-     202,
-     162,
-     252,
-     256
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 4,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 4,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     250,
-     84,
-     255,
-     103
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     250,
-     84,
-     255,
-     103
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   }
-  },
-  {
    "kind": "body",
    "set": 36,
    "reason": "texture id remapped",
@@ -639,63 +514,6 @@
     "tex_id": 17,
     "clut_row": 17
    }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     1,
-     64,
-     65
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     0,
-     1,
-     64,
-     65
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     4,
-     256,
-     128
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     129,
-     256,
-     256
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   }
   }
  ],
  "checks": {
@@ -714,25 +532,20 @@
   "page set 1: texture move body : {'rect': [176, 214, 208, 226], 'tex_id': 15, 'clut_row': 15} -> {'rect': [176, 214, 208, 226], 'tex_id': 22, 'clut_row': 22} (texture id remapped)",
   "page set 1: texture move body : {'rect': [176, 214, 208, 226], 'tex_id': 15, 'clut_row': 15} -> {'rect': [176, 214, 208, 226], 'tex_id': 23, 'clut_row': 23} (texture id remapped)",
   "page set 1: texture move body : {'rect': [176, 192, 208, 256], 'tex_id': 24, 'clut_row': 24} -> {'rect': [176, 192, 208, 256], 'tex_id': 25, 'clut_row': 25} (texture id remapped)",
-  "page set 1: texture move leftover : {'rect': [0, 0, 256, 256], 'tex_id': 29, 'clut_row': 29} -> {'rect': [0, 0, 256, 256], 'tex_id': 28, 'clut_row': 28} (texture id remapped)",
-  "page set 1: texture move leftover : {'rect': [129, 162, 192, 254], 'tex_id': 30, 'clut_row': 30} -> {'rect': [129, 162, 192, 254], 'tex_id': 29, 'clut_row': 29} (texture id remapped)",
-  "page set 1: texture move leftover : {'rect': [202, 162, 252, 256], 'tex_id': 31, 'clut_row': 31} -> {'rect': [202, 162, 252, 256], 'tex_id': 30, 'clut_row': 30} (texture id remapped)",
   "page set 1: wheel clean owns tex id 26 (row 26) at [0, 0, 64, 64], corner index 0",
   "page set 1: wheel damaged owns tex id 27 (row 27) at [64, 0, 128, 64], corner index 0",
-  "page set 1: 24 texture id(s) [0, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 1: 22 texture id(s) [0, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 4: composited the clean wheel from wheelclean.png into island (0, 0, 64, 64)",
   "page set 4: composited the damaged wheel from wheeldam.png into island (64, 0, 128, 64)",
-  "page set 4: texture move leftover : {'rect': [0, 0, 256, 256], 'tex_id': 11, 'clut_row': 11} -> {'rect': [0, 0, 256, 256], 'tex_id': 10, 'clut_row': 10} (texture id remapped)",
-  "page set 4: texture move leftover : {'rect': [250, 84, 255, 103], 'tex_id': 12, 'clut_row': 12} -> {'rect': [250, 84, 255, 103], 'tex_id': 11, 'clut_row': 11} (texture id remapped)",
   "page set 4: wheel clean owns tex id 8 (row 8) at [0, 0, 64, 64], corner index 0",
   "page set 4: wheel damaged owns tex id 9 (row 9) at [64, 0, 128, 64], corner index 0",
-  "page set 4: 5 texture id(s) [7, 8, 9, 10, 11] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
+  "page set 4: 4 texture id(s) [7, 8, 9, 10] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 20: re-baked from PAGE_20.png (no transparent colour)",
   "page set 21: composited the clean wheel from wheelclean.png into island (0, 0, 64, 64)",
   "page set 21: composited the damaged wheel from wheeldam_fixed.png into island (192, 0, 256, 64)",
   "page set 21: composited the fast wheel from wheelfast.png into island (64, 0, 128, 64)",
   "page set 21: wheel clean owns tex id 6 (row 6) at [0, 0, 64, 64], corner index 0",
-  "page set 21: wheel damaged owns tex id 7 (row 7) at [192, 0, 256, 64], corner index 0",
+  "page set 21: wheel damaged owns tex id 7 (row 7) at [192, 0, 256, 64], corner index 11",
   "page set 21: wheel fast owns tex id 8 (row 8) at [64, 0, 128, 64], corner index 0",
   "page set 21: 5 texture id(s) [5, 6, 7, 8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 36: texture move body : {'rect': [32, 20, 64, 32], 'tex_id': 31, 'clut_row': 31} -> {'rect': [32, 20, 64, 32], 'tex_id': 17, 'clut_row': 17} (texture id remapped)",
@@ -741,11 +554,8 @@
   "page set 52: 20 texture id(s) [0, 1, 2, 5, 8, 10, 12, 14, 17, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 58: composited the clean wheel from wheelclean.png into island (64, 0, 128, 64)",
   "page set 58: composited the damaged wheel from wheeldam.png into island (128, 0, 192, 64)",
-  "page set 58: texture move leftover : {'rect': [0, 1, 64, 65], 'tex_id': 30, 'clut_row': 30} -> {'rect': [0, 1, 64, 65], 'tex_id': 29, 'clut_row': 29} (texture id remapped)",
-  "page set 58: texture move leftover : none -> {'rect': [0, 4, 256, 128], 'tex_id': 30, 'clut_row': 30} (new leftover island)",
-  "page set 58: texture move leftover : none -> {'rect': [0, 129, 256, 256], 'tex_id': 31, 'clut_row': 31} (new leftover island)",
-  "page set 58: wheel clean owns tex id 27 (row 27) at [64, 0, 128, 64], corner index 0",
-  "page set 58: wheel damaged owns tex id 28 (row 28) at [128, 0, 192, 64], corner index 0",
+  "page set 58: wheel clean owns tex id 27 (row 27) at [64, 0, 128, 64], corner index 15",
+  "page set 58: wheel damaged owns tex id 28 (row 28) at [128, 0, 192, 64], corner index 15",
   "page set 58: 17 texture id(s) [0, 3, 6, 9, 12, 13, 16, 17, 20, 22, 23, 26, 27, 28, 29, 30, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 59: 13 texture id(s) [0, 3, 6, 9, 10, 13, 14, 17, 18, 21, 23, 24, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "set 36 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
@@ -761,7 +571,6 @@
   "set 58 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 3: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 59 tex 13: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "palette: 1 set(s) past civ_clut's 8 rows draw the first page's colours \u2014 see clut-dump.txt",
-  "palette: rebuilt 311 row(s) from the pages"
+  "palette: 1 set(s) past civ_clut's 8 rows draw the first page's colours \u2014 see clut-dump.txt"
  ]
 }

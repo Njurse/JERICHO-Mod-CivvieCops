@@ -15,7 +15,7 @@
   "textures": {
     "21": {
       "png": "../../shared/textures/PAGE_21.png",
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
     "36": {"png": "textures/PAGE_36.png", "transparent": "FF00FF", "transparent_tolerance": 0},

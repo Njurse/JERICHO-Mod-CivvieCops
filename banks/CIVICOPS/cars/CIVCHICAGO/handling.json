@@ -19,16 +19,16 @@
         "paint4": "101010"
       },
       "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
     "58": {
       "png": "textures/PAGE_58.png",
       "protect": ["000000"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
-    "50": {"png": "textures/PAGE_50.png", "transparent": "000000", "transparent_tolerance": 0}
+    "50": {"png": "textures/PAGE_50.png", "transparent": "FF00FF", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
