@@ -1,6 +1,9 @@
 # Vendored BAKE snapshots do not belong in a car folder.
 # Use JERICHO/MODS/bake, or pin a release.
 **/BAKE-*/
+# A data pack has no compiled output; these are stale build artefacts.
+lib/
+obj/
 __pycache__/
 *.pyc
 *.pyo

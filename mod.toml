@@ -5,7 +5,9 @@ version = "0.1.0"
 interface = 3
 author = "Njurse"
 description = "Hand-made civilian variants of the different cop cars of Driver 2, with city banks for Chicago, Havana, Rio and Vegas plus a combined CIVICOPS bank."
-# data-only vehicle pack: no DLL, nothing compiled (no runtime = "dll")
+# Data-only vehicle pack: installed under MODS/ with banks/, but never compiled
+# into the exe and never loaded as a DLL.
+runtime = "data"
 dependencies = ["carhacks"]
 # Players turn it on under Mods; leave this false.
 default-enabled = false
