@@ -3,6 +3,7 @@
   "clean": "HAVANA_model11_clean.obj",
   "damaged": "HAVANA_model11_damaged.obj",
   "low": "HAVANA_model11_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
     "clean": {"png": "../../shared/textures/havana/wheelclean.png", "set": 21, "island": [192, 64, 256, 128]},
     "damaged": {
@@ -15,16 +16,17 @@
   "textures": {
     "21": {
       "png": "../../shared/textures/PAGE_21.png",
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
-    "44": {"png": "textures/PAGE_44.png", "transparent": "000000", "transparent_tolerance": 0},
-    "45": {"png": "textures/PAGE_45.png", "transparent": "000000", "transparent_tolerance": 0}
+    "44": {"png": "textures/PAGE_44.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "45": {"png": "textures/PAGE_45.png", "transparent": "FF00FF", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_havana.wav", "rate": 8000, "normalise": false, "loop": true},
     "max_rate": 16000,
     "sample_bytes": 16384
   },
@@ -34,7 +36,18 @@
     "backInd": [107, 81, 326],
     "brakeLight": [107, 45, 324],
     "revLight": [16, 59, 329],
-    "policeLight": [34, -15, 2],
+    "policeLight": [34, -135, 2],
+    "policeLights": {
+      "speed": 144,
+      "lights": [
+        {"name": "front beacon 0", "at": [0, -145, -125], "color": "blue", "phase": 0},
+        {"name": "front beacon 1", "at": [0, -145, -125], "color": "blue", "phase": 48},
+        {"name": "front beacon 2", "at": [0, -145, -125], "color": "blue", "phase": 96},
+        {"name": "rear beacon 0", "at": [0, -145, 138], "color": "blue", "phase": 128},
+        {"name": "rear beacon 1", "at": [0, -145, 138], "color": "blue", "phase": 176},
+        {"name": "rear beacon 2", "at": [0, -145, 138], "color": "blue", "phase": 224}
+      ]
+    },
     "exhaust": [96, 122, 332],
     "smoke": [0, 42, -319],
     "fire": [0, 57, -325],

@@ -15,23 +15,23 @@
     "scale": 1,
     "order": [
       {
-        "slot": 0,
+        "slot": 1,
         "car": "COPSNRBRS_model0"
       },
       {
-        "slot": 1,
+        "slot": 2,
         "car": "COPSNRBRS_model1"
       },
       {
-        "slot": 2,
+        "slot": 3,
         "car": "COPSNRBRS_model2"
       },
       {
-        "slot": 3,
+        "slot": 4,
         "car": "COPSNRBRS_model3"
       },
       {
-        "slot": 4,
+        "slot": 5,
         "car": "COPSNRBRS_model4"
       },
       {
@@ -45,28 +45,18 @@
       {
         "slot": 10,
         "car": "COPSNRBRS_model7"
-      },
-      {
-        "slot": 11,
-        "car": "COPSNRBRS_model8"
-      },
-      {
-        "slot": 12,
-        "car": "COPSNRBRS_model9"
       }
     ],
     "palette_from_pages": true,
     "cars": {
       "COPSNRBRS_model0": "cars/COPHAVANA_BELAIR_model2/handling.json",
-      "COPSNRBRS_model1": "cars/COPCHICAGO_GSX_model12/handling.json",
+      "COPSNRBRS_model1": "cars/COPHAVANA_VWBUS_model11/handling.json",
       "COPSNRBRS_model2": "cars/COPRIO_BENZSL_model1/handling.json",
-      "COPSNRBRS_model3": "cars/COPHAVANA_BELAIR_model2/handling.json",
-      "COPSNRBRS_model4": "cars/COPCHICAGO_ARMORTRUCK_model9/handling.json",
-      "COPSNRBRS_model5": "cars/COPHAVANA_VWBUS_model11/handling.json",
+      "COPSNRBRS_model3": "cars/COPRIO_PICKUP_model4/handling.json",
+      "COPSNRBRS_model4": "cars/COPCHICAGO_GSX_model12/handling.json",
+      "COPSNRBRS_model5": "cars/COPCHICAGO_ARMORTRUCK_model9/handling.json",
       "COPSNRBRS_model6": "cars/COPVEGAS_SUV_model11/handling.json",
-      "COPSNRBRS_model7": "cars/COPRIO_PICKUP_model4/handling.json",
-      "COPSNRBRS_model8": "cars/COPVEGAS_LIMO_model8/handling.json",
-      "COPSNRBRS_model9": "cars/COPVEGAS_SUV_model11/handling.json"
+      "COPSNRBRS_model7": "cars/COPVEGAS_LIMO_model8/handling.json"
     }
   }
 }

@@ -3,33 +3,34 @@
   "clean": "VEGAS_model11_clean.obj",
   "damaged": "VEGAS_model11_damaged.obj",
   "low": "VEGAS_model11_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
     "clean": {"png": "../../shared/textures/vegas/wheelclean.png", "set": 4, "island": "auto"},
     "damaged": {"png": "../../shared/textures/vegas/wheeldam.png", "set": 4, "island": "auto"},
     "fast": {"png": "../../shared/textures/vegas/wheelfast.png", "set": 4, "island": "auto"}
   },
   "textures": {
-    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "000000", "transparent_tolerance": 0},
+    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "FF00FF", "transparent_tolerance": 0},
     "11": {
       "png": "textures/PAGE_11.png",
-      "protect": ["000000"],
-      "transparent": "000000",
+      "protect": ["181818"],
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
     "12": {
-      "png": "textures/PAGE_12.png",
+      "png": "textures/PAGE_12.fixed.png",
       "protect": ["000000"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "cop": true,
-    "siren": {"wav": "../../shared/sounds/siren_vegas.wav", "rate": 8000, "normalise": false, "loop": true},
     "max_rate": 16000,
-    "sample_bytes": 16384
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_vegas.wav", "rate": 8000, "normalise": false, "loop": true}
   },
   "handling": {
     "headLight": [146, 54, -396],
@@ -37,7 +38,8 @@
     "backInd": [143, 46, 409],
     "brakeLight": [137, 45, 410],
     "revLight": [141, 47, 411],
-    "policeLight": [34, -47, 0],
+    "policeLight": [34, -146, 0],
+    "policeLights": {"style": "VEGAS"},
     "exhaust": [68, 111, 413],
     "smoke": [0, 5, -371],
     "fire": [0, 9, -377],

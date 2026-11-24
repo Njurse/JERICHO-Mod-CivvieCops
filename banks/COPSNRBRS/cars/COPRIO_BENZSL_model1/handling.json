@@ -3,13 +3,14 @@
   "clean": "RIO_model1_clean.obj",
   "damaged": "RIO_model1_damaged.obj",
   "low": "RIO_model1_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
-    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 57, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 57, "island": "auto"},
-    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 57, "island": "auto"}
+    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
+    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
+    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
   },
   "textures": {
-    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "000000", "transparent_tolerance": 0},
+    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
     "57": {
       "png": "textures/PAGE_57.png",
       "paints": {
@@ -20,16 +21,17 @@
         "paint4": "000000"
       },
       "protect": ["404040", "303030", "505050", "585858", "181000", "787878", "707070", "606060"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
     "max_rate": 16000,
-    "sample_bytes": 16384
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_rio.wav", "rate": 8000, "normalise": false, "loop": true}
   },
   "handling": {
     "headLight": [87, 10, -324],
@@ -37,7 +39,8 @@
     "backInd": [80, 10, 312],
     "brakeLight": [66, 11, 313],
     "revLight": [92, 8, 314],
-    "policeLight": [34, -3, 53],
+    "policeLight": [0, -121, 59],
+    "policeLights": {"style": "RIO"},
     "exhaust": [68, 60, 324],
     "smoke": [0, -11, -298],
     "fire": [0, -12, -306],

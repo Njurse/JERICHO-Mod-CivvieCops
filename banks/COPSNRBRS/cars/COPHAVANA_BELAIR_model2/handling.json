@@ -3,6 +3,7 @@
   "clean": "HAVANA_model2_clean.obj",
   "damaged": "HAVANA_model2_damaged.obj",
   "low": "HAVANA_model2_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
     "clean": {"png": "../../shared/textures/havana/wheelclean.png", "set": 21, "island": [192, 64, 256, 128]},
     "damaged": {
@@ -17,12 +18,12 @@
       "png": "textures/PAGE_20.png",
       "paints": {},
       "protect": ["201820", "e8e8e8", "403840", "b8b8b8", "f0f0f0", "404048", "989898", "b8b0b8"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
     "21": {
       "png": "../../shared/textures/PAGE_21.png",
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     }
   },
@@ -40,7 +41,8 @@
     "backInd": [113, -19, 317],
     "brakeLight": [113, 6, 318],
     "revLight": [25, 9, 315],
-    "policeLight": [34, -13, 0],
+    "policeLight": [0, -115, 5],
+    "policeLights": {"style": "HAVANA"},
     "exhaust": [68, 56, 314],
     "smoke": [0, -35, -317],
     "fire": [0, -27, -320],

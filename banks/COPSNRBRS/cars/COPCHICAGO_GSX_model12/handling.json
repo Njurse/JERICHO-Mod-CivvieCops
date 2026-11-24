@@ -1,36 +1,32 @@
 {
-  "model": 12,
+  "model": 1,
   "clean": "CHICAGO_model12_clean.obj",
-  "damaged": "CHICAGO_model12_damaged.obj",
-  "low": "CHICAGO_model12_low.obj",
+  "damaged": "CHICAGO_model12_clean.obj",
+  "low": "CHICAGO_model12_clean.obj",
   "wheels": {
-    "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 64, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 64, "island": "auto"},
-    "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 64, "island": "auto"}
+    "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 56, "island": "auto"},
+    "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 56, "island": "auto"},
+    "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 56, "island": "auto"}
   },
   "textures": {
     "1": {
       "png": "../../shared/textures/PAGE_1.png",
       "paints": {
-        "paint0": "080808",
-        "paint1": "181818",
-        "paint2": "181818",
-        "paint3": "505878",
-        "paint4": "101010"
       },
-      "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"],
-      "transparent": "000000",
+      "protect": ["000000"],
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
-    "61": {"png": "textures/PAGE_61.png", "transparent": "FF0000", "transparent_tolerance": 0},
-    "64": {"png": "textures/PAGE_64.png", "transparent": "FF0000", "transparent_tolerance": 0}
+    "55": {"png": "textures/PAGE_55.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "56": {"png": "textures/PAGE_56.png", "transparent": "FF00FF", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
     "max_rate": 16000,
-    "sample_bytes": 16384
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_chicago.wav", "rate": 8000, "normalise": false, "loop": true}
   },
   "handling": {
     "headLight": [93, 29, -363],
@@ -38,7 +34,8 @@
     "backInd": [98, 24, 372],
     "brakeLight": [77, 28, 364],
     "revLight": [76, 29, 368],
-    "policeLight": [34, -3, 47],
+    "policeLight": [34, -85, 67],
+    "policeLights": {"style": "CHICAGO"},
     "exhaust": [68, 61, 353],
     "smoke": [0, 5, -336],
     "fire": [0, 5, -344],

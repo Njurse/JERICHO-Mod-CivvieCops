@@ -3,13 +3,14 @@
   "clean": "RIO_model4_clean.obj",
   "damaged": "RIO_model4_damaged.obj",
   "low": "RIO_model4_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
-    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 60, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 60, "island": "auto"},
-    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 60, "island": "auto"}
+    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
+    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
+    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
   },
   "textures": {
-    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "000000", "transparent_tolerance": 0},
+    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
     "60": {
       "png": "textures/PAGE_60.png",
       "paints": {
@@ -20,14 +21,15 @@
         "paint4": "606868"
       },
       "protect": ["000000", "686868", "888080", "201818", "101010", "f0f0f0", "282828", "383830"],
-      "transparent": "000000",
+      "transparent": "FF00FF",
       "transparent_tolerance": 0
     }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_rio.wav", "rate": 8000, "normalise": false, "loop": true},
     "max_rate": 16000,
     "sample_bytes": 16384
   },
@@ -37,7 +39,8 @@
     "backInd": [109, 22, 333],
     "brakeLight": [112, 6, 354],
     "revLight": [109, 25, 334],
-    "policeLight": [34, 12, -62],
+    "policeLight": [0, -107, -40],
+    "policeLights": {"style": "RIO"},
     "exhaust": [68, 77, 337],
     "smoke": [0, -6, -307],
     "fire": [0, -7, -310],

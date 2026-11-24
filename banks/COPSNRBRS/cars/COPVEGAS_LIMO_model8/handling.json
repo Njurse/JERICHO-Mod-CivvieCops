@@ -3,20 +3,22 @@
   "clean": "VEGAS_model8_clean.obj",
   "damaged": "VEGAS_model8_damaged.obj",
   "low": "VEGAS_model8_low.obj",
+  "portrait": "textures/portrait.png",
   "wheels": {
     "clean": {"png": "../../shared/textures/vegas/wheelclean.png", "set": 4, "island": "auto"},
     "damaged": {"png": "../../shared/textures/vegas/wheeldam.png", "set": 4, "island": "auto"},
     "fast": {"png": "../../shared/textures/vegas/wheelfast.png", "set": 4, "island": "auto"}
   },
   "textures": {
-    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "000000", "transparent_tolerance": 0},
-    "18": {"png": "textures/PAGE_18.png", "transparent": "000000", "transparent_tolerance": 0},
-    "19": {"png": "textures/PAGE_19.png", "transparent": "000000", "transparent_tolerance": 0}
+    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "18": {"png": "textures/PAGE_18.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "19": {"png": "textures/PAGE_19.png", "transparent": "FF00FF", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren_vegas.wav", "rate": 8000, "normalise": false, "loop": true},
     "max_rate": 16000,
     "sample_bytes": 16384
   },
@@ -26,7 +28,8 @@
     "backInd": [73, 11, 642],
     "brakeLight": [109, 13, 641],
     "revLight": [88, 12, 648],
-    "policeLight": [34, 6, -39],
+    "policeLight": [22, -95, -251],
+    "policeLights": {"style": "VEGAS"},
     "exhaust": [112, 76, 649],
     "smoke": [0, -10, -612],
     "fire": [0, -4, -623],
