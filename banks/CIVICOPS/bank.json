@@ -35,8 +35,8 @@
     "cars": {
       "CIVICOPS_model1": "cars/CIVCHICAGO/handling.json",
       "CIVICOPS_model2": "cars/CIVHAVANA/handling.json",
-      "CIVICOPS_model3": "cars/CIVRIO/handling.json",
-      "CIVICOPS_model4": "cars/CIVVEGAS/handling.json"
+      "CIVICOPS_model3": "cars/CIVVEGAS/handling.json",
+      "CIVICOPS_model4": "cars/CIVRIO/handling.json"
     }
   }
 }

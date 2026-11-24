@@ -13,9 +13,15 @@
         "paint3": "e0b888",
         "paint4": "787878"
       },
-      "protect": ["201820", "e8e8e8", "403840", "b8b8b8", "f0f0f0", "404048", "989898", "b8b0b8"]
+      "protect": ["201820", "e8e8e8", "403840", "b8b8b8", "f0f0f0", "404048", "989898", "b8b0b8"],
+      "transparent": "000000",
+      "transparent_tolerance": 0
     },
-    "21": {"png": "../../shared/textures/PAGE_21.png"}
+    "21": {
+      "png": "../../shared/textures/PAGE_21.png",
+      "transparent": "000000",
+      "transparent_tolerance": 0
+    }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},

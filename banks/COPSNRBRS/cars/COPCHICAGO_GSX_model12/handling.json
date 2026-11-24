@@ -11,8 +11,7 @@
   "textures": {
     "1": {
       "png": "../../shared/textures/PAGE_1.png",
-      "paints": {
-      },
+      "paints": {},
       "protect": ["000000"],
       "transparent": "FF00FF",
       "transparent_tolerance": 0
@@ -66,7 +65,8 @@
     "twistRateX": 224,
     "twistRateY": 224,
     "twistRateZ": 1120,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {"stock": "CHICAGO", "model": 12}
   },
   "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
   "raw": "5d001d0095fe00006e001d0094fe000062001800740100004d001c006c0100004c001d00700100002200fdff2f00000044003d006101000000000500b0fe000000000500a8fe00008000e2ffe60000008000e2ff50ff00007fffe2ffe60000007fffe2ff50ff000018c59411000000103011310082ff01007afe00007d0001007afe000088ff01005e010000770001005e01000082ff58007afe00007d0058007afe0000a4ff940047ff00005b00940047ff0000a7ff97000e000000580097000e0000007fff46005c010000800046005c01000081005200760100000000b6ffecff0000e000e00060040010"

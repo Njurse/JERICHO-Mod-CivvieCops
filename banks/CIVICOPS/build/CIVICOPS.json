@@ -18929,10 +18929,10 @@
   }
  ],
  "raw": {
-  "pallet": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/pallet.bin",
-  "textureinfo": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/textureinfo.bin",
-  "texturenames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/texturenames.bin",
-  "modelnames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/modelnames.bin"
+  "pallet": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\pallet.bin",
+  "textureinfo": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\textureinfo.bin",
+  "texturenames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\texturenames.bin",
+  "modelnames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\modelnames.bin"
  },
  "texture_moves": [],
  "bank_order": [
@@ -18963,13 +18963,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_low.bin"
     }
    },
    "handling": {
@@ -19133,13 +19133,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_low.bin"
     }
    },
    "handling": {
@@ -19303,13 +19303,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_low.bin"
     }
    },
    "handling": {
@@ -19473,13 +19473,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_low.bin"
     }
    },
    "handling": {
@@ -19640,7 +19640,7 @@
    {
     "model": 1,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19658,7 +19658,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19676,7 +19676,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/horn.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -19701,7 +19701,7 @@
    {
     "model": 2,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19719,7 +19719,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19737,7 +19737,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/horn.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -19762,7 +19762,7 @@
    {
     "model": 3,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19780,7 +19780,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19798,7 +19798,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/horn.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -19823,7 +19823,7 @@
    {
     "model": 4,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19841,7 +19841,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -19859,7 +19859,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/horn.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,

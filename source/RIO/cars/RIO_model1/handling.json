@@ -4,7 +4,7 @@
   "damaged": "RIO_model1_damaged.obj",
   "low": "RIO_model1_low.obj",
   "textures": {
-    "1": {"png": "../../shared/textures/PAGE_1.png"},
+    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "000000", "transparent_tolerance": 0},
     "57": {
       "png": "textures/PAGE_57.png",
       "paints": {
@@ -14,7 +14,9 @@
         "paint3": "000000",
         "paint4": "000000"
       },
-      "protect": ["404040", "303030", "505050", "585858", "181000", "787878", "707070", "606060"]
+      "protect": ["404040", "303030", "505050", "585858", "181000", "787878", "707070", "606060"],
+      "transparent": "000000",
+      "transparent_tolerance": 0
     }
   },
   "sounds": {

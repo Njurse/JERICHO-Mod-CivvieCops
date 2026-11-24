@@ -4,9 +4,13 @@
   "damaged": "HAVANA_model12_damaged.obj",
   "low": "HAVANA_model12_low.obj",
   "textures": {
-    "21": {"png": "../../shared/textures/PAGE_21.png"},
-    "48": {"png": "textures/PAGE_48.png"},
-    "49": {"png": "textures/PAGE_49.png"}
+    "21": {
+      "png": "../../shared/textures/PAGE_21.png",
+      "transparent": "000000",
+      "transparent_tolerance": 0
+    },
+    "48": {"png": "textures/PAGE_48.png", "transparent": "000000", "transparent_tolerance": 0},
+    "49": {"png": "textures/PAGE_49.png", "transparent": "000000", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},

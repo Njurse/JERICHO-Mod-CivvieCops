@@ -8,7 +8,10 @@
     "damaged": {"png": "../../shared/textures/wheeldam.png", "set": 4, "island": [192, 64, 256, 128]},
     "fast": {"png": "../../shared/textures/wheelfast.png", "set": 4, "island": [192, 64, 256, 128]}
   },
-  "textures": {"4": {"png": "../../shared/textures/PAGE_4.png"}, "59": {"png": "textures/PAGE_59.png"}},
+  "textures": {
+    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "000000", "transparent_tolerance": 0},
+    "59": {"png": "textures/PAGE_59.png", "transparent": "000000", "transparent_tolerance": 0}
+  },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 12000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},

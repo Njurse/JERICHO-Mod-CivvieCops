@@ -4,7 +4,11 @@
   "damaged": "HAVANA_model1_damaged.obj",
   "low": "HAVANA_model1_low.obj",
   "textures": {
-    "21": {"png": "../../shared/textures/PAGE_21.png"},
+    "21": {
+      "png": "../../shared/textures/PAGE_21.png",
+      "transparent": "000000",
+      "transparent_tolerance": 0
+    },
     "35": {
       "png": "textures/PAGE_35.png",
       "paints": {
@@ -14,7 +18,9 @@
         "paint3": "c8a070",
         "paint4": "a8b0b0"
       },
-      "protect": ["c8c8c8", "d8d8d8", "e0e0e0", "909098", "b0b0b0", "a0a0a0", "989898", "f0f0f0"]
+      "protect": ["c8c8c8", "d8d8d8", "e0e0e0", "909098", "b0b0b0", "a0a0a0", "989898", "f0f0f0"],
+      "transparent": "000000",
+      "transparent_tolerance": 0
     }
   },
   "sounds": {

@@ -4,9 +4,9 @@
   "damaged": "RIO_model9_damaged.obj",
   "low": "RIO_model9_low.obj",
   "textures": {
-    "1": {"png": "../../shared/textures/PAGE_1.png"},
-    "77": {"png": "textures/PAGE_77.png"},
-    "78": {"png": "textures/PAGE_78.png"}
+    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "000000", "transparent_tolerance": 0},
+    "77": {"png": "textures/PAGE_77.png", "transparent": "000000", "transparent_tolerance": 0},
+    "78": {"png": "textures/PAGE_78.png", "transparent": "000000", "transparent_tolerance": 0}
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},

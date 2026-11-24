@@ -4,7 +4,7 @@
   "damaged": "VEGAS_model1_damaged.obj",
   "low": "VEGAS_model1_low.obj",
   "textures": {
-    "4": {"png": "../../shared/textures/PAGE_4.png"},
+    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "000000", "transparent_tolerance": 0},
     "54": {
       "png": "textures/PAGE_54.png",
       "paints": {
@@ -14,7 +14,9 @@
         "paint3": "c0c0c0",
         "paint4": "7890b0"
       },
-      "protect": ["303030", "404040", "a8a0a8", "c0c0c8", "e8e8f0", "686868", "606060", "a09898"]
+      "protect": ["303030", "404040", "a8a0a8", "c0c0c8", "e8e8f0", "686868", "606060", "a09898"],
+      "transparent": "000000",
+      "transparent_tolerance": 0
     }
   },
   "sounds": {

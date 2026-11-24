@@ -9,9 +9,17 @@
     "fast": {"png": "../../shared/textures/wheelfast.png", "set": 20, "island": [192, 64, 256, 128]}
   },
   "textures": {
-    "21": {"png": "../../shared/textures/PAGE_21.png"},
-    "36": {"png": "textures/PAGE_36.png"},
-    "20": {"png": "../HAVANA_model2/textures/PAGE_20.png"}
+    "21": {
+      "png": "../../shared/textures/PAGE_21.png",
+      "transparent": "000000",
+      "transparent_tolerance": 0
+    },
+    "36": {"png": "textures/PAGE_36.png", "transparent": "000000", "transparent_tolerance": 0},
+    "20": {
+      "png": "../HAVANA_model2/textures/PAGE_20.png",
+      "transparent": "000000",
+      "transparent_tolerance": 0
+    }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
