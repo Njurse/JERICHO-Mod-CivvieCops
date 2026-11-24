@@ -3,11 +3,6 @@
   "clean": "CHICAGO_model0_clean.obj",
   "damaged": "CHICAGO_model0_damaged.obj",
   "low": "CHICAGO_model0_low.obj",
-  "wheels": {
-    "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 58, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 58, "island": "auto"},
-    "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 58, "island": "auto"}
-  },
   "textures": {
     "1": {
       "png": "textures/PAGE_1.png",
@@ -28,7 +23,13 @@
       "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
-    "50": {"png": "textures/PAGE_50.png", "transparent": "FF00FF", "transparent_tolerance": 0}
+    "50": {"png": "textures/PAGE_50.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "wheels": {
+      "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 58, "island": "auto"},
+      "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 58, "island": "auto"},
+      "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 58, "island": "auto"}
+    },
+    "portrait": "textures/portrait.png"
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},

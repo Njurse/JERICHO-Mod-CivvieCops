@@ -3,14 +3,15 @@
   "clean": "RIO_model0_clean.obj",
   "damaged": "RIO_model0_damaged.obj",
   "low": "RIO_model0_low.obj",
-  "wheels": {
-    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
-    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
-  },
   "textures": {
     "1": {"png": "textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
-    "52": {"png": "textures/PAGE_59.png", "transparent": "FF00FF", "transparent_tolerance": 0}
+    "52": {"png": "textures/PAGE_59.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "wheels": {
+      "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
+      "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
+      "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
+    },
+    "portrait": "textures/portrait.png"
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
