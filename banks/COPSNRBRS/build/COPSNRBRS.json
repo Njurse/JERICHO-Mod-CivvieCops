@@ -41974,22 +41974,6 @@
  },
  "texture_moves": [
   {
-   "kind": "leftover",
-   "set": 44,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     68,
-     217,
-     256,
-     240
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   }
-  },
-  {
    "kind": "body",
    "set": 55,
    "reason": "texture id remapped",
@@ -42112,79 +42096,6 @@
     ],
     "tex_id": 7,
     "clut_row": 7
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     29,
-     0,
-     192,
-     96
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     128,
-     0,
-     256,
-     96
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     47,
-     256,
-     96
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     127,
-     256,
-     256
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     0,
-     127,
-     256,
-     256
-    ],
-    "tex_id": 13,
-    "clut_row": 13
    }
   }
  ],

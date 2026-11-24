@@ -293,51 +293,33 @@
  "damage": {
   "1": {
    "polys": 236,
-   "shift_64_128": 77,
-   "shift_128": 77,
+   "shift_64_128": 220,
+   "shift_128": 0,
    "shift_64": 0,
-   "still": 82
+   "still": 16
   },
   "2": {
    "polys": 248,
-   "shift_64_128": 108,
-   "shift_128": 74,
+   "shift_64_128": 232,
+   "shift_128": 0,
    "shift_64": 0,
-   "still": 66
+   "still": 16
   },
   "3": {
    "polys": 246,
-   "shift_64_128": 89,
-   "shift_128": 71,
-   "shift_64": 7,
-   "still": 79
+   "shift_64_128": 230,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "4": {
    "polys": 238,
-   "shift_64_128": 86,
-   "shift_128": 68,
-   "shift_64": 30,
-   "still": 54
+   "shift_64_128": 222,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   }
  },
- "texture_moves": [
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     134,
-     256,
-     176
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   }
-  }
- ],
  "checks": {
   "ok": true,
   "problems": []
@@ -371,7 +353,6 @@
   "page set 58: composited the clean wheel from wheelclean.png into island (64, 0, 128, 64)",
   "page set 58: composited the damaged wheel from wheeldam.png into island (128, 0, 192, 64)",
   "page set 58: 1308 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
-  "page set 58: texture move leftover : none -> {'rect': [0, 134, 256, 176], 'tex_id': 31, 'clut_row': 31} (new leftover island)",
   "page set 58: wheel clean owns tex id 27 (row 27) at [64, 0, 128, 64], corner index 15",
   "page set 58: wheel damaged owns tex id 28 (row 28) at [128, 0, 192, 64], corner index 15",
   "page set 58: 17 texture id(s) [0, 3, 6, 9, 12, 13, 16, 17, 20, 22, 23, 26, 27, 28, 29, 30, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
@@ -396,7 +377,6 @@
   "set 59 tex 6: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 59 tex 14: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 59 tex 13: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "palette: note - 1 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt",
-  "palette: rebuilt 207 row(s) from the pages"
+  "palette: note - 1 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt"
  ]
 }

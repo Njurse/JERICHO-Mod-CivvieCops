@@ -18934,24 +18934,7 @@
   "texturenames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/texturenames.bin",
   "modelnames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/modelnames.bin"
  },
- "texture_moves": [
-  {
-   "kind": "leftover",
-   "set": 58,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     134,
-     256,
-     176
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   }
-  }
- ],
+ "texture_moves": [],
  "bank_order": [
   {
    "slot": 1,

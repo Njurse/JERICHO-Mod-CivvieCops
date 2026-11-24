@@ -534,59 +534,59 @@
  "damage": {
   "1": {
    "polys": 259,
-   "shift_64_128": 98,
-   "shift_128": 98,
-   "shift_64": 12,
-   "still": 48
+   "shift_64_128": 248,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 8
   },
   "2": {
    "polys": 250,
-   "shift_64_128": 102,
-   "shift_128": 60,
-   "shift_64": 1,
-   "still": 87
+   "shift_64_128": 234,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "3": {
    "polys": 262,
-   "shift_64_128": 96,
-   "shift_128": 78,
-   "shift_64": 11,
-   "still": 71
+   "shift_64_128": 240,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "4": {
    "polys": 262,
-   "shift_64_128": 74,
-   "shift_128": 54,
-   "shift_64": 32,
-   "still": 96
+   "shift_64_128": 240,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "5": {
    "polys": 264,
-   "shift_64_128": 56,
-   "shift_128": 104,
-   "shift_64": 12,
-   "still": 84
+   "shift_64_128": 240,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "8": {
    "polys": 228,
-   "shift_64_128": 69,
-   "shift_128": 65,
-   "shift_64": 10,
-   "still": 84
+   "shift_64_128": 210,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 18
   },
   "9": {
    "polys": 216,
-   "shift_64_128": 58,
-   "shift_128": 71,
-   "shift_64": 30,
-   "still": 57
+   "shift_64_128": 200,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   },
   "10": {
    "polys": 264,
-   "shift_64_128": 59,
-   "shift_128": 94,
-   "shift_64": 60,
-   "still": 43
+   "shift_64_128": 240,
+   "shift_128": 0,
+   "shift_64": 0,
+   "still": 16
   }
  },
  "police_voice": {
@@ -601,22 +601,6 @@
  },
  "texture_moves": [
   {
-   "kind": "leftover",
-   "set": 44,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     68,
-     217,
-     256,
-     240
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   }
-  },
-  {
    "kind": "body",
    "set": 55,
    "reason": "texture id remapped",
@@ -739,79 +723,6 @@
     ],
     "tex_id": 7,
     "clut_row": 7
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     29,
-     0,
-     192,
-     96
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     128,
-     0,
-     256,
-     96
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     47,
-     256,
-     96
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 67,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     127,
-     256,
-     256
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     0,
-     127,
-     256,
-     256
-    ],
-    "tex_id": 13,
-    "clut_row": 13
    }
   }
  ],
@@ -850,7 +761,6 @@
   "page set 21: wheel fast owns tex id 8 (row 8) at [64, 0, 128, 64], corner index 0",
   "page set 21: 5 texture id(s) [5, 6, 7, 8, 9] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 44: 1416 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
-  "page set 44: texture move leftover : none -> {'rect': [68, 217, 256, 240], 'tex_id': 17, 'clut_row': 17} (new leftover island)",
   "page set 44: 11 texture id(s) [0, 1, 4, 5, 8, 10, 13, 14, 15, 16, 17] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 45: 8 texture id(s) [0, 1, 2, 3, 4, 25, 26, 27] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 55: texture move body : {'rect': [5, 71, 12, 93], 'tex_id': 1, 'clut_row': 1} -> {'rect': [5, 71, 12, 93], 'tex_id': 7, 'clut_row': 7} (texture id remapped)",
@@ -873,10 +783,6 @@
   "page set 67: composited the clean wheel from wheelclean.png into island (128, 96, 192, 160)",
   "page set 67: composited the damaged wheel from wheeldam.png into island (192, 96, 256, 160)",
   "page set 67: 2 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
-  "page set 67: texture move leftover : none -> {'rect': [29, 0, 192, 96], 'tex_id': 10, 'clut_row': 10} (new leftover island)",
-  "page set 67: texture move leftover : none -> {'rect': [128, 0, 256, 96], 'tex_id': 11, 'clut_row': 11} (new leftover island)",
-  "page set 67: texture move leftover : none -> {'rect': [0, 47, 256, 96], 'tex_id': 12, 'clut_row': 12} (new leftover island)",
-  "page set 67: texture move leftover : {'rect': [0, 127, 256, 256], 'tex_id': 12, 'clut_row': 12} -> {'rect': [0, 127, 256, 256], 'tex_id': 13, 'clut_row': 13} (texture id remapped)",
   "page set 67: wheel clean owns tex id 8 (row 8) at [128, 96, 192, 160], corner index 15",
   "page set 67: wheel damaged owns tex id 9 (row 9) at [192, 96, 256, 160], corner index 15",
   "page set 67: 13 texture id(s) [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
@@ -901,7 +807,6 @@
   "set 55 tex 6: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 55 tex 11: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 56 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "palette: note - 8 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt",
-  "palette: rebuilt 588 row(s) from the pages"
+  "palette: note - 8 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt"
  ]
 }
