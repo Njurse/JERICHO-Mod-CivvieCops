@@ -40937,9 +40937,9 @@
     {
      "id": 10,
      "rect": [
+      29,
       0,
-      0,
-      256,
+      192,
       96
      ],
      "src": null
@@ -40947,7 +40947,7 @@
     {
      "id": 11,
      "rect": [
-      64,
+      128,
       0,
       256,
       96
@@ -40958,6 +40958,16 @@
      "id": 12,
      "rect": [
       0,
+      47,
+      256,
+      96
+     ],
+     "src": null
+    },
+    {
+     "id": 13,
+     "rect": [
+      0,
       127,
       256,
       256
@@ -40965,8 +40975,8 @@
      "src": null
     }
    ],
-   "size": 33444,
-   "ncluts": 13,
+   "size": 33476,
+   "ncluts": 14,
    "bin": "pages/PAGE_67.bin",
    "source": {
     "image": "PAGE_67.png",
@@ -41964,6 +41974,22 @@
  },
  "texture_moves": [
   {
+   "kind": "leftover",
+   "set": 44,
+   "reason": "new leftover island",
+   "old": null,
+   "new": {
+    "rect": [
+     68,
+     217,
+     256,
+     240
+    ],
+    "tex_id": 17,
+    "clut_row": 17
+   }
+  },
+  {
    "kind": "body",
    "set": 55,
    "reason": "texture id remapped",
@@ -42086,6 +42112,79 @@
     ],
     "tex_id": 7,
     "clut_row": 7
+   }
+  },
+  {
+   "kind": "leftover",
+   "set": 67,
+   "reason": "new leftover island",
+   "old": null,
+   "new": {
+    "rect": [
+     29,
+     0,
+     192,
+     96
+    ],
+    "tex_id": 10,
+    "clut_row": 10
+   }
+  },
+  {
+   "kind": "leftover",
+   "set": 67,
+   "reason": "new leftover island",
+   "old": null,
+   "new": {
+    "rect": [
+     128,
+     0,
+     256,
+     96
+    ],
+    "tex_id": 11,
+    "clut_row": 11
+   }
+  },
+  {
+   "kind": "leftover",
+   "set": 67,
+   "reason": "new leftover island",
+   "old": null,
+   "new": {
+    "rect": [
+     0,
+     47,
+     256,
+     96
+    ],
+    "tex_id": 12,
+    "clut_row": 12
+   }
+  },
+  {
+   "kind": "leftover",
+   "set": 67,
+   "reason": "texture id remapped",
+   "old": {
+    "rect": [
+     0,
+     127,
+     256,
+     256
+    ],
+    "tex_id": 12,
+    "clut_row": 12
+   },
+   "new": {
+    "rect": [
+     0,
+     127,
+     256,
+     256
+    ],
+    "tex_id": 13,
+    "clut_row": 13
    }
   }
  ],
@@ -42168,6 +42267,7 @@
      9,
      315
     ],
+    "policeVoice": "HAVANA",
     "policeLight": [
      0,
      -115,
@@ -42342,6 +42442,7 @@
      59,
      329
     ],
+    "policeVoice": "HAVANA",
     "policeLight": [
      34,
      -135,
@@ -42577,6 +42678,7 @@
      8,
      314
     ],
+    "policeVoice": "RIO",
     "policeLight": [
      0,
      -121,
@@ -42750,6 +42852,7 @@
      25,
      334
     ],
+    "policeVoice": "RIO",
     "policeLight": [
      0,
      -107,
@@ -42924,6 +43027,7 @@
      29,
      368
     ],
+    "policeVoice": "CHICAGO",
     "policeLight": [
      34,
      -85,
@@ -43098,6 +43202,7 @@
      9,
      401
     ],
+    "policeVoice": "CHICAGO",
     "policeLight": [
      34,
      -164,
@@ -43272,6 +43377,7 @@
      47,
      411
     ],
+    "policeVoice": "VEGAS",
     "policeLight": [
      34,
      -146,
@@ -43446,6 +43552,7 @@
      12,
      648
     ],
+    "policeVoice": "VEGAS",
     "policeLight": [
      22,
      -95,

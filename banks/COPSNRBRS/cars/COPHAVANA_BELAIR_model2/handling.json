@@ -41,6 +41,7 @@
     "backInd": [113, -19, 317],
     "brakeLight": [113, 6, 318],
     "revLight": [25, 9, 315],
+    "policeVoice": "HAVANA",
     "policeLight": [0, -115, 5],
     "policeLights": {"style": "HAVANA"},
     "exhaust": [68, 56, 314],

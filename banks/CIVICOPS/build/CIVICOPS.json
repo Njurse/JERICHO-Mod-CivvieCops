@@ -15779,38 +15779,8 @@
      "rect": [
       192,
       64,
-      225,
-      76
-     ],
-     "src": 23
-    },
-    {
-     "id": 23,
-     "rect": [
-      192,
-      64,
-      225,
-      80
-     ],
-     "src": 23
-    },
-    {
-     "id": 23,
-     "rect": [
-      224,
-      64,
       256,
       80
-     ],
-     "src": 23
-    },
-    {
-     "id": 23,
-     "rect": [
-      224,
-      64,
-      256,
-      76
      ],
      "src": 23
     },
@@ -15818,26 +15788,6 @@
      "id": 23,
      "rect": [
       232,
-      64,
-      256,
-      80
-     ],
-     "src": 23
-    },
-    {
-     "id": 23,
-     "rect": [
-      192,
-      64,
-      216,
-      80
-     ],
-     "src": 23
-    },
-    {
-     "id": 23,
-     "rect": [
-      192,
       64,
       256,
       80
@@ -15857,9 +15807,149 @@
     {
      "id": 24,
      "rect": [
+      193,
+      81,
       208,
-      80,
-      224,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      193,
+      82,
+      208,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      82,
+      222,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      81,
+      222,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      194,
+      104,
+      208,
+      113
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      193,
+      104,
+      208,
+      111
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      104,
+      222,
+      113
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      104,
+      222,
+      111
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      98,
+      222,
+      105
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      193,
+      98,
+      208,
+      105
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      194,
+      82,
+      208,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      194,
+      83,
+      208,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      83,
+      221,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      82,
+      220,
+      99
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      194,
+      104,
+      208,
       112
      ],
      "src": 24
@@ -15867,9 +15957,19 @@
     {
      "id": 24,
      "rect": [
-      192,
-      80,
-      209,
+      194,
+      104,
+      208,
+      110
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      207,
+      104,
+      221,
       112
      ],
      "src": 24
@@ -15877,20 +15977,30 @@
     {
      "id": 24,
      "rect": [
-      192,
-      80,
-      224,
-      97
+      207,
+      104,
+      221,
+      110
      ],
      "src": 24
     },
     {
      "id": 24,
      "rect": [
-      192,
-      96,
-      224,
-      112
+      207,
+      98,
+      221,
+      105
+     ],
+     "src": 24
+    },
+    {
+     "id": 24,
+     "rect": [
+      194,
+      98,
+      208,
+      105
      ],
      "src": 24
     },
@@ -18427,198 +18537,6 @@
       [
        192,
        64,
-       225,
-       76
-      ],
-      [
-       192,
-       64,
-       225,
-       76
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       76
-      ],
-      [
-       224,
-       64,
-       256,
-       76
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       232,
-       64,
-       256,
-       80
-      ],
-      [
-       232,
-       64,
-       256,
-       80
-      ],
-      [
-       192,
-       64,
-       216,
-       80
-      ],
-      [
-       192,
-       64,
-       216,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       76
-      ],
-      [
-       192,
-       64,
-       225,
-       76
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       192,
-       64,
-       225,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       76
-      ],
-      [
-       224,
-       64,
-       256,
-       76
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       224,
-       64,
-       256,
-       80
-      ],
-      [
-       232,
-       64,
-       256,
-       80
-      ],
-      [
-       232,
-       64,
-       256,
-       80
-      ],
-      [
-       192,
-       64,
-       216,
-       80
-      ],
-      [
-       192,
-       64,
-       216,
-       80
-      ],
-      [
-       192,
-       64,
        256,
        80
       ],
@@ -18679,100 +18597,148 @@
      ],
      "24": [
       [
+       193,
+       81,
        208,
-       80,
-       224,
-       112
+       99
       ],
       [
+       193,
+       82,
        208,
-       80,
-       224,
-       112
+       99
       ],
       [
-       192,
-       80,
-       209,
-       112
+       207,
+       82,
+       222,
+       99
       ],
       [
-       192,
-       80,
-       209,
-       112
+       207,
+       81,
+       222,
+       99
       ],
       [
-       192,
-       80,
-       224,
-       97
-      ],
-      [
-       192,
-       80,
-       224,
-       97
-      ],
-      [
-       192,
-       96,
-       224,
-       112
-      ],
-      [
-       192,
-       96,
-       224,
-       112
-      ],
-      [
+       194,
+       104,
        208,
-       80,
-       224,
-       112
+       113
       ],
       [
+       193,
+       104,
        208,
-       80,
-       224,
+       111
+      ],
+      [
+       207,
+       104,
+       222,
+       113
+      ],
+      [
+       207,
+       104,
+       222,
+       111
+      ],
+      [
+       207,
+       98,
+       222,
+       105
+      ],
+      [
+       207,
+       98,
+       222,
+       105
+      ],
+      [
+       193,
+       98,
+       208,
+       105
+      ],
+      [
+       193,
+       98,
+       208,
+       105
+      ],
+      [
+       194,
+       82,
+       208,
+       99
+      ],
+      [
+       194,
+       83,
+       208,
+       99
+      ],
+      [
+       207,
+       83,
+       221,
+       99
+      ],
+      [
+       207,
+       82,
+       220,
+       99
+      ],
+      [
+       194,
+       104,
+       208,
        112
       ],
       [
-       192,
-       80,
-       209,
+       194,
+       104,
+       208,
+       110
+      ],
+      [
+       207,
+       104,
+       221,
        112
       ],
       [
-       192,
-       80,
-       209,
-       112
+       207,
+       104,
+       221,
+       110
       ],
       [
-       192,
-       80,
-       224,
-       97
+       207,
+       98,
+       221,
+       105
       ],
       [
-       192,
-       80,
-       224,
-       97
+       207,
+       98,
+       221,
+       105
       ],
       [
-       192,
-       96,
-       224,
-       112
+       194,
+       98,
+       208,
+       105
       ],
       [
-       192,
-       96,
-       224,
-       112
+       194,
+       98,
+       208,
+       105
       ],
       [
        192,
@@ -18958,806 +18924,17 @@
       ]
      ]
     },
-    "sha256": "88cc28b24f01c004bca5f3e851f13914160e5fa40c3f461da6aeae7da42ddd6b"
+    "sha256": "08d5ea2c89386f9d4a0514fec1f78c710917a152fd9dc1202749f3e4b3721583"
    }
   }
  ],
  "raw": {
-  "pallet": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\pallet.bin",
-  "textureinfo": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\textureinfo.bin",
-  "texturenames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\texturenames.bin",
-  "modelnames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\modelnames.bin"
+  "pallet": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/pallet.bin",
+  "textureinfo": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/textureinfo.bin",
+  "texturenames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/texturenames.bin",
+  "modelnames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/modelnames.bin"
  },
  "texture_moves": [
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 9,
-    "clut_row": 9
-   },
-   "new": {
-    "rect": [
-     176,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     183,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   },
-   "new": {
-    "rect": [
-     183,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     199,
-     192,
-     208,
-     198
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   },
-   "new": {
-    "rect": [
-     199,
-     192,
-     208,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     192,
-     185,
-     198
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     176,
-     192,
-     185,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     192,
-     182,
-     198
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   },
-   "new": {
-    "rect": [
-     176,
-     192,
-     182,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     181,
-     197,
-     203,
-     207
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     181,
-     197,
-     203,
-     207
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 13,
-    "clut_row": 13
-   },
-   "new": {
-    "rect": [
-     176,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     181,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 14,
-    "clut_row": 14
-   },
-   "new": {
-    "rect": [
-     181,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     214,
-     208,
-     226
-    ],
-    "tex_id": 15,
-    "clut_row": 15
-   },
-   "new": {
-    "rect": [
-     176,
-     214,
-     208,
-     226
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     181,
-     192,
-     203,
-     198
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     181,
-     192,
-     203,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     181,
-     192,
-     193,
-     198
-    ],
-    "tex_id": 12,
-    "clut_row": 12
-   },
-   "new": {
-    "rect": [
-     181,
-     192,
-     193,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     200,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   },
-   "new": {
-    "rect": [
-     200,
-     225,
-     208,
-     236
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     202,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   },
-   "new": {
-    "rect": [
-     202,
-     206,
-     208,
-     215
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     202,
-     192,
-     208,
-     198
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   },
-   "new": {
-    "rect": [
-     202,
-     192,
-     208,
-     198
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     176,
-     192,
-     208,
-     256
-    ],
-    "tex_id": 24,
-    "clut_row": 24
-   },
-   "new": {
-    "rect": [
-     176,
-     192,
-     208,
-     256
-    ],
-    "tex_id": 8,
-    "clut_row": 8
-   }
-  },
-  {
-   "kind": "wheel",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     64,
-     64
-    ],
-    "tex_id": 26,
-    "clut_row": 26
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     64,
-     64
-    ],
-    "tex_id": 9,
-    "clut_row": 9
-   }
-  },
-  {
-   "kind": "wheel",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     64,
-     0,
-     128,
-     64
-    ],
-    "tex_id": 27,
-    "clut_row": 27
-   },
-   "new": {
-    "rect": [
-     64,
-     0,
-     128,
-     64
-    ],
-    "tex_id": 10,
-    "clut_row": 10
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 1,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 28,
-    "clut_row": 28
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 11,
-    "clut_row": 11
-   }
-  },
-  {
-   "kind": "body",
-   "set": 36,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     0,
-     10,
-     20
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     0,
-     0,
-     10,
-     20
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   }
-  },
-  {
-   "kind": "body",
-   "set": 36,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     32,
-     20,
-     64,
-     32
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   },
-   "new": {
-    "rect": [
-     32,
-     20,
-     64,
-     32
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   }
-  },
-  {
-   "kind": "body",
-   "set": 36,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     0,
-     19,
-     10,
-     32
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     0,
-     19,
-     10,
-     32
-    ],
-    "tex_id": 17,
-    "clut_row": 17
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 36,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     192,
-     32,
-     208,
-     64
-    ],
-    "tex_id": 24,
-    "clut_row": 24
-   },
-   "new": {
-    "rect": [
-     192,
-     32,
-     208,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     192,
-     32,
-     210,
-     64
-    ],
-    "tex_id": 25,
-    "clut_row": 25
-   },
-   "new": {
-    "rect": [
-     192,
-     32,
-     210,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     207,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 26,
-    "clut_row": 26
-   },
-   "new": {
-    "rect": [
-     207,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     209,
-     32,
-     237,
-     64
-    ],
-    "tex_id": 27,
-    "clut_row": 27
-   },
-   "new": {
-    "rect": [
-     209,
-     32,
-     237,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     236,
-     32,
-     256,
-     64
-    ],
-    "tex_id": 28,
-    "clut_row": 28
-   },
-   "new": {
-    "rect": [
-     236,
-     32,
-     256,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     224,
-     32,
-     239,
-     64
-    ],
-    "tex_id": 29,
-    "clut_row": 29
-   },
-   "new": {
-    "rect": [
-     224,
-     32,
-     239,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     206,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 30,
-    "clut_row": 30
-   },
-   "new": {
-    "rect": [
-     206,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 52,
-   "reason": "texture id remapped",
-   "old": {
-    "rect": [
-     192,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 31,
-    "clut_row": 31
-   },
-   "new": {
-    "rect": [
-     192,
-     32,
-     225,
-     64
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "leftover",
-   "set": 52,
-   "reason": "new leftover island",
-   "old": null,
-   "new": {
-    "rect": [
-     0,
-     0,
-     256,
-     256
-    ],
-    "tex_id": 24,
-    "clut_row": 24
-   }
-  },
-  {
-   "kind": "body",
-   "set": 58,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     243,
-     31,
-     256,
-     32
-    ],
-    "tex_id": 22,
-    "clut_row": 22
-   }
-  },
-  {
-   "kind": "body",
-   "set": 58,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     143,
-     232,
-     144,
-     248
-    ],
-    "tex_id": 26,
-    "clut_row": 26
-   }
-  },
   {
    "kind": "leftover",
    "set": 58,
@@ -19772,22 +18949,6 @@
     ],
     "tex_id": 31,
     "clut_row": 31
-   }
-  },
-  {
-   "kind": "body",
-   "set": 59,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     63,
-     178,
-     64,
-     192
-    ],
-    "tex_id": 17,
-    "clut_row": 17
    }
   }
  ],
@@ -19819,13 +18980,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_clean.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_clean.bin"
     },
     "damaged": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_damaged.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_damaged.bin"
     },
     "low": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\1_CIVICOPS_model1_low.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/1_CIVICOPS_model1_low.bin"
     }
    },
    "handling": {
@@ -19989,13 +19150,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_clean.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_clean.bin"
     },
     "damaged": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_damaged.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_damaged.bin"
     },
     "low": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\2_CIVICOPS_model2_low.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/2_CIVICOPS_model2_low.bin"
     }
    },
    "handling": {
@@ -20159,13 +19320,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_clean.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_clean.bin"
     },
     "damaged": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_damaged.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_damaged.bin"
     },
     "low": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_low.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/3_CIVICOPS_model3_low.bin"
     }
    },
    "handling": {
@@ -20329,13 +19490,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_clean.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_clean.bin"
     },
     "damaged": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_damaged.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_damaged.bin"
     },
     "low": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_low.bin"
+     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/build/models/4_CIVICOPS_model4_low.bin"
     }
    },
    "handling": {
@@ -20496,7 +19657,7 @@
    {
     "model": 1,
     "engine": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\engine.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20514,7 +19675,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\idle.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20532,7 +19693,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVCHICAGO\\sounds\\horn.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVCHICAGO/sounds/horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -20557,7 +19718,7 @@
    {
     "model": 2,
     "engine": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\engine.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20575,7 +19736,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\idle.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20593,7 +19754,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVHAVANA\\sounds\\horn.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVHAVANA/sounds/horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -20618,7 +19779,7 @@
    {
     "model": 3,
     "engine": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\engine.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20636,7 +19797,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\idle.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20654,7 +19815,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\horn.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVRIO/sounds/horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -20679,7 +19840,7 @@
    {
     "model": 4,
     "engine": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\engine.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20697,7 +19858,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\idle.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -20715,7 +19876,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\horn.wav",
+     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/CIVICOPS/cars/CIVVEGAS/sounds/horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,

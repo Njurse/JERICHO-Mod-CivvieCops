@@ -39,6 +39,7 @@
     "backInd": [109, 22, 333],
     "brakeLight": [112, 6, 354],
     "revLight": [109, 25, 334],
+    "policeVoice": "RIO",
     "policeLight": [0, -107, -40],
     "policeLights": {"style": "RIO"},
     "exhaust": [68, 77, 337],

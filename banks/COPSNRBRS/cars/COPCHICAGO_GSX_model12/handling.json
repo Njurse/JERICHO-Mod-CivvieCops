@@ -34,6 +34,7 @@
     "backInd": [98, 24, 372],
     "brakeLight": [77, 28, 364],
     "revLight": [76, 29, 368],
+    "policeVoice": "CHICAGO",
     "policeLight": [34, -85, 67],
     "policeLights": {"style": "CHICAGO"},
     "exhaust": [68, 61, 353],

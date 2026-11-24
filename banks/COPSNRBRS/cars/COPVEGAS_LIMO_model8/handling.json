@@ -28,6 +28,7 @@
     "backInd": [73, 11, 642],
     "brakeLight": [109, 13, 641],
     "revLight": [88, 12, 648],
+    "policeVoice": "VEGAS",
     "policeLight": [22, -95, -251],
     "policeLights": {"style": "VEGAS"},
     "exhaust": [112, 76, 649],
