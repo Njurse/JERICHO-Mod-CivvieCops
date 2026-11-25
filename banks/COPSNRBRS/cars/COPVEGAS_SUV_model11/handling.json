@@ -4,47 +4,150 @@
   "damaged": "VEGAS_model11_damaged.obj",
   "low": "VEGAS_model11_low.obj",
   "textures": {
-    "4": {"png": "../../shared/textures/PAGE_4.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "4": {
+      "png": "../../shared/textures/PAGE_4.png",
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
+    },
     "11": {
       "png": "textures/PAGE_11.png",
-      "protect": ["181818"],
+      "protect": [
+        "181818"
+      ],
       "transparent": "FF00FF",
-      "transparent_tolerance": 0
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
     },
     "12": {
       "png": "textures/PAGE_12.fixed.png",
-      "protect": ["000000"],
+      "protect": [
+        "000000"
+      ],
       "transparent": "FF00FF",
-      "transparent_tolerance": 0
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
     },
     "wheels": {
-      "clean": {"png": "../../shared/textures/vegas/wheelclean.png", "set": 4, "island": "auto"},
-      "damaged": {"png": "../../shared/textures/vegas/wheeldam.png", "set": 4, "island": "auto"},
-      "fast": {"png": "../../shared/textures/vegas/wheelfast.png", "set": 4, "island": "auto"}
+      "clean": {
+        "png": "../../shared/textures/vegas/wheelclean.png",
+        "set": 4,
+        "island": "auto"
+      },
+      "damaged": {
+        "png": "../../shared/textures/vegas/wheeldam.png",
+        "set": 4,
+        "island": "auto"
+      },
+      "fast": {
+        "png": "../../shared/textures/vegas/wheelfast.png",
+        "set": 4,
+        "island": "auto"
+      }
     },
     "portrait": "textures/portrait.png"
   },
   "sounds": {
-    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
-    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "engine": {
+      "wav": "sounds/engine.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
+    "idle": {
+      "wav": "sounds/idle.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
     "max_rate": 16000,
     "sample_bytes": 16384,
     "cop": true,
-    "siren": {"wav": "../../shared/sounds/siren_vegas.wav", "rate": 8000, "normalise": false, "loop": true}
+    "siren": {
+      "wav": "../../shared/sounds/siren_vegas.wav",
+      "rate": 8000,
+      "normalise": false,
+      "loop": true
+    }
   },
   "handling": {
-    "headLight": [146, 54, -396],
-    "frontInd": [157, 58, -395],
-    "backInd": [143, 46, 409],
-    "brakeLight": [137, 45, 410],
-    "revLight": [141, 47, 411],
+    "headLight": [
+      146,
+      54,
+      -396
+    ],
+    "frontInd": [
+      157,
+      58,
+      -395
+    ],
+    "backInd": [
+      143,
+      46,
+      409
+    ],
+    "brakeLight": [
+      137,
+      45,
+      410
+    ],
+    "revLight": [
+      141,
+      47,
+      411
+    ],
     "policeVoice": "VEGAS",
-    "policeLight": [34, -146, 0],
-    "policeLights": {"style": "VEGAS"},
-    "exhaust": [68, 111, 413],
-    "smoke": [0, 5, -371],
-    "fire": [0, 9, -377],
-    "wheelDisp": [[181, -30, 264], [178, -30, -235], [-182, -30, 264], [-179, -30, -235]],
+    "policeLight": [
+      34,
+      -146,
+      0
+    ],
+    "policeLights": {
+      "style": "VEGAS"
+    },
+    "exhaust": [
+      68,
+      111,
+      413
+    ],
+    "smoke": [
+      0,
+      5,
+      -371
+    ],
+    "fire": [
+      0,
+      9,
+      -377
+    ],
+    "wheelDisp": [
+      [
+        181,
+        -30,
+        264
+      ],
+      [
+        178,
+        -30,
+        -235
+      ],
+      [
+        -182,
+        -30,
+        264
+      ],
+      [
+        -179,
+        -30,
+        -235
+      ]
+    ],
     "extraInfo": 1048,
     "powerRatio": 4096,
     "cbYoffset": 0,
@@ -52,26 +155,85 @@
     "traction": 4096,
     "wheelSize": 67,
     "cPoints": [
-      [-162, 23, -423],
-      [161, 23, -423],
-      [-167, 23, 432],
-      [166, 23, 432],
-      [-154, 284, -369],
-      [153, 284, -369],
-      [-158, 289, 65],
-      [157, 289, 65],
-      [-163, 188, 162],
-      [162, 188, 162],
-      [-163, 150, 398],
-      [162, 150, 398]
+      [
+        -162,
+        23,
+        -423
+      ],
+      [
+        161,
+        23,
+        -423
+      ],
+      [
+        -167,
+        23,
+        432
+      ],
+      [
+        166,
+        23,
+        432
+      ],
+      [
+        -154,
+        284,
+        -369
+      ],
+      [
+        153,
+        284,
+        -369
+      ],
+      [
+        -158,
+        289,
+        65
+      ],
+      [
+        157,
+        289,
+        65
+      ],
+      [
+        -163,
+        188,
+        162
+      ],
+      [
+        162,
+        188,
+        162
+      ],
+      [
+        -163,
+        150,
+        398
+      ],
+      [
+        162,
+        150,
+        398
+      ]
     ],
-    "colBox": [173, 138, 437],
-    "cog": [0, -151, 4],
+    "colBox": [
+      173,
+      138,
+      437
+    ],
+    "cog": [
+      0,
+      -151,
+      4
+    ],
     "twistRateX": 180,
     "twistRateY": 180,
     "twistRateZ": 900,
     "mass": 4096,
-    "damage": {"stock": "VEGAS", "model": 11}
+    "damage": {
+      "stock": "VEGAS",
+      "model": 11
+    }
   },
   "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
   "raw": "9200360074fe00009d003a0075fe00008f002e009901000089002d009a0100008d002f009b0100002200f9ff0000000044006f009d010000000005008dfe00000000090087fe0000b500e2ff08010000b200e2ff15ff00004affe2ff080100004dffe2ff15ff00001804001000000010001043005eff170059fe0000a100170059fe000059ff1700b0010000a6001700b001000066ff1c018ffe000099001c018ffe000062ff2101410000009d002101410000005dffbc00a2000000a200bc00a20000005dff96008e010000a20096008e010000ad008a00b5010000000069ff04000000b400b40084030010"

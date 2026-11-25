@@ -18802,24 +18802,7 @@
   "texturenames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\texturenames.bin",
   "modelnames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\modelnames.bin"
  },
- "texture_moves": [
-  {
-   "kind": "body",
-   "set": 58,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     24,
-     196,
-     34,
-     203
-    ],
-    "tex_id": 20,
-    "clut_row": 20
-   }
-  }
- ],
+ "texture_moves": [],
  "bank_order": [
   {
    "slot": 1,

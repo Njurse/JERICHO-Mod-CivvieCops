@@ -9,7 +9,18 @@
       "transparent": "FF00FF",
       "transparent_tolerance": 0
     },
-    "36": {"png": "textures/PAGE_36.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "36": {
+      "png": "textures/PAGE_36.png",
+      "paints": {
+        "paint0": "b83020",
+        "paint1": "d07830",
+        "paint2": "e8d8b0",
+        "paint3": "704828",
+        "paint4": "601818"
+      },
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0
+    },
     "20": {"png": "textures/PAGE_20.png", "transparent": "FF00FF", "transparent_tolerance": 0},
     "wheels": {
       "clean": {

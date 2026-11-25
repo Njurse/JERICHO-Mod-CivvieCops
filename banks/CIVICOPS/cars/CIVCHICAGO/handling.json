@@ -7,11 +7,11 @@
     "1": {
       "png": "textures/PAGE_1.png",
       "paints": {
-        "paint0": "080808",
-        "paint1": "181818",
-        "paint2": "181818",
-        "paint3": "505878",
-        "paint4": "101010"
+        "paint0": "141414",
+        "paint1": "203a6a",
+        "paint2": "6a1a1a",
+        "paint3": "c8c8c8",
+        "paint4": "f0f0f0"
       },
       "protect": ["000000", "400800", "100000", "c8a080", "886048", "704838", "401000"],
       "transparent": "FF00FF",

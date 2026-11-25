@@ -2,7 +2,7 @@
  "city": "COPSNRBRS",
  "lev": "COPSNRBRS.LEV",
  "lcf": "COPSNRBRS.LCF",
- "size": 942080,
+ "size": 927744,
  "order": [
   {
    "slot": 1,
@@ -21,10 +21,6 @@
    "car": "COPSNRBRS_model3"
   },
   {
-   "slot": 5,
-   "car": "COPSNRBRS_model4"
-  },
-  {
    "slot": 8,
    "car": "COPSNRBRS_model5"
   },
@@ -35,6 +31,10 @@
   {
    "slot": 10,
    "car": "COPSNRBRS_model7"
+  },
+  {
+   "slot": 12,
+   "car": "COPSNRBRS_model4"
   }
  ],
  "included_sets": [
@@ -163,27 +163,26 @@
    2,
    3,
    4,
-   5,
    8,
    9,
-   10
+   10,
+   12
   ],
   "sirens": [
    1,
    2,
    3,
    4,
-   5,
    8,
    9,
-   10
+   10,
+   12
   ]
  },
  "police_voices": {},
- "palette_records": 588,
- "page_base": 385024,
+ "palette_records": 310,
+ "page_base": 370688,
  "warnings": [
-  "slot 5 is a model D2 ships no data for; the bank will still write it",
   "sound model 1 engine: crest factor 2.1 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
   "sound model 1: 35024 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 14848 B 3.71s rms 29% crest 3.3 field 8000 loop seam 2647",
   "sound model 2: 30608 bytes - engine 7792 B 0.97s rms 40% crest 2.4 field 16000 loop seam 562; idle 7968 B 1.00s rms 33% crest 2.9 field 16000 loop seam 3775; third 14848 B 3.71s rms 29% crest 3.3 field 8000 loop seam 2647",
@@ -191,13 +190,13 @@
   "sound model 3 engine: crest factor 1.9 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
   "sound model 3: 28704 bytes - engine 6672 B 0.83s rms 50% crest 1.9 field 16000 loop seam 1183; idle 9696 B 1.21s rms 17% crest 4.2 field 16000 loop seam 52; third 12336 B 3.08s rms 43% crest 2.2 field 8000 loop seam 10829",
   "sound model 4: 28992 bytes - engine 10608 B 1.33s rms 37% crest 2.6 field 16000 loop seam 1136; idle 6048 B 0.76s rms 28% crest 3.5 field 16000 loop seam 2453; third 12336 B 3.08s rms 43% crest 2.2 field 8000 loop seam 10829",
-  "sound model 5 engine: rms is 48% of full scale against retail's 29-39% - this sample will play loud, and with crest 2.0 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
-  "sound model 5 engine: crest factor 2.0 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
-  "sound model 5: 32240 bytes - engine 12912 B 1.61s rms 48% crest 2.0 field 16000 loop seam 8314; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174",
   "sound model 8: 22704 bytes - engine 10608 B 1.33s rms 37% crest 2.6 field 16000 loop seam 1136; idle 6048 B 0.76s rms 28% crest 3.5 field 16000 loop seam 2453; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174",
   "sound model 9: 22000 bytes - engine 6192 B 0.77s rms 38% crest 2.5 field 16000 loop seam 905; idle 9760 B 1.22s rms 29% crest 3.3 field 16000 loop seam 6; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174",
   "sound model 10 engine: crest factor 2.1 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
-  "sound model 10: 26224 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174"
+  "sound model 10: 26224 bytes - engine 6896 B 0.86s rms 42% crest 2.1 field 16000 loop seam 91; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174",
+  "sound model 12 engine: rms is 48% of full scale against retail's 29-39% - this sample will play loud, and with crest 2.0 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
+  "sound model 12 engine: crest factor 2.0 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
+  "sound model 12: 32240 bytes - engine 12912 B 1.61s rms 48% crest 2.0 field 16000 loop seam 8314; idle 13280 B 1.66s rms 37% crest 2.6 field 16000 loop seam 2052; third 6048 B 1.51s rms 37% crest 2.5 field 8000 loop seam 1174"
  ],
  "car_wheels": [
   {
@@ -361,46 +360,6 @@
    ]
   },
   {
-   "model": 5,
-   "car": "COPSNRBRS_model4",
-   "inherited": false,
-   "wheels": [
-    {
-     "variant": "clean",
-     "set": 56,
-     "island": [
-      128,
-      0,
-      192,
-      64
-     ],
-     "texid": 4
-    },
-    {
-     "variant": "damaged",
-     "set": 56,
-     "island": [
-      192,
-      0,
-      256,
-      64
-     ],
-     "texid": 5
-    },
-    {
-     "variant": "fast",
-     "set": 56,
-     "island": [
-      192,
-      0,
-      256,
-      64
-     ],
-     "texid": 5
-    }
-   ]
-  },
-  {
    "model": 8,
    "car": "COPSNRBRS_model5",
    "inherited": false,
@@ -519,6 +478,46 @@
      "texid": 9
     }
    ]
+  },
+  {
+   "model": 12,
+   "car": "COPSNRBRS_model4",
+   "inherited": false,
+   "wheels": [
+    {
+     "variant": "clean",
+     "set": 56,
+     "island": [
+      128,
+      0,
+      192,
+      64
+     ],
+     "texid": 4
+    },
+    {
+     "variant": "damaged",
+     "set": 56,
+     "island": [
+      192,
+      0,
+      256,
+      64
+     ],
+     "texid": 5
+    },
+    {
+     "variant": "fast",
+     "set": 56,
+     "island": [
+      192,
+      0,
+      256,
+      64
+     ],
+     "texid": 5
+    }
+   ]
   }
  ],
  "police_lights": {
@@ -526,10 +525,10 @@
   "2": "6 custom",
   "3": "RIO",
   "4": "RIO",
-  "5": "CHICAGO",
   "8": "CHICAGO",
   "9": "VEGAS",
-  "10": "VEGAS"
+  "10": "VEGAS",
+  "12": "CHICAGO"
  },
  "damage": {
   "1": {
@@ -579,17 +578,6 @@
    "polys": 262,
    "mode": "stock RIO 4"
   },
-  "5": {
-   "matched_polys": 252,
-   "new_polys": 12,
-   "matched_vertices": 132,
-   "levels": {
-    "0": 250,
-    "2": 6
-   },
-   "polys": 264,
-   "mode": "stock CHICAGO 12"
-  },
   "8": {
    "matched_polys": 228,
    "new_polys": 0,
@@ -621,6 +609,17 @@
    },
    "polys": 264,
    "mode": "stock VEGAS 8"
+  },
+  "12": {
+   "matched_polys": 252,
+   "new_polys": 12,
+   "matched_vertices": 132,
+   "levels": {
+    "0": 250,
+    "2": 6
+   },
+   "polys": 264,
+   "mode": "stock CHICAGO 12"
   }
  },
  "police_voice": {
@@ -628,44 +627,12 @@
   "2": "HAVANA",
   "3": "RIO",
   "4": "RIO",
-  "5": "CHICAGO",
   "8": "CHICAGO",
   "9": "VEGAS",
-  "10": "VEGAS"
+  "10": "VEGAS",
+  "12": "CHICAGO"
  },
  "texture_moves": [
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     224,
-     64,
-     256,
-     85
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
-  {
-   "kind": "body",
-   "set": 1,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     224,
-     84,
-     256,
-     128
-    ],
-    "tex_id": 0,
-    "clut_row": 0
-   }
-  },
   {
    "kind": "body",
    "set": 55,
@@ -802,8 +769,6 @@
   "page set 1: composited the clean wheel from wheelclean.png into island (0, 0, 64, 64)",
   "page set 1: composited the damaged wheel from wheeldam.png into island (64, 0, 128, 64)",
   "page set 1: 783 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
-  "page set 1: texture move body : none -> {'rect': [224, 64, 256, 85], 'tex_id': 0, 'clut_row': 0} (new body island)",
-  "page set 1: texture move body : none -> {'rect': [224, 84, 256, 128], 'tex_id': 0, 'clut_row': 0} (new body island)",
   "page set 1: wheel clean owns tex id 9 (row 9) at [0, 0, 64, 64], corner index 0",
   "page set 1: wheel damaged owns tex id 10 (row 10) at [64, 0, 128, 64], corner index 0",
   "page set 1: 5 texture id(s) [0, 8, 9, 10, 11] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
@@ -854,31 +819,6 @@
   "page set 67: wheel clean owns tex id 8 (row 8) at [128, 96, 192, 160], corner index 15",
   "page set 67: wheel damaged owns tex id 9 (row 9) at [192, 96, 256, 160], corner index 15",
   "page set 67: 13 texture id(s) [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
-  "set 1: no coloured body found (the strongest hue, orange, covers 12% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
-  "set 18 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 18 tex 1: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 18 tex 4: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 18 tex 12: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 18 tex 16: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 19 tex 1: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 19 tex 3: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 20 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 20 tex 11: 4 extra body CLUT(s) -> civ_clut slot(s) 1, 2, 3, 4 (LUMP_PALLET palette 0, 1, 2, 3; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 20 tex 12: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 44 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 44 tex 1: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 44 tex 4: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 44 tex 13: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 45 tex 1: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 45 tex 2: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 55 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 55 tex 1: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 55 tex 6: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 55 tex 11: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 56 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 57: no coloured body found (the strongest hue, cyan, covers 4% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
-  "set 60: no coloured body found (the strongest hue, blue, covers 5% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
-  "palette: note - 8 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt",
-  "palette: rebuilt 588 row(s) from the pages"
+  "palette: note - 8 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt"
  ]
 }

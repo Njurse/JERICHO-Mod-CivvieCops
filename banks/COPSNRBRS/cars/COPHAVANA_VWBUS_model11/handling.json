@@ -7,60 +7,218 @@
     "21": {
       "png": "../../shared/textures/PAGE_21.png",
       "transparent": "FF00FF",
-      "transparent_tolerance": 0
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
     },
-    "44": {"png": "textures/PAGE_44.png", "transparent": "FF00FF", "transparent_tolerance": 0},
-    "45": {"png": "textures/PAGE_45.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "44": {
+      "png": "textures/PAGE_44.png",
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
+    },
+    "45": {
+      "png": "textures/PAGE_45.png",
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
+    },
     "wheels": {
       "clean": {
         "png": "../../shared/textures/havana/wheelclean.png",
         "set": 21,
-        "island": [192, 64, 256, 128]
+        "island": [
+          192,
+          64,
+          256,
+          128
+        ]
       },
       "damaged": {
         "png": "../../shared/textures/havana/wheeldam_fixed.png",
         "set": 21,
-        "island": [192, 0, 256, 64]
+        "island": [
+          192,
+          0,
+          256,
+          64
+        ]
       },
       "fast": {
         "png": "../../shared/textures/havana/wheelfast.png",
         "set": 21,
-        "island": [192, 64, 256, 128]
+        "island": [
+          192,
+          64,
+          256,
+          128
+        ]
       }
     },
     "portrait": "textures/portrait.png"
   },
   "sounds": {
-    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
-    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "engine": {
+      "wav": "sounds/engine.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
+    "idle": {
+      "wav": "sounds/idle.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
     "cop": true,
-    "siren": {"wav": "../../shared/sounds/siren_havana.wav", "rate": 8000, "normalise": false, "loop": true},
+    "siren": {
+      "wav": "../../shared/sounds/siren_havana.wav",
+      "rate": 8000,
+      "normalise": false,
+      "loop": true
+    },
     "max_rate": 16000,
     "sample_bytes": 16384
   },
   "handling": {
-    "headLight": [85, 61, -315],
-    "frontInd": [92, -1, -311],
-    "backInd": [107, 81, 326],
-    "brakeLight": [107, 45, 324],
-    "revLight": [16, 59, 329],
+    "headLight": [
+      85,
+      61,
+      -315
+    ],
+    "frontInd": [
+      92,
+      -1,
+      -311
+    ],
+    "backInd": [
+      107,
+      81,
+      326
+    ],
+    "brakeLight": [
+      107,
+      45,
+      324
+    ],
+    "revLight": [
+      16,
+      59,
+      329
+    ],
     "policeVoice": "HAVANA",
-    "policeLight": [34, -135, 2],
+    "policeLight": [
+      34,
+      -135,
+      2
+    ],
     "policeLights": {
       "speed": 144,
       "lights": [
-        {"name": "front beacon 0", "at": [0, -145, -125], "color": "blue", "phase": 0},
-        {"name": "front beacon 1", "at": [0, -145, -125], "color": "blue", "phase": 48},
-        {"name": "front beacon 2", "at": [0, -145, -125], "color": "blue", "phase": 96},
-        {"name": "rear beacon 0", "at": [0, -145, 138], "color": "blue", "phase": 128},
-        {"name": "rear beacon 1", "at": [0, -145, 138], "color": "blue", "phase": 176},
-        {"name": "rear beacon 2", "at": [0, -145, 138], "color": "blue", "phase": 224}
+        {
+          "name": "front beacon 0",
+          "at": [
+            0,
+            -145,
+            -125
+          ],
+          "color": "blue",
+          "phase": 0
+        },
+        {
+          "name": "front beacon 1",
+          "at": [
+            0,
+            -145,
+            -125
+          ],
+          "color": "blue",
+          "phase": 48
+        },
+        {
+          "name": "front beacon 2",
+          "at": [
+            0,
+            -145,
+            -125
+          ],
+          "color": "blue",
+          "phase": 96
+        },
+        {
+          "name": "rear beacon 0",
+          "at": [
+            0,
+            -145,
+            138
+          ],
+          "color": "blue",
+          "phase": 128
+        },
+        {
+          "name": "rear beacon 1",
+          "at": [
+            0,
+            -145,
+            138
+          ],
+          "color": "blue",
+          "phase": 176
+        },
+        {
+          "name": "rear beacon 2",
+          "at": [
+            0,
+            -145,
+            138
+          ],
+          "color": "blue",
+          "phase": 224
+        }
       ]
     },
-    "exhaust": [96, 122, 332],
-    "smoke": [0, 42, -319],
-    "fire": [0, 57, -325],
-    "wheelDisp": [[127, -30, 166], [130, -30, -191], [-128, -30, 166], [-131, -30, -191]],
+    "exhaust": [
+      96,
+      122,
+      332
+    ],
+    "smoke": [
+      0,
+      42,
+      -319
+    ],
+    "fire": [
+      0,
+      57,
+      -325
+    ],
+    "wheelDisp": [
+      [
+        127,
+        -30,
+        166
+      ],
+      [
+        130,
+        -30,
+        -191
+      ],
+      [
+        -128,
+        -30,
+        166
+      ],
+      [
+        -131,
+        -30,
+        -191
+      ]
+    ],
     "extraInfo": 1048,
     "powerRatio": 3500,
     "cbYoffset": 0,
@@ -68,26 +226,85 @@
     "traction": 3800,
     "wheelSize": 49,
     "cPoints": [
-      [-122, -1, -340],
-      [121, -1, -340],
-      [-122, 0, 337],
-      [121, 0, 337],
-      [-114, 222, -302],
-      [113, 222, -302],
-      [-102, 233, -242],
-      [101, 233, -242],
-      [-102, 235, 246],
-      [101, 235, 246],
-      [-121, 140, 313],
-      [120, 140, 313]
+      [
+        -122,
+        -1,
+        -340
+      ],
+      [
+        121,
+        -1,
+        -340
+      ],
+      [
+        -122,
+        0,
+        337
+      ],
+      [
+        121,
+        0,
+        337
+      ],
+      [
+        -114,
+        222,
+        -302
+      ],
+      [
+        113,
+        222,
+        -302
+      ],
+      [
+        -102,
+        233,
+        -242
+      ],
+      [
+        101,
+        233,
+        -242
+      ],
+      [
+        -102,
+        235,
+        246
+      ],
+      [
+        101,
+        235,
+        246
+      ],
+      [
+        -121,
+        140,
+        313
+      ],
+      [
+        120,
+        140,
+        313
+      ]
     ],
-    "colBox": [123, 125, 342],
-    "cog": [0, -119, 0],
+    "colBox": [
+      123,
+      125,
+      342
+    ],
+    "cog": [
+      0,
+      -119,
+      0
+    ],
     "twistRateX": 180,
     "twistRateY": 180,
     "twistRateZ": 900,
     "mass": 4096,
-    "damage": {"stock": "HAVANA", "model": 11}
+    "damage": {
+      "stock": "HAVANA",
+      "model": 11
+    }
   },
   "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
   "raw": "55003d00c5fe00005c00ffffc9fe00006b005100460100006b002d004401000010003b00490100002200f1ff0200000060007a004c01000000002a00c1fe000000003900bbfe00007f00e2ffa60000008200e2ff41ff000080ffe2ffa60000007dffe2ff41ff00001804ac0d00000010d80e310086ffffffacfe00007900ffffacfe000086ff00005101000079000000510100008effde00d2fe00007100de00d2fe00009affe9000eff00006500e9000eff00009affeb00f60000006500eb00f600000087ff8c003901000078008c00390100007b007d0056010000000089ff00000000b400b40084030010"

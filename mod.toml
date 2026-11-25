@@ -1,6 +1,6 @@
 id = "civviecops"
 name = "CivvieCops"
-version = "0.2.0"
+version = "0.2.2"
 # the JERICHO interface (SDK) this mod is built against
 interface = 3
 author = "Njurse"

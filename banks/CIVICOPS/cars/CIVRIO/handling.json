@@ -5,7 +5,18 @@
   "low": "RIO_model0_low.obj",
   "textures": {
     "1": {"png": "textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
-    "52": {"png": "textures/PAGE_59.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "52": {
+      "png": "textures/PAGE_59.png",
+      "paints": {
+        "paint0": "d8c020",
+        "paint1": "28a048",
+        "paint2": "2050c0",
+        "paint3": "c02828",
+        "paint4": "e8e8e8"
+      },
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0
+    },
     "wheels": {
       "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
       "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},

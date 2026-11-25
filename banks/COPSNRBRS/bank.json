@@ -31,10 +31,6 @@
         "car": "COPSNRBRS_model3"
       },
       {
-        "slot": 5,
-        "car": "COPSNRBRS_model4"
-      },
-      {
         "slot": 8,
         "car": "COPSNRBRS_model5"
       },
@@ -45,6 +41,10 @@
       {
         "slot": 10,
         "car": "COPSNRBRS_model7"
+      },
+      {
+        "slot": 12,
+        "car": "COPSNRBRS_model4"
       }
     ],
     "palette_from_pages": true,

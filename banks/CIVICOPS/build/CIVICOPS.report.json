@@ -2,7 +2,7 @@
  "city": "CIVICOPS",
  "lev": "CIVICOPS.LEV",
  "lcf": "CIVICOPS.LCF",
- "size": 495616,
+ "size": 512000,
  "order": [
   {
    "slot": 1,
@@ -116,8 +116,8 @@
   "sirens": []
  },
  "police_voices": {},
- "palette_records": 208,
- "page_base": 182272,
+ "palette_records": 555,
+ "page_base": 198656,
  "warnings": [
   "sound model 1 engine: rms is 51% of full scale against retail's 29-39% - this sample will play loud, and with crest 1.9 its transients are already flat (set a lower `rms` or `gain_db` to sit it under)",
   "sound model 1 engine: crest factor 1.9 (retail 2.6-3.4) - the source has been limited, so it will sound squashed",
@@ -324,24 +324,6 @@
    "still": 79
   }
  },
- "texture_moves": [
-  {
-   "kind": "body",
-   "set": 58,
-   "reason": "new body island",
-   "old": null,
-   "new": {
-    "rect": [
-     24,
-     196,
-     34,
-     203
-    ],
-    "tex_id": 20,
-    "clut_row": 20
-   }
-  }
- ],
  "checks": {
   "ok": true,
   "problems": []
@@ -375,32 +357,21 @@
   "page set 58: composited the clean wheel from wheelclean.png into island (64, 0, 128, 64)",
   "page set 58: composited the damaged wheel from wheeldam.png into island (128, 0, 192, 64)",
   "page set 58: 1308 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
-  "page set 58: texture move body : none -> {'rect': [24, 196, 34, 203], 'tex_id': 20, 'clut_row': 20} (new body island)",
   "page set 58: wheel clean owns tex id 27 (row 27) at [64, 0, 128, 64], corner index 15",
   "page set 58: wheel damaged owns tex id 28 (row 28) at [128, 0, 192, 64], corner index 15",
   "page set 58: 17 texture id(s) [0, 3, 6, 9, 12, 13, 16, 17, 20, 22, 23, 26, 27, 28, 29, 30, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "page set 59: 543 pure-black texel(s) under polys baked as 080808 - 000000 is the transparent marker",
   "page set 59: 13 texture id(s) [0, 3, 6, 9, 10, 13, 14, 17, 18, 21, 23, 24, 31] \u2014 each has its own CLUT row (one 16-entry row could not hold the snapped colours)",
   "set 1: no coloured body found (the strongest hue, orange, covers 12% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
-  "set 36 tex 0: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 36 tex 19: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 36 tex 23: 3 extra body CLUT(s) -> civ_clut slot(s) 1, 2, 3 (LUMP_PALLET palette 0, 1, 2; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 52 tex 2: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 52 tex 8: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 52 tex 20: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 52 tex 14: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
+  "set 36: no coloured body found (the strongest hue, pink, covers 0% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
+  "set 52: no coloured body found (the strongest hue, red, covers 0% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
   "set 58 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 3: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 6: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 12: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 13: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
   "set 58 tex 17: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 59 tex 0: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 59 tex 3: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 59 tex 6: 2 extra body CLUT(s) -> civ_clut slot(s) 1, 2 (LUMP_PALLET palette 0, 1; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 59 tex 14: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "set 59 tex 13: 1 extra body CLUT(s) -> civ_clut slot(s) 1 (LUMP_PALLET palette 0; cp->ap.palette cycles them, slot 0 stays the page CLUT)",
-  "palette: note - 1 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt",
-  "palette: rebuilt 208 row(s) from the pages"
+  "set 59: no coloured body found (the strongest hue, red, covers 2% of the page) - hex paints leave it unchanged; a white/grey/black car needs paint_body",
+  "palette: note - 1 set(s) are past the 8 civ_clut rows a HOST level binds; as an import each set gets its own row, so this only matters if the bank is played as a level \u2014 see clut-dump.txt"
  ]
 }

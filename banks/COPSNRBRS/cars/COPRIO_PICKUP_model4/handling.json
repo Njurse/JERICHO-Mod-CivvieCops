@@ -4,48 +4,147 @@
   "damaged": "RIO_model4_damaged.obj",
   "low": "RIO_model4_low.obj",
   "textures": {
-    "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "1": {
+      "png": "../../shared/textures/PAGE_1.png",
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
+    },
     "60": {
       "png": "textures/PAGE_60.png",
-      "paints": {
-        "paint0": "80a068",
-        "paint1": "b88058",
-        "paint2": "a8b8c8",
-        "paint3": "8898a0",
-        "paint4": "606868"
-      },
-      "protect": ["000000", "686868", "888080", "201818", "101010", "f0f0f0", "282828", "383830"],
+      "paints": {},
+      "protect": [
+        "000000",
+        "686868",
+        "888080",
+        "201818",
+        "101010",
+        "f0f0f0",
+        "282828",
+        "383830"
+      ],
       "transparent": "FF00FF",
-      "transparent_tolerance": 0
+      "transparent_tolerance": 0,
+      "body_rows": [
+        0
+      ]
     },
     "wheels": {
-      "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
-      "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
-      "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
+      "clean": {
+        "png": "../../shared/textures/rio/wheelclean.png",
+        "set": 1,
+        "island": "auto"
+      },
+      "damaged": {
+        "png": "../../shared/textures/rio/wheeldam.png",
+        "set": 1,
+        "island": "auto"
+      },
+      "fast": {
+        "png": "../../shared/textures/rio/wheelfast.png",
+        "set": 1,
+        "island": "auto"
+      }
     },
     "portrait": "textures/portrait.png"
   },
   "sounds": {
-    "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
-    "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
+    "engine": {
+      "wav": "sounds/engine.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
+    "idle": {
+      "wav": "sounds/idle.wav",
+      "rate": 16000,
+      "normalise": false,
+      "loop": true
+    },
     "cop": true,
-    "siren": {"wav": "../../shared/sounds/siren_rio.wav", "rate": 8000, "normalise": false, "loop": true},
+    "siren": {
+      "wav": "../../shared/sounds/siren_rio.wav",
+      "rate": 8000,
+      "normalise": false,
+      "loop": true
+    },
     "max_rate": 16000,
     "sample_bytes": 16384
   },
   "handling": {
-    "headLight": [86, 28, -361],
-    "frontInd": [92, 26, -349],
-    "backInd": [109, 22, 333],
-    "brakeLight": [112, 6, 354],
-    "revLight": [109, 25, 334],
+    "headLight": [
+      86,
+      28,
+      -361
+    ],
+    "frontInd": [
+      92,
+      26,
+      -349
+    ],
+    "backInd": [
+      109,
+      22,
+      333
+    ],
+    "brakeLight": [
+      112,
+      6,
+      354
+    ],
+    "revLight": [
+      109,
+      25,
+      334
+    ],
     "policeVoice": "RIO",
-    "policeLight": [0, -107, -40],
-    "policeLights": {"style": "RIO"},
-    "exhaust": [68, 77, 337],
-    "smoke": [0, -6, -307],
-    "fire": [0, -7, -310],
-    "wheelDisp": [[128, -30, 223], [128, -30, -169], [-129, -30, 223], [-129, -30, -169]],
+    "policeLight": [
+      0,
+      -107,
+      -40
+    ],
+    "policeLights": {
+      "style": "RIO"
+    },
+    "exhaust": [
+      68,
+      77,
+      337
+    ],
+    "smoke": [
+      0,
+      -6,
+      -307
+    ],
+    "fire": [
+      0,
+      -7,
+      -310
+    ],
+    "wheelDisp": [
+      [
+        128,
+        -30,
+        223
+      ],
+      [
+        128,
+        -30,
+        -169
+      ],
+      [
+        -129,
+        -30,
+        223
+      ],
+      [
+        -129,
+        -30,
+        -169
+      ]
+    ],
     "extraInfo": -32744,
     "powerRatio": 3700,
     "cbYoffset": 0,
@@ -53,26 +152,85 @@
     "traction": 4096,
     "wheelSize": 52,
     "cPoints": [
-      [-118, 24, -352],
-      [117, 24, -352],
-      [-119, 20, 332],
-      [118, 20, 332],
-      [-121, 123, -340],
-      [120, 123, -340],
-      [-94, 195, -23],
-      [93, 195, -23],
-      [-92, 193, 84],
-      [91, 193, 84],
-      [-121, 108, 320],
-      [120, 108, 320]
+      [
+        -118,
+        24,
+        -352
+      ],
+      [
+        117,
+        24,
+        -352
+      ],
+      [
+        -119,
+        20,
+        332
+      ],
+      [
+        118,
+        20,
+        332
+      ],
+      [
+        -121,
+        123,
+        -340
+      ],
+      [
+        120,
+        123,
+        -340
+      ],
+      [
+        -94,
+        195,
+        -23
+      ],
+      [
+        93,
+        195,
+        -23
+      ],
+      [
+        -92,
+        193,
+        84
+      ],
+      [
+        91,
+        193,
+        84
+      ],
+      [
+        -121,
+        108,
+        320
+      ],
+      [
+        120,
+        108,
+        320
+      ]
     ],
-    "colBox": [121, 91, 348],
-    "cog": [0, -109, -8],
+    "colBox": [
+      121,
+      91,
+      348
+    ],
+    "cog": [
+      0,
+      -109,
+      -8
+    ],
     "twistRateX": 224,
     "twistRateY": 224,
     "twistRateZ": 1120,
     "mass": 4096,
-    "damage": {"stock": "RIO", "model": 4}
+    "damage": {
+      "stock": "RIO",
+      "model": 4
+    }
   },
   "note": "4096 = 1.0 for mass/traction/susCoeff/powerRatio; edit cars/<car>/handling.json (or this record) and rebake",
   "raw": "56001c0097fe00005c001a00a3fe00006d0016004d01000070000600620100006d0019004e01000022000c00c2ff000044004d00510100000000faffcdfe00000000f9ffcafe00008000e2ffdf0000008000e2ff57ff00007fffe2ffdf0000007fffe2ff57ff00001880740e00000010001034008aff1800a0fe000075001800a0fe000089ff14004c010000760014004c01000087ff7b00acfe000078007b00acfe0000a2ffc300e9ff00005d00c300e9ff0000a4ffc100540000005b00c1005400000087ff6c004001000078006c004001000079005b005c010000000093fff8ff0000e000e00060040010"
