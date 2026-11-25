@@ -3186,18 +3186,8 @@
      "rect": [
       232,
       64,
-      248,
-      80
-     ],
-     "src": 21
-    },
-    {
-     "id": 21,
-     "rect": [
       233,
-      64,
-      245,
-      74
+      80
      ],
      "src": 21
     },
@@ -3206,7 +3196,7 @@
      "rect": [
       232,
       64,
-      233,
+      248,
       80
      ],
      "src": 21
@@ -4994,48 +4984,6 @@
       [
        232,
        64,
-       248,
-       80
-      ],
-      [
-       232,
-       64,
-       248,
-       80
-      ],
-      [
-       232,
-       64,
-       248,
-       80
-      ],
-      [
-       232,
-       64,
-       248,
-       80
-      ],
-      [
-       232,
-       64,
-       248,
-       80
-      ],
-      [
-       232,
-       64,
-       248,
-       80
-      ],
-      [
-       233,
-       64,
-       245,
-       74
-      ],
-      [
-       232,
-       64,
        233,
        80
       ],
@@ -6492,6 +6440,12 @@
        240
       ],
       [
+       26,
+       235,
+       36,
+       240
+      ],
+      [
        10,
        224,
        53,
@@ -7091,7 +7045,7 @@
       ]
      ]
     },
-    "sha256": "dedc56e5ae9bd9b44abcbc0f32a940e31b2b73b91b189919363eb87126b8a78a"
+    "sha256": "71509a3c5178d08315e4523645b27560d6c259f6dd700479fd009c35c08b0bb9"
    }
   },
   {
@@ -11292,6 +11246,16 @@
     {
      "id": 20,
      "rect": [
+      24,
+      196,
+      34,
+      203
+     ],
+     "src": 20
+    },
+    {
+     "id": 20,
+     "rect": [
       0,
       196,
       64,
@@ -13683,6 +13647,30 @@
        219
       ],
       [
+       24,
+       196,
+       34,
+       203
+      ],
+      [
+       24,
+       196,
+       34,
+       203
+      ],
+      [
+       24,
+       209,
+       35,
+       219
+      ],
+      [
+       24,
+       209,
+       35,
+       219
+      ],
+      [
        42,
        209,
        64,
@@ -14343,126 +14331,6 @@
        242
       ],
       [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       242
-      ],
-      [
-       128,
-       232,
-       144,
-       242
-      ],
-      [
-       143,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       248
-      ],
-      [
-       128,
-       232,
-       144,
-       242
-      ],
-      [
-       128,
-       232,
-       144,
-       242
-      ],
-      [
        143,
        232,
        144,
@@ -14548,7 +14416,7 @@
       ]
      ]
     },
-    "sha256": "230866dca7c0b398cff47fde769fc614b7e97fb61a27e2d9df1c0f912fda3a29"
+    "sha256": "a9c1fe0a88c7095fe611d244f479c74b66a7a018146a3c72947914541bdbede0"
    }
   },
   {
@@ -18934,7 +18802,24 @@
   "texturenames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\texturenames.bin",
   "modelnames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\modelnames.bin"
  },
- "texture_moves": [],
+ "texture_moves": [
+  {
+   "kind": "body",
+   "set": 58,
+   "reason": "new body island",
+   "old": null,
+   "new": {
+    "rect": [
+     24,
+     196,
+     34,
+     203
+    ],
+    "tex_id": 20,
+    "clut_row": 20
+   }
+  }
+ ],
  "bank_order": [
   {
    "slot": 1,
@@ -19298,8 +19183,8 @@
    "id": "CIVICOPS_model3",
    "model": 3,
    "sets": [
-    1,
-    52
+    4,
+    59
    ],
    "variants": {
     "clean": {
@@ -19310,176 +19195,6 @@
     },
     "low": {
      "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\3_CIVICOPS_model3_low.bin"
-    }
-   },
-   "handling": {
-    "headLight": [
-     96,
-     20,
-     -298
-    ],
-    "frontInd": [
-     96,
-     20,
-     -302
-    ],
-    "backInd": [
-     95,
-     14,
-     287
-    ],
-    "brakeLight": [
-     104,
-     15,
-     286
-    ],
-    "revLight": [
-     23,
-     21,
-     290
-    ],
-    "policeLight": [
-     -6,
-     -75,
-     -6
-    ],
-    "exhaust": [
-     68,
-     59,
-     297
-    ],
-    "smoke": [
-     0,
-     -12,
-     -274
-    ],
-    "fire": [
-     0,
-     -9,
-     -281
-    ],
-    "wheelDisp": [
-     [
-      129,
-      -30,
-      194
-     ],
-     [
-      128,
-      -30,
-      -169
-     ],
-     [
-      -130,
-      -30,
-      194
-     ],
-     [
-      -129,
-      -30,
-      -169
-     ]
-    ],
-    "extraInfo": 1048,
-    "powerRatio": 4096,
-    "cbYoffset": 0,
-    "susCoeff": 4096,
-    "traction": 4096,
-    "wheelSize": 41,
-    "cPoints": [
-     [
-      -126,
-      14,
-      -301
-     ],
-     [
-      125,
-      14,
-      -301
-     ],
-     [
-      -126,
-      15,
-      298
-     ],
-     [
-      125,
-      15,
-      298
-     ],
-     [
-      -126,
-      96,
-      -297
-     ],
-     [
-      125,
-      96,
-      -297
-     ],
-     [
-      -102,
-      159,
-      -111
-     ],
-     [
-      101,
-      159,
-      -111
-     ],
-     [
-      -102,
-      161,
-      77
-     ],
-     [
-      101,
-      161,
-      77
-     ],
-     [
-      -126,
-      93,
-      310
-     ],
-     [
-      125,
-      93,
-      310
-     ]
-    ],
-    "colBox": [
-     136,
-     76,
-     316
-    ],
-    "cog": [
-     0,
-     -85,
-     0
-    ],
-    "twistRateX": 224,
-    "twistRateY": 224,
-    "twistRateZ": 1120,
-    "mass": 4096
-   }
-  },
-  {
-   "id": "CIVICOPS_model4",
-   "model": 4,
-   "sets": [
-    4,
-    59
-   ],
-   "variants": {
-    "clean": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_clean.bin"
-    },
-    "damaged": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_damaged.bin"
-    },
-    "low": {
-     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_low.bin"
     }
    },
    "handling": {
@@ -19633,6 +19348,176 @@
     "twistRateZ": 1120,
     "mass": 4096
    }
+  },
+  {
+   "id": "CIVICOPS_model4",
+   "model": 4,
+   "sets": [
+    1,
+    52
+   ],
+   "variants": {
+    "clean": {
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_clean.bin"
+    },
+    "damaged": {
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_damaged.bin"
+    },
+    "low": {
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\build\\models\\4_CIVICOPS_model4_low.bin"
+    }
+   },
+   "handling": {
+    "headLight": [
+     96,
+     20,
+     -298
+    ],
+    "frontInd": [
+     96,
+     20,
+     -302
+    ],
+    "backInd": [
+     95,
+     14,
+     287
+    ],
+    "brakeLight": [
+     104,
+     15,
+     286
+    ],
+    "revLight": [
+     23,
+     21,
+     290
+    ],
+    "policeLight": [
+     -6,
+     -75,
+     -6
+    ],
+    "exhaust": [
+     68,
+     59,
+     297
+    ],
+    "smoke": [
+     0,
+     -12,
+     -274
+    ],
+    "fire": [
+     0,
+     -9,
+     -281
+    ],
+    "wheelDisp": [
+     [
+      129,
+      -30,
+      194
+     ],
+     [
+      128,
+      -30,
+      -169
+     ],
+     [
+      -130,
+      -30,
+      194
+     ],
+     [
+      -129,
+      -30,
+      -169
+     ]
+    ],
+    "extraInfo": 1048,
+    "powerRatio": 4096,
+    "cbYoffset": 0,
+    "susCoeff": 4096,
+    "traction": 4096,
+    "wheelSize": 41,
+    "cPoints": [
+     [
+      -126,
+      14,
+      -301
+     ],
+     [
+      125,
+      14,
+      -301
+     ],
+     [
+      -126,
+      15,
+      298
+     ],
+     [
+      125,
+      15,
+      298
+     ],
+     [
+      -126,
+      96,
+      -297
+     ],
+     [
+      125,
+      96,
+      -297
+     ],
+     [
+      -102,
+      159,
+      -111
+     ],
+     [
+      101,
+      159,
+      -111
+     ],
+     [
+      -102,
+      161,
+      77
+     ],
+     [
+      101,
+      161,
+      77
+     ],
+     [
+      -126,
+      93,
+      310
+     ],
+     [
+      125,
+      93,
+      310
+     ]
+    ],
+    "colBox": [
+     136,
+     76,
+     316
+    ],
+    "cog": [
+     0,
+     -85,
+     0
+    ],
+    "twistRateX": 224,
+    "twistRateY": 224,
+    "twistRateZ": 1120,
+    "mass": 4096
+   }
   }
  ],
  "sounds": {
@@ -19762,67 +19647,6 @@
    {
     "model": 3,
     "engine": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\engine.wav",
-     "loop": true,
-     "level": 0.999,
-     "rms": 0.34,
-     "rate": 16000,
-     "pitch": 1.0,
-     "rate_pct": 100,
-     "max_rate": 16000,
-     "sample_bytes": 16384,
-     "loop_from": 0.0,
-     "loop_to": null,
-     "force": false,
-     "normalise": false,
-     "gain_db": 0.0,
-     "trim": null,
-     "fade_out": 0.0
-    },
-    "idle": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\idle.wav",
-     "loop": true,
-     "level": 0.999,
-     "rms": 0.34,
-     "rate": 16000,
-     "pitch": 1.0,
-     "rate_pct": 100,
-     "max_rate": 16000,
-     "sample_bytes": 16384,
-     "loop_from": 0.0,
-     "loop_to": null,
-     "force": false,
-     "normalise": false,
-     "gain_db": 0.0,
-     "trim": null,
-     "fade_out": 0.0
-    },
-    "third": {
-     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\horn.wav",
-     "loop": false,
-     "level": 0.999,
-     "rms": 0.34,
-     "rate": 8000,
-     "pitch": 1.0,
-     "rate_pct": 100,
-     "max_rate": 16000,
-     "sample_bytes": 16384,
-     "loop_from": 0.0,
-     "loop_to": null,
-     "force": false,
-     "normalise": false,
-     "gain_db": 0.0,
-     "trim": null,
-     "fade_out": 0.0
-    },
-    "peak": 0.999,
-    "rms": 0.34,
-    "max_rate": 16000,
-    "sample_bytes": 16384
-   },
-   {
-    "model": 4,
-    "engine": {
      "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
@@ -19860,6 +19684,67 @@
     },
     "third": {
      "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVVEGAS\\sounds\\horn.wav",
+     "loop": false,
+     "level": 0.999,
+     "rms": 0.34,
+     "rate": 8000,
+     "pitch": 1.0,
+     "rate_pct": 100,
+     "max_rate": 16000,
+     "sample_bytes": 16384,
+     "loop_from": 0.0,
+     "loop_to": null,
+     "force": false,
+     "normalise": false,
+     "gain_db": 0.0,
+     "trim": null,
+     "fade_out": 0.0
+    },
+    "peak": 0.999,
+    "rms": 0.34,
+    "max_rate": 16000,
+    "sample_bytes": 16384
+   },
+   {
+    "model": 4,
+    "engine": {
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\engine.wav",
+     "loop": true,
+     "level": 0.999,
+     "rms": 0.34,
+     "rate": 16000,
+     "pitch": 1.0,
+     "rate_pct": 100,
+     "max_rate": 16000,
+     "sample_bytes": 16384,
+     "loop_from": 0.0,
+     "loop_to": null,
+     "force": false,
+     "normalise": false,
+     "gain_db": 0.0,
+     "trim": null,
+     "fade_out": 0.0
+    },
+    "idle": {
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\idle.wav",
+     "loop": true,
+     "level": 0.999,
+     "rms": 0.34,
+     "rate": 16000,
+     "pitch": 1.0,
+     "rate_pct": 100,
+     "max_rate": 16000,
+     "sample_bytes": 16384,
+     "loop_from": 0.0,
+     "loop_to": null,
+     "force": false,
+     "normalise": false,
+     "gain_db": 0.0,
+     "trim": null,
+     "fade_out": 0.0
+    },
+    "third": {
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\CIVICOPS\\cars\\CIVRIO\\sounds\\horn.wav",
      "loop": false,
      "level": 0.999,
      "rms": 0.34,
@@ -20007,46 +19892,6 @@
    "wheels": [
     {
      "variant": "clean",
-     "set": 1,
-     "island": [
-      0,
-      0,
-      64,
-      64
-     ],
-     "texid": 9
-    },
-    {
-     "variant": "damaged",
-     "set": 1,
-     "island": [
-      64,
-      0,
-      128,
-      64
-     ],
-     "texid": 10
-    },
-    {
-     "variant": "fast",
-     "set": 1,
-     "island": [
-      64,
-      0,
-      128,
-      64
-     ],
-     "texid": 10
-    }
-   ]
-  },
-  {
-   "model": 4,
-   "car": "CIVICOPS_model4",
-   "inherited": false,
-   "wheels": [
-    {
-     "variant": "clean",
      "set": 4,
      "island": [
       0,
@@ -20077,6 +19922,46 @@
       64
      ],
      "texid": 9
+    }
+   ]
+  },
+  {
+   "model": 4,
+   "car": "CIVICOPS_model4",
+   "inherited": false,
+   "wheels": [
+    {
+     "variant": "clean",
+     "set": 1,
+     "island": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "texid": 9
+    },
+    {
+     "variant": "damaged",
+     "set": 1,
+     "island": [
+      64,
+      0,
+      128,
+      64
+     ],
+     "texid": 10
+    },
+    {
+     "variant": "fast",
+     "set": 1,
+     "island": [
+      64,
+      0,
+      128,
+      64
+     ],
+     "texid": 10
     }
    ]
   }

@@ -3,12 +3,6 @@
   "clean": "RIO_model1_clean.obj",
   "damaged": "RIO_model1_damaged.obj",
   "low": "RIO_model1_low.obj",
-  "portrait": "textures/portrait.png",
-  "wheels": {
-    "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
-    "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
-  },
   "textures": {
     "1": {"png": "../../shared/textures/PAGE_1.png", "transparent": "FF00FF", "transparent_tolerance": 0},
     "57": {
@@ -23,7 +17,13 @@
       "protect": ["404040", "303030", "505050", "585858", "181000", "787878", "707070", "606060"],
       "transparent": "FF00FF",
       "transparent_tolerance": 0
-    }
+    },
+    "wheels": {
+      "clean": {"png": "../../shared/textures/rio/wheelclean.png", "set": 1, "island": "auto"},
+      "damaged": {"png": "../../shared/textures/rio/wheeldam.png", "set": 1, "island": "auto"},
+      "fast": {"png": "../../shared/textures/rio/wheelfast.png", "set": 1, "island": "auto"}
+    },
+    "portrait": "textures/portrait.png"
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},

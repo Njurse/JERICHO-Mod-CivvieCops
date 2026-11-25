@@ -1,13 +1,8 @@
 {
   "model": 1,
   "clean": "CHICAGO_model12_clean.obj",
-  "damaged": "CHICAGO_model12_clean.obj",
-  "low": "CHICAGO_model12_clean.obj",
-  "wheels": {
-    "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 56, "island": "auto"},
-    "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 56, "island": "auto"},
-    "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 56, "island": "auto"}
-  },
+  "damaged": "CHICAGO_model12_damaged.obj",
+  "low": "CHICAGO_model12_low.obj",
   "textures": {
     "1": {
       "png": "../../shared/textures/PAGE_1.png",
@@ -17,7 +12,12 @@
       "transparent_tolerance": 0
     },
     "55": {"png": "textures/PAGE_55.png", "transparent": "FF00FF", "transparent_tolerance": 0},
-    "56": {"png": "textures/PAGE_56.png", "transparent": "FF00FF", "transparent_tolerance": 0}
+    "56": {"png": "textures/PAGE_56.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "wheels": {
+      "clean": {"png": "../../shared/textures/chicago/wheelclean.png", "set": 56, "island": "auto"},
+      "damaged": {"png": "../../shared/textures/chicago/wheeldam.png", "set": 56, "island": "auto"},
+      "fast": {"png": "../../shared/textures/chicago/wheelfast.png", "set": 56, "island": "auto"}
+    }
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
@@ -34,7 +34,7 @@
     "brakeLight": [77, 28, 364],
     "revLight": [76, 29, 368],
     "policeVoice": "CHICAGO",
-    "policeLight": [34, -85, 67],
+    "policeLight": [64, -45, 67],
     "policeLights": {"style": "CHICAGO"},
     "exhaust": [68, 61, 353],
     "smoke": [0, 5, -336],

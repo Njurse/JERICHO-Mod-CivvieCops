@@ -299,6 +299,26 @@
      "id": 0,
      "rect": [
       224,
+      64,
+      256,
+      85
+     ],
+     "src": 0
+    },
+    {
+     "id": 0,
+     "rect": [
+      224,
+      84,
+      256,
+      128
+     ],
+     "src": 0
+    },
+    {
+     "id": 0,
+     "rect": [
+      224,
       95,
       256,
       108
@@ -1433,194 +1453,26 @@
       ],
       [
        224,
-       121,
-       238,
-       128
-      ],
-      [
-       224,
-       116,
-       238,
-       128
-      ],
-      [
-       248,
-       116,
-       256,
-       128
-      ],
-      [
-       248,
-       120,
-       256,
-       128
-      ],
-      [
-       242,
-       116,
-       249,
-       128
-      ],
-      [
-       231,
-       107,
-       250,
-       117
-      ],
-      [
-       231,
-       107,
-       250,
-       117
-      ],
-      [
-       229,
-       73,
-       250,
-       84
-      ],
-      [
-       229,
-       74,
-       250,
-       84
-      ],
-      [
-       224,
-       98,
-       256,
-       104
-      ],
-      [
-       224,
-       98,
-       256,
-       104
-      ],
-      [
-       224,
-       65,
-       231,
-       75
-      ],
-      [
-       224,
-       91,
-       256,
-       99
-      ],
-      [
-       224,
-       92,
-       256,
-       99
-      ],
-      [
-       224,
-       103,
-       250,
-       108
-      ],
-      [
-       224,
-       103,
-       256,
-       108
-      ],
-      [
-       230,
-       83,
-       256,
-       93
-      ],
-      [
-       224,
-       83,
-       256,
-       93
-      ],
-      [
-       249,
-       103,
-       256,
-       108
-      ],
-      [
-       224,
-       103,
-       232,
-       108
-      ],
-      [
-       248,
-       114,
-       256,
-       121
-      ],
-      [
-       249,
-       83,
-       256,
-       93
-      ],
-      [
-       224,
-       116,
-       232,
-       122
-      ],
-      [
-       224,
-       83,
-       231,
-       92
-      ],
-      [
-       249,
-       65,
-       256,
-       74
-      ],
-      [
-       239,
        64,
-       250,
-       74
-      ],
-      [
-       229,
-       64,
-       240,
-       75
-      ],
-      [
-       229,
-       64,
-       250,
-       75
+       256,
+       85
       ],
       [
        224,
-       65,
-       230,
-       75
-      ],
-      [
-       249,
-       65,
+       64,
        256,
-       74
+       85
       ],
       [
-       231,
-       116,
-       243,
+       224,
+       84,
+       256,
        128
       ],
       [
-       231,
-       116,
-       249,
+       224,
+       84,
+       256,
        128
       ],
       [
@@ -24809,285 +24661,9 @@
        20,
        3,
        32
-      ],
-      [
-       30,
-       13,
-       46,
-       17
-      ],
-      [
-       27,
-       19,
-       49,
-       23
-      ],
-      [
-       49,
-       0,
-       64,
-       16
-      ],
-      [
-       44,
-       0,
-       64,
-       16
-      ],
-      [
-       50,
-       15,
-       64,
-       32
-      ],
-      [
-       44,
-       13,
-       64,
-       32
-      ],
-      [
-       49,
-       0,
-       64,
-       16
-      ],
-      [
-       44,
-       0,
-       64,
-       16
-      ],
-      [
-       0,
-       0,
-       50,
-       14
-      ],
-      [
-       0,
-       0,
-       32,
-       21
-      ],
-      [
-       0,
-       0,
-       50,
-       14
-      ],
-      [
-       0,
-       0,
-       32,
-       21
-      ],
-      [
-       31,
-       0,
-       50,
-       14
-      ],
-      [
-       2,
-       13,
-       32,
-       32
-      ],
-      [
-       31,
-       0,
-       50,
-       14
-      ],
-      [
-       2,
-       13,
-       32,
-       32
-      ],
-      [
-       50,
-       15,
-       64,
-       32
-      ],
-      [
-       44,
-       13,
-       64,
-       32
-      ],
-      [
-       0,
-       20,
-       3,
-       32
-      ],
-      [
-       0,
-       20,
-       26,
-       32
-      ],
-      [
-       0,
-       20,
-       26,
-       32
-      ],
-      [
-       0,
-       20,
-       3,
-       32
       ]
      ],
      "1": [
-      [
-       110,
-       15,
-       128,
-       32
-      ],
-      [
-       110,
-       15,
-       128,
-       32
-      ],
-      [
-       92,
-       15,
-       128,
-       32
-      ],
-      [
-       92,
-       15,
-       111,
-       32
-      ],
-      [
-       92,
-       0,
-       128,
-       16
-      ],
-      [
-       92,
-       0,
-       128,
-       16
-      ],
-      [
-       92,
-       0,
-       128,
-       16
-      ],
-      [
-       92,
-       0,
-       128,
-       16
-      ],
-      [
-       92,
-       15,
-       128,
-       32
-      ],
-      [
-       92,
-       15,
-       111,
-       32
-      ],
-      [
-       64,
-       15,
-       93,
-       32
-      ],
-      [
-       64,
-       15,
-       93,
-       32
-      ],
-      [
-       64,
-       0,
-       93,
-       16
-      ],
-      [
-       64,
-       0,
-       93,
-       16
-      ],
-      [
-       64,
-       0,
-       93,
-       16
-      ],
-      [
-       64,
-       0,
-       93,
-       16
-      ],
-      [
-       64,
-       15,
-       93,
-       32
-      ],
-      [
-       64,
-       15,
-       93,
-       32
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       6,
-       109,
-       21,
-       116
-      ],
-      [
-       13,
-       109,
-       21,
-       123
-      ],
-      [
-       6,
-       109,
-       14,
-       123
-      ],
-      [
-       6,
-       115,
-       21,
-       123
-      ],
       [
        110,
        15,
@@ -25737,186 +25313,6 @@
        44,
        49,
        64
-      ],
-      [
-       43,
-       44,
-       61,
-       64
-      ],
-      [
-       43,
-       48,
-       64,
-       64
-      ],
-      [
-       43,
-       44,
-       61,
-       64
-      ],
-      [
-       43,
-       48,
-       64,
-       64
-      ],
-      [
-       60,
-       48,
-       64,
-       64
-      ],
-      [
-       60,
-       48,
-       64,
-       64
-      ],
-      [
-       11,
-       45,
-       22,
-       49
-      ],
-      [
-       9,
-       53,
-       23,
-       59
-      ],
-      [
-       25,
-       44,
-       49,
-       64
-      ],
-      [
-       34,
-       44,
-       49,
-       64
-      ],
-      [
-       48,
-       32,
-       64,
-       49
-      ],
-      [
-       25,
-       32,
-       49,
-       45
-      ],
-      [
-       25,
-       32,
-       49,
-       45
-      ],
-      [
-       48,
-       32,
-       64,
-       49
-      ],
-      [
-       25,
-       32,
-       49,
-       45
-      ],
-      [
-       48,
-       32,
-       64,
-       45
-      ],
-      [
-       48,
-       32,
-       64,
-       45
-      ],
-      [
-       25,
-       32,
-       49,
-       45
-      ],
-      [
-       0,
-       44,
-       12,
-       64
-      ],
-      [
-       0,
-       32,
-       12,
-       48
-      ],
-      [
-       0,
-       32,
-       26,
-       45
-      ],
-      [
-       0,
-       44,
-       12,
-       64
-      ],
-      [
-       0,
-       32,
-       12,
-       48
-      ],
-      [
-       0,
-       32,
-       26,
-       45
-      ],
-      [
-       11,
-       32,
-       26,
-       45
-      ],
-      [
-       21,
-       45,
-       31,
-       50
-      ],
-      [
-       11,
-       32,
-       26,
-       45
-      ],
-      [
-       22,
-       53,
-       31,
-       58
-      ],
-      [
-       34,
-       44,
-       49,
-       64
-      ],
-      [
-       25,
-       44,
-       49,
-       64
       ]
      ],
      "5": [
@@ -26063,123 +25459,9 @@
        46,
        77,
        64
-      ],
-      [
-       76,
-       32,
-       113,
-       47
-      ],
-      [
-       76,
-       32,
-       113,
-       47
-      ],
-      [
-       76,
-       46,
-       113,
-       64
-      ],
-      [
-       76,
-       46,
-       113,
-       64
-      ],
-      [
-       112,
-       46,
-       128,
-       64
-      ],
-      [
-       112,
-       46,
-       128,
-       64
-      ],
-      [
-       64,
-       32,
-       77,
-       47
-      ],
-      [
-       64,
-       32,
-       77,
-       47
-      ],
-      [
-       112,
-       32,
-       128,
-       47
-      ],
-      [
-       112,
-       32,
-       128,
-       47
-      ],
-      [
-       64,
-       46,
-       77,
-       64
-      ],
-      [
-       64,
-       46,
-       77,
-       64
       ]
      ],
      "6": [
-      [
-       222,
-       32,
-       241,
-       64
-      ],
-      [
-       240,
-       32,
-       256,
-       64
-      ],
-      [
-       240,
-       32,
-       256,
-       64
-      ],
-      [
-       192,
-       32,
-       206,
-       64
-      ],
-      [
-       192,
-       32,
-       206,
-       64
-      ],
-      [
-       205,
-       32,
-       223,
-       64
-      ],
-      [
-       205,
-       32,
-       241,
-       64
-      ],
       [
        222,
        32,
@@ -26517,261 +25799,9 @@
        115,
        21,
        123
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       6,
-       109,
-       21,
-       116
-      ],
-      [
-       13,
-       109,
-       21,
-       123
-      ],
-      [
-       6,
-       109,
-       14,
-       123
-      ],
-      [
-       6,
-       115,
-       21,
-       123
-      ],
-      [
-       28,
-       64,
-       64,
-       97
-      ],
-      [
-       28,
-       98,
-       64,
-       128
-      ],
-      [
-       0,
-       98,
-       29,
-       128
-      ],
-      [
-       0,
-       64,
-       29,
-       97
-      ],
-      [
-       0,
-       64,
-       29,
-       97
-      ],
-      [
-       28,
-       64,
-       64,
-       97
-      ],
-      [
-       28,
-       98,
-       64,
-       128
-      ],
-      [
-       0,
-       98,
-       29,
-       128
-      ],
-      [
-       0,
-       96,
-       29,
-       99
-      ],
-      [
-       28,
-       96,
-       64,
-       99
-      ],
-      [
-       28,
-       96,
-       64,
-       99
-      ],
-      [
-       0,
-       96,
-       29,
-       99
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       6,
-       109,
-       21,
-       116
-      ],
-      [
-       13,
-       109,
-       21,
-       123
-      ],
-      [
-       6,
-       109,
-       14,
-       123
-      ],
-      [
-       6,
-       115,
-       21,
-       123
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       5,
-       71,
-       12,
-       93
-      ],
-      [
-       6,
-       109,
-       21,
-       116
-      ],
-      [
-       13,
-       109,
-       21,
-       123
-      ],
-      [
-       6,
-       109,
-       14,
-       123
-      ],
-      [
-       6,
-       115,
-       21,
-       123
       ]
      ],
      "8": [
-      [
-       64,
-       64,
-       100,
-       97
-      ],
-      [
-       64,
-       98,
-       100,
-       128
-      ],
-      [
-       99,
-       98,
-       128,
-       128
-      ],
-      [
-       99,
-       64,
-       128,
-       97
-      ],
-      [
-       99,
-       64,
-       128,
-       97
-      ],
-      [
-       64,
-       64,
-       100,
-       97
-      ],
-      [
-       64,
-       98,
-       100,
-       128
-      ],
-      [
-       99,
-       98,
-       128,
-       128
-      ],
-      [
-       99,
-       96,
-       128,
-       99
-      ],
-      [
-       64,
-       96,
-       100,
-       99
-      ],
-      [
-       99,
-       96,
-       128,
-       99
-      ],
-      [
-       64,
-       96,
-       100,
-       99
-      ],
       [
        64,
        64,
@@ -27061,78 +26091,6 @@
        143,
        64,
        148
-      ],
-      [
-       33,
-       128,
-       64,
-       144
-      ],
-      [
-       33,
-       143,
-       64,
-       148
-      ],
-      [
-       33,
-       147,
-       64,
-       192
-      ],
-      [
-       0,
-       143,
-       34,
-       148
-      ],
-      [
-       0,
-       128,
-       34,
-       144
-      ],
-      [
-       0,
-       128,
-       34,
-       144
-      ],
-      [
-       0,
-       147,
-       34,
-       192
-      ],
-      [
-       12,
-       147,
-       34,
-       192
-      ],
-      [
-       33,
-       147,
-       64,
-       192
-      ],
-      [
-       0,
-       143,
-       34,
-       148
-      ],
-      [
-       33,
-       128,
-       64,
-       144
-      ],
-      [
-       33,
-       143,
-       64,
-       148
       ]
      ],
      "12": [
@@ -27279,177 +26237,9 @@
        143,
        92,
        149
-      ],
-      [
-       64,
-       128,
-       92,
-       144
-      ],
-      [
-       64,
-       143,
-       92,
-       149
-      ],
-      [
-       64,
-       148,
-       92,
-       192
-      ],
-      [
-       91,
-       143,
-       128,
-       149
-      ],
-      [
-       91,
-       128,
-       128,
-       144
-      ],
-      [
-       91,
-       128,
-       128,
-       144
-      ],
-      [
-       91,
-       148,
-       128,
-       192
-      ],
-      [
-       91,
-       148,
-       117,
-       192
-      ],
-      [
-       91,
-       143,
-       128,
-       149
-      ],
-      [
-       64,
-       148,
-       92,
-       192
-      ],
-      [
-       64,
-       128,
-       92,
-       144
-      ],
-      [
-       64,
-       143,
-       92,
-       149
       ]
      ],
      "15": [
-      [
-       66,
-       223,
-       97,
-       256
-      ],
-      [
-       32,
-       223,
-       67,
-       256
-      ],
-      [
-       31,
-       192,
-       67,
-       224
-      ],
-      [
-       32,
-       192,
-       67,
-       224
-      ],
-      [
-       66,
-       192,
-       97,
-       224
-      ],
-      [
-       96,
-       192,
-       128,
-       224
-      ],
-      [
-       96,
-       192,
-       128,
-       224
-      ],
-      [
-       0,
-       192,
-       33,
-       224
-      ],
-      [
-       0,
-       192,
-       32,
-       224
-      ],
-      [
-       96,
-       223,
-       128,
-       256
-      ],
-      [
-       0,
-       223,
-       33,
-       256
-      ],
-      [
-       66,
-       192,
-       97,
-       224
-      ],
-      [
-       0,
-       223,
-       33,
-       256
-      ],
-      [
-       32,
-       223,
-       67,
-       256
-      ],
-      [
-       66,
-       223,
-       97,
-       256
-      ],
-      [
-       96,
-       223,
-       128,
-       256
-      ],
       [
        66,
        223,
@@ -28243,102 +27033,6 @@
        0,
        101,
        46
-      ],
-      [
-       63,
-       45,
-       101,
-       96
-      ],
-      [
-       25,
-       45,
-       64,
-       96
-      ],
-      [
-       25,
-       45,
-       64,
-       96
-      ],
-      [
-       25,
-       0,
-       64,
-       47
-      ],
-      [
-       29,
-       0,
-       64,
-       47
-      ],
-      [
-       63,
-       0,
-       96,
-       46
-      ],
-      [
-       95,
-       0,
-       128,
-       46
-      ],
-      [
-       100,
-       0,
-       128,
-       46
-      ],
-      [
-       0,
-       0,
-       30,
-       47
-      ],
-      [
-       0,
-       0,
-       26,
-       46
-      ],
-      [
-       0,
-       45,
-       30,
-       96
-      ],
-      [
-       0,
-       46,
-       30,
-       96
-      ],
-      [
-       95,
-       45,
-       128,
-       96
-      ],
-      [
-       95,
-       45,
-       128,
-       96
-      ],
-      [
-       63,
-       45,
-       101,
-       96
-      ],
-      [
-       63,
-       0,
-       101,
-       46
       ]
      ],
      "2": [
@@ -28509,183 +27203,9 @@
        96,
        128,
        128
-      ],
-      [
-       30,
-       96,
-       66,
-       128
-      ],
-      [
-       0,
-       96,
-       51,
-       128
-      ],
-      [
-       0,
-       96,
-       51,
-       128
-      ],
-      [
-       30,
-       96,
-       66,
-       128
-      ],
-      [
-       65,
-       96,
-       91,
-       128
-      ],
-      [
-       50,
-       96,
-       77,
-       128
-      ],
-      [
-       50,
-       96,
-       77,
-       128
-      ],
-      [
-       65,
-       96,
-       91,
-       128
-      ],
-      [
-       76,
-       96,
-       128,
-       128
-      ],
-      [
-       76,
-       96,
-       128,
-       128
-      ],
-      [
-       76,
-       96,
-       128,
-       128
-      ],
-      [
-       76,
-       96,
-       128,
-       128
-      ],
-      [
-       101,
-       96,
-       128,
-       128
-      ],
-      [
-       101,
-       96,
-       128,
-       128
       ]
      ],
      "3": [
-      [
-       163,
-       96,
-       219,
-       127
-      ],
-      [
-       156,
-       96,
-       191,
-       127
-      ],
-      [
-       157,
-       96,
-       191,
-       127
-      ],
-      [
-       190,
-       96,
-       221,
-       127
-      ],
-      [
-       190,
-       96,
-       220,
-       127
-      ],
-      [
-       128,
-       96,
-       157,
-       127
-      ],
-      [
-       128,
-       96,
-       164,
-       127
-      ],
-      [
-       218,
-       96,
-       255,
-       127
-      ],
-      [
-       225,
-       96,
-       256,
-       127
-      ],
-      [
-       128,
-       96,
-       157,
-       127
-      ],
-      [
-       128,
-       96,
-       158,
-       127
-      ],
-      [
-       219,
-       96,
-       256,
-       127
-      ],
-      [
-       220,
-       96,
-       256,
-       127
-      ],
-      [
-       191,
-       96,
-       226,
-       127
-      ],
-      [
-       156,
-       96,
-       192,
-       127
-      ],
       [
        163,
        96,
@@ -41967,12 +40487,44 @@
   }
  ],
  "raw": {
-  "pallet": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/pallet.bin",
-  "textureinfo": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/textureinfo.bin",
-  "texturenames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/texturenames.bin",
-  "modelnames": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/modelnames.bin"
+  "pallet": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\pallet.bin",
+  "textureinfo": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\textureinfo.bin",
+  "texturenames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\texturenames.bin",
+  "modelnames": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\modelnames.bin"
  },
  "texture_moves": [
+  {
+   "kind": "body",
+   "set": 1,
+   "reason": "new body island",
+   "old": null,
+   "new": {
+    "rect": [
+     224,
+     64,
+     256,
+     85
+    ],
+    "tex_id": 0,
+    "clut_row": 0
+   }
+  },
+  {
+   "kind": "body",
+   "set": 1,
+   "reason": "new body island",
+   "old": null,
+   "new": {
+    "rect": [
+     224,
+     84,
+     256,
+     128
+    ],
+    "tex_id": 0,
+    "clut_row": 0
+   }
+  },
   {
    "kind": "body",
    "set": 55,
@@ -42143,13 +40695,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/1_COPSNRBRS_model0_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\1_COPSNRBRS_model0_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/1_COPSNRBRS_model0_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\1_COPSNRBRS_model0_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/1_COPSNRBRS_model0_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\1_COPSNRBRS_model0_low.bin"
     }
    },
    "handling": {
@@ -42305,7 +40857,11 @@
     "twistRateX": 250,
     "twistRateY": 250,
     "twistRateZ": 1250,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "HAVANA",
+     "model": 2
+    }
    }
   },
   {
@@ -42318,13 +40874,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/2_COPSNRBRS_model1_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\2_COPSNRBRS_model1_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/2_COPSNRBRS_model1_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\2_COPSNRBRS_model1_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/2_COPSNRBRS_model1_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\2_COPSNRBRS_model1_low.bin"
     }
    },
    "handling": {
@@ -42542,7 +41098,11 @@
     "twistRateX": 180,
     "twistRateY": 180,
     "twistRateZ": 900,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "HAVANA",
+     "model": 11
+    }
    }
   },
   {
@@ -42554,13 +41114,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/3_COPSNRBRS_model2_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\3_COPSNRBRS_model2_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/3_COPSNRBRS_model2_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\3_COPSNRBRS_model2_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/3_COPSNRBRS_model2_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\3_COPSNRBRS_model2_low.bin"
     }
    },
    "handling": {
@@ -42716,7 +41276,11 @@
     "twistRateX": 250,
     "twistRateY": 250,
     "twistRateZ": 1250,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "RIO",
+     "model": 1
+    }
    }
   },
   {
@@ -42728,13 +41292,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/4_COPSNRBRS_model3_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\4_COPSNRBRS_model3_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/4_COPSNRBRS_model3_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\4_COPSNRBRS_model3_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/4_COPSNRBRS_model3_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\4_COPSNRBRS_model3_low.bin"
     }
    },
    "handling": {
@@ -42890,7 +41454,11 @@
     "twistRateX": 224,
     "twistRateY": 224,
     "twistRateZ": 1120,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "RIO",
+     "model": 4
+    }
    }
   },
   {
@@ -42903,13 +41471,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/5_COPSNRBRS_model4_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\5_COPSNRBRS_model4_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/5_COPSNRBRS_model4_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\5_COPSNRBRS_model4_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/5_COPSNRBRS_model4_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\5_COPSNRBRS_model4_low.bin"
     }
    },
    "handling": {
@@ -42940,8 +41508,8 @@
     ],
     "policeVoice": "CHICAGO",
     "policeLight": [
-     34,
-     -85,
+     64,
+     -45,
      67
     ],
     "policeLights": {
@@ -43065,7 +41633,11 @@
     "twistRateX": 224,
     "twistRateY": 224,
     "twistRateZ": 1120,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "CHICAGO",
+     "model": 12
+    }
    }
   },
   {
@@ -43078,13 +41650,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/8_COPSNRBRS_model5_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\8_COPSNRBRS_model5_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/8_COPSNRBRS_model5_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\8_COPSNRBRS_model5_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/8_COPSNRBRS_model5_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\8_COPSNRBRS_model5_low.bin"
     }
    },
    "handling": {
@@ -43240,7 +41812,11 @@
     "twistRateX": 120,
     "twistRateY": 120,
     "twistRateZ": 350,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "CHICAGO",
+     "model": 9
+    }
    }
   },
   {
@@ -43253,13 +41829,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/9_COPSNRBRS_model6_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\9_COPSNRBRS_model6_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/9_COPSNRBRS_model6_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\9_COPSNRBRS_model6_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/9_COPSNRBRS_model6_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\9_COPSNRBRS_model6_low.bin"
     }
    },
    "handling": {
@@ -43415,7 +41991,11 @@
     "twistRateX": 180,
     "twistRateY": 180,
     "twistRateZ": 900,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "VEGAS",
+     "model": 11
+    }
    }
   },
   {
@@ -43428,13 +42008,13 @@
    ],
    "variants": {
     "clean": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/10_COPSNRBRS_model7_clean.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\10_COPSNRBRS_model7_clean.bin"
     },
     "damaged": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/10_COPSNRBRS_model7_damaged.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\10_COPSNRBRS_model7_damaged.bin"
     },
     "low": {
-     "raw": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/build/models/10_COPSNRBRS_model7_low.bin"
+     "raw": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\build\\models\\10_COPSNRBRS_model7_low.bin"
     }
    },
    "handling": {
@@ -43590,7 +42170,11 @@
     "twistRateX": 40,
     "twistRateY": 40,
     "twistRateZ": 250,
-    "mass": 4096
+    "mass": 4096,
+    "damage": {
+     "stock": "VEGAS",
+     "model": 8
+    }
    }
   }
  ],
@@ -43599,7 +42183,7 @@
    {
     "model": 1,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPHAVANA_BELAIR_model2/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPHAVANA_BELAIR_model2\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43617,7 +42201,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPHAVANA_BELAIR_model2/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPHAVANA_BELAIR_model2\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43635,7 +42219,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_havana.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_havana.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43660,7 +42244,7 @@
    {
     "model": 2,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPHAVANA_VWBUS_model11/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPHAVANA_VWBUS_model11\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43678,7 +42262,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPHAVANA_VWBUS_model11/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPHAVANA_VWBUS_model11\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43696,7 +42280,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_havana.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_havana.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43721,7 +42305,7 @@
    {
     "model": 3,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPRIO_BENZSL_model1/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPRIO_BENZSL_model1\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43739,7 +42323,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPRIO_BENZSL_model1/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPRIO_BENZSL_model1\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43757,7 +42341,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_rio.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_rio.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43782,7 +42366,7 @@
    {
     "model": 4,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPRIO_PICKUP_model4/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPRIO_PICKUP_model4\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43800,7 +42384,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPRIO_PICKUP_model4/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPRIO_PICKUP_model4\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43818,7 +42402,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_rio.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_rio.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43843,7 +42427,7 @@
    {
     "model": 5,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPCHICAGO_GSX_model12/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPCHICAGO_GSX_model12\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43861,7 +42445,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPCHICAGO_GSX_model12/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPCHICAGO_GSX_model12\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43879,7 +42463,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_chicago.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_chicago.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43904,7 +42488,7 @@
    {
     "model": 8,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPCHICAGO_ARMORTRUCK_model9/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPCHICAGO_ARMORTRUCK_model9\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43922,7 +42506,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPCHICAGO_ARMORTRUCK_model9/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPCHICAGO_ARMORTRUCK_model9\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43940,7 +42524,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_chicago.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_chicago.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43965,7 +42549,7 @@
    {
     "model": 9,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPVEGAS_SUV_model11/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPVEGAS_SUV_model11\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -43983,7 +42567,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPVEGAS_SUV_model11/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPVEGAS_SUV_model11\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -44001,7 +42585,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_vegas.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_vegas.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -44026,7 +42610,7 @@
    {
     "model": 10,
     "engine": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPVEGAS_LIMO_model8/sounds/engine.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPVEGAS_LIMO_model8\\sounds\\engine.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -44044,7 +42628,7 @@
      "fade_out": 0.0
     },
     "idle": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/cars/COPVEGAS_LIMO_model8/sounds/idle.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\cars\\COPVEGAS_LIMO_model8\\sounds\\idle.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,
@@ -44062,7 +42646,7 @@
      "fade_out": 0.0
     },
     "third": {
-     "wav": "/sessions/rcw-01qxfczennbux4fnbamp4vju/mnt/JERICHO/JERICHO/MODS/civviecops/banks/COPSNRBRS/shared/sounds/siren_vegas.wav",
+     "wav": "C:\\Users\\Jaret\\Documents\\Projects\\JERICHO\\JERICHO\\MODS\\civviecops\\banks\\COPSNRBRS\\shared\\sounds\\siren_vegas.wav",
      "loop": true,
      "level": 0.999,
      "rms": 0.34,

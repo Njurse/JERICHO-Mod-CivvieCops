@@ -3,16 +3,6 @@
   "clean": "HAVANA_model2_clean.obj",
   "damaged": "HAVANA_model2_damaged.obj",
   "low": "HAVANA_model2_low.obj",
-  "portrait": "textures/portrait.png",
-  "wheels": {
-    "clean": {"png": "../../shared/textures/havana/wheelclean.png", "set": 21, "island": [192, 64, 256, 128]},
-    "damaged": {
-      "png": "../../shared/textures/havana/wheeldam_fixed.png",
-      "set": 21,
-      "island": [192, 0, 256, 64]
-    },
-    "fast": {"png": "../../shared/textures/havana/wheelfast.png", "set": 21, "island": [192, 64, 256, 128]}
-  },
   "textures": {
     "20": {
       "png": "textures/PAGE_20.png",
@@ -25,7 +15,25 @@
       "png": "../../shared/textures/PAGE_21.png",
       "transparent": "FF00FF",
       "transparent_tolerance": 0
-    }
+    },
+    "wheels": {
+      "clean": {
+        "png": "../../shared/textures/havana/wheelclean.png",
+        "set": 21,
+        "island": [192, 64, 256, 128]
+      },
+      "damaged": {
+        "png": "../../shared/textures/havana/wheeldam_fixed.png",
+        "set": 21,
+        "island": [192, 0, 256, 64]
+      },
+      "fast": {
+        "png": "../../shared/textures/havana/wheelfast.png",
+        "set": 21,
+        "island": [192, 64, 256, 128]
+      }
+    },
+    "portrait": "textures/portrait.png"
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
